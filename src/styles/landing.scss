@@ -1,0 +1,57 @@
+.landingPageContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('../images/brussels.jpg');
+  background-size: cover;
+  h1 {
+    font-size: 50px;
+    color: white;
+    white-space: normal;
+    line-height: 30px;
+  }
+}
+
+.lngCard {
+  width: 25vw;
+  height: 17vw;
+  overflow: hidden !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .content {
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+    transition: all 500ms ease-in-out;
+    transform: translate(0, -5px);
+    cursor: pointer;
+    text-decoration: none;
+    .explore {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 30px;
+      color: white;
+      white-space: normal;
+      line-height: 30px;
+    }
+    &:hover {
+      transform: translate(0, 5px);
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

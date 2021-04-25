@@ -1,0 +1,59 @@
+.navbar-section {
+  width: 100vw;
+  height: 25.2vw;
+  overflow: hidden;
+  @include media(">=phone", "<tablet") {
+    background-image: url("../images/nav-bg-narrow.jpg");
+  }
+  @include media(">=tablet") {
+    background-image: url("../images/nav-bg.jpg");
+  }
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-wrapper {
+  @include media(">=phone", "<tablet") {
+    width: 80vw;
+  }
+  @include media(">=tablet") {
+    width: 70vw;
+  }
+  margin-top: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .name {
+    font-weight: 600;
+  }
+  .links-wrapper {
+    button {
+      text-decoration: none;
+      padding: 10px;
+      font-family: "Open Sans";
+      opacity: 0.75;
+      transition: all 0.2s ease-in-out;
+      font-size: 20px;
+      //background-color: transparent;
+      outline: none;
+      border: 0px;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .active {
+      color: black;
+    }
+  }
+}
