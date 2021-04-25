@@ -1,10 +1,5 @@
 .work-wrapper {
-  @include media(">=phone", "<tablet") {
-    width: 80vw;
-  }
-  @include media(">=tablet") {
-    width: 70vw;
-  }
+  width: 90vw;
   margin-top: 5vh;
   margin-bottom: 10vh;
   display: flex;
@@ -35,13 +30,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     @include media(">=phone", "<lgphone") {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
     @include media(">=lgphone", "<tablet") {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
     @include media(">=tablet", "<desktop") {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
   .lngGrid {
@@ -49,14 +44,5 @@
     margin-top: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    //@include media(">=phone", "<lgphone") {
-    //  grid-template-columns: 1fr;
-    //}
-    //@include media(">=lgphone", "<tablet") {
-    //  grid-template-columns: 1fr;
-    //}
-    //@include media(">=tablet", "<desktop") {
-    //  grid-template-columns: 1fr 1fr;
-    //}
   }
 }

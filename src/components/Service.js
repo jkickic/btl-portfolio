@@ -31,6 +31,7 @@ class Service extends React.Component {
         className="image-wrapper"
         style={{
           backgroundSize: "cover",
+          backgroundPosition: "center",
           backgroundImage: `url(${img})`,
         }}
       />
