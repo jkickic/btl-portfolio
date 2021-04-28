@@ -28,11 +28,8 @@
     margin-top: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    @include media("<tablet") {
+    @include media("<tablet", "portrait") {
       grid-template-columns: repeat(1, 1fr);
-    }
-    @include media(">=tablet") {
-      grid-template-columns: repeat(3, 1fr);
     }
   }
 }
@@ -40,19 +37,17 @@
 .lngCard {
   overflow: hidden !important;
   display: flex;
+  width: 25vw;
+  height: 17vw;
   align-items: center;
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
-  @include media("<tablet") {
-    width: 40vw;
-    height: 28vw;
-  }
-  @include media(">=tablet") {
-    width: 25vw;
-    height: 17vw;
+  @include media("<tablet", "portrait") {
+    width: 50vw;
+    height: 32vw;
   }
 
   .content {

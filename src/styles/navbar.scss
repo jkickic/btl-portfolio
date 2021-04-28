@@ -1,12 +1,11 @@
 .navbar-section {
+  background-image: url("../images/nav-bg.jpg");
   width: 100vw;
   height: 25.2vw;
   overflow: hidden;
-  @include media(">=phone", "<tablet") {
-    background-image: url("../images/nav-bg-narrow.jpg");
-  }
-  @include media(">=tablet") {
-    background-image: url("../images/nav-bg.jpg");
+  @include media("<tablet", "portrait"){
+    background-image: url("../images/nav-bg-narrow2.png");
+    height: 80.0vw;
   }
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -32,24 +31,18 @@
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: right;
   .name {
     font-weight: 600;
   }
   .links-wrapper {
     button {
-      text-decoration: none;
-      padding: 10px;
-      font-family: "Open Sans";
-      opacity: 0.75;
-      transition: all 0.2s ease-in-out;
-      font-size: 20px;
-      //background-color: transparent;
-      outline: none;
-      border: 0px;
-      cursor: pointer;
-      &:hover {
-        opacity: 1;
+      font-weight: bold;
+      font-family: "Open Sans", serif;
+      background-color: white;
+      opacity: 0.7;
+      &:hover{
+        opacity: 0.8;
       }
     }
     .active {
