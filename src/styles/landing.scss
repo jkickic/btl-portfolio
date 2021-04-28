@@ -7,17 +7,37 @@
   justify-content: center;
   background: url('../images/brussels.jpg');
   background-size: cover;
+}
+
+.landing-wrapper {
+  width: 90vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   h1 {
-    font-size: 50px;
+    font-size: xx-large;
     color: white;
     white-space: normal;
-    line-height: 30px;
+    line-height: 3rem;
+  }
+
+  .lngGrid {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    @include media("<tablet") {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    @include media(">=tablet") {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 }
 
 .lngCard {
-  width: 25vw;
-  height: 17vw;
   overflow: hidden !important;
   display: flex;
   align-items: center;
@@ -25,6 +45,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  @include media("<tablet") {
+    width: 40vw;
+    height: 28vw;
+  }
+  @include media(">=tablet") {
+    width: 25vw;
+    height: 17vw;
+  }
 
   .content {
     font-family: "Open Sans";

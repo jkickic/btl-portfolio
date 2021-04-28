@@ -43,7 +43,7 @@ class Service extends React.Component {
           <div className="service-section">
             {!!imgBeforeText ? imgDiv : ""}
             <div className="content">
-              <Fade bottom cascade>
+              <Fade bottom>
                 <h1>{title}</h1>
               </Fade>
               {paragraphs.map(it => (

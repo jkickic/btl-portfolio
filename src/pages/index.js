@@ -12,7 +12,7 @@ import LanguageTile from "../components/atoms/LanguageTile"
 const LandingPage = () => {
   return (
     <div className="landingPageContainer">
-      <div className="work-wrapper">
+      <div className="landing-wrapper">
         <Fade bottom>
           <h1>Pick your language</h1>
         </Fade>
