@@ -2,9 +2,11 @@
   width: 100%;
   @include media("<tablet") {
     height: 25vw;
+    width: 42vw;
   }
   @include media(">=tablet") {
     height: 15vw;
+    width: 25vw;
   }
   overflow: hidden !important;
   display: flex;

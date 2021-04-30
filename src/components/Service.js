@@ -46,8 +46,8 @@ class Service extends React.Component {
               <Fade bottom>
                 <h1>{title}</h1>
               </Fade>
-              {paragraphs.map(it => (
-                <p>{it}</p>
+              {paragraphs.map((it, idx) => (
+                <p key={idx}>{it}</p>
               ))}
             </div>
             {!imgBeforeText ? imgDiv : ""}

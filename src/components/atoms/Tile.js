@@ -15,7 +15,6 @@ const Tile = ({ heading, paragraph, imgUrl, projectLink }) => {
     >
       <div className="content" onClick={() => scrollTo(projectLink)}>
         <h1 className="header">{heading}</h1>
-        <p className="text"></p>
       </div>
     </div>
   )

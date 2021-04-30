@@ -1,6 +1,4 @@
 import React from "react"
-import Fab from "@material-ui/core/Fab"
-import NavigationIcon from "@material-ui/icons/Navigation"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 // Components
@@ -11,21 +9,19 @@ import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 import data from "../site-data/siteData"
 
-import scrollTo from "gatsby-plugin-smoothscroll"
+import DisappearingFab from "../components/DisappearingFab"
 
 const EnPage = () => (
   <Layout>
     <SEO title="Portfolio Template" />
     <Services />
-    {data.services.map(it => (
-      <Service {...it} />
+    {data.services.map((it, idx) => (
+      <Service key={idx} {...it} />
     ))}
     <Header />
     <Promotion />
     <Footer />
-    <Fab id="fab" variant="extended" onClick={() => scrollTo("#services")}>
-      <NavigationIcon />
-    </Fab>
+    <DisappearingFab />
   </Layout>
 )
 

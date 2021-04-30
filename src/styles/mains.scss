@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 
 // Atoms
-@import "./card.scss";
+@import "./tile.scss";
 
 // Components
 @import "./navbar.scss";
@@ -60,17 +60,6 @@ body {
   }
 }
 
-//#services {
-//  background-color: #fff;
-//}
-//
-//.service-section {
-//  z-index: -2;
-//}
-//
-//.container {
-//  z-index: -2;
-//}
 #fab {
   position: fixed;
   right: 50px;
@@ -78,5 +67,4 @@ body {
   width: 48px;
   height: 48px;
   opacity: 0.75;
-  //z-index: -1;
 }
