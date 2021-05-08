@@ -1,22 +1,18 @@
-import fbIcon from "../images/facebook-svgrepo-com.svg"
-
 export default {
-  //   Header Details ---------------------
   name: "Between The Lines",
   heading: "Hi, we're Between The Lines",
-  headerTagline: ["Get your language", "to the next level", "with us!"],
-  //   Header Paragraph
-  headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+  headerTagline: ["Get your language skills", "to the next level", "with us!"],
 
-  //Contact Email
-  contactEmail: "btllaunguages@gmail.com",
+  contact: {
+    heading: "Contact",
+    subHeading: "Write us a message!",
+    email: "btllaunguages@gmail.com",
+    fbLink: "https://www.facebook.com/btllanguages",
+    facebookContactText: "Contact us via facebook!",
+    facebookSessionLink: "https://www.facebook.com/btllanguages/services/",
+    fbBookSessionText: "Book a session now!",
+  },
 
-  bookLessonLink: "https://www.facebook.com/btllanguages/services/",
-
-  // End Header Details -----------------------
-
-  // Work Section ------------------------
   projects: [
     {
       title: "Courses",
@@ -141,11 +137,4 @@ export default {
       },
     ],
   },
-
-  social: [
-    {
-      img: fbIcon,
-      moveTo: "https://www.facebook.com/btllanguages",
-    },
-  ],
 }

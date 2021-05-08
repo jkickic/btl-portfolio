@@ -24,11 +24,11 @@ const Header = () => {
           </Fade>
           <Fade bottom>
             <a
-              href={data.bookLessonLink}
+              href={data.contact.facebookSessionLink}
               target="_blank"
               className="primary-btn"
             >
-              Book a lesson now!
+              {data.contact.fbBookSessionText}
             </a>
           </Fade>
         </div>

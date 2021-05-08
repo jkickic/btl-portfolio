@@ -22,21 +22,26 @@
       font-size: 1.2rem;
     }
   }
-  .email-link {
+  .social-link {
     font-size: 1.5rem;
     color: black;
   }
   .social-icons {
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
     img {
       height: 2rem;
       margin: 10px;
     }
-  }
-  span {
-    margin-top: 10px;
-  }
-  icon {
-    color: red;
+    .social-icon {
+      font-size: 3rem;
+    }
+    a {
+      color: black;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
   }
 }

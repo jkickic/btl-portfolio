@@ -1,35 +1,45 @@
 import React from "react"
+import FacebookIcon from "@material-ui/icons/Facebook"
+import MailOutlineIcon from "@material-ui/icons/MailOutline"
+
 import Fade from "react-reveal/Fade"
 import data from "../site-data/siteData"
+import { Link } from "@material-ui/core"
 
 const Footer = () => {
+  let { contact } = data
   return (
     <div className="section" id="contact">
       <div className="container">
         <div className="footer-container">
           <Fade bottom cascade>
-            <h1>Contact</h1>
-            <h2>{data.contactSubHeading}</h2>
+            <h1>{contact.heading}</h1>
+            <h2>{contact.subHeading}</h2>
           </Fade>
-          <a className="email-link" href={`mailto:${data.contactEmail}`}>
-            {data.contactEmail}
-          </a>
           <div className="social-icons">
-            {data.social.map((socialLink, index) => (
-              <a
-                key={index}
-                href={socialLink.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={socialLink.img} alt="icons"></img>
-              </a>
-            ))}
+            <Link className="social-link" href={`mailto:${contact.email}`}>
+              <MailOutlineIcon className="social-icon" />
+              <span>{contact.email}</span>
+            </Link>
+            <Link
+              className="social-link"
+              href={contact.fbLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FacebookIcon className="social-icon" />
+              <span>{contact.facebookContactText}</span>
+            </Link>
+            <Link
+              className="social-link"
+              href={contact.facebookSessionLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FacebookIcon className="social-icon" />
+              <span>{contact.fbBookSessionText}</span>
+            </Link>
           </div>
-          {/*<span>*/}
-          {/*  Made With <icon>❤</icon> by{" "}*/}
-          {/*  <a href="https://www.chetanverma.com/">Chetan Verma</a>*/}
-          {/*</span>*/}
         </div>
       </div>
     </div>
