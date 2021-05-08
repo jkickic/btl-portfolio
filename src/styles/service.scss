@@ -23,9 +23,7 @@
       }
     }
     p {
-      @include media("<desktop") {
-        text-align: center;
-      }
+      text-align: justify;
     }
   }
   .image-wrapper {

@@ -16,12 +16,11 @@ const EnPage = () => (
     <SEO title="Portfolio Template" />
     <Header />
     <Services />
+    <Footer />
     <Courses {...data.courses} />
     {data.services.map((it, idx) => (
       <Service key={idx} {...it} />
     ))}
-
-    <Footer />
     <DisappearingFab />
   </Layout>
 )

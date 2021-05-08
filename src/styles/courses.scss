@@ -31,6 +31,7 @@
     }
 
     p {
+      text-align: justify;
     }
 
     ul {
@@ -52,25 +53,30 @@
     @include media(">=tablet") {
       flex: 60%;
       padding-left: 35px;
+      padding-bottom: 35px;
     }
     @include media("<tablet") {
       text-align: center;
     }
+    align-self: center;
   }
 
   .image-wrapper {
     @include media(">=tablet") {
-      flex: auto;
-      width: 33vw;
+      width: 22vw;
       height: 22vw;
-      max-width: 500px;
+      max-width: 333px;
       max-height: 333px;
     }
     @include media("<tablet") {
       flex: auto;
-      width: 50vw;
+      width: 33.33vw;
       height: 33.33vw;
     }
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
     display: flex;
     align-self: center;
   }
