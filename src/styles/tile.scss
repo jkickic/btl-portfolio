@@ -1,8 +1,12 @@
 .card {
   width: 100%;
-  @include media("<tablet") {
-    height: 25vw;
-    width: 42vw;
+  @include media("<lgphone") {
+    width: 60vw;
+    height: 40vw;
+  }
+  @include media(">=lgphone", "<tablet") {
+    width: 45vw;
+    height: 30vw;
   }
   @include media(">=tablet") {
     width: 25vw;

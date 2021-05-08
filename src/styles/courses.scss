@@ -68,8 +68,8 @@
     }
     @include media("<tablet") {
       flex: auto;
-      width: 33vw;
-      height: 22vw;
+      width: 50vw;
+      height: 33.33vw;
     }
     display: flex;
     align-self: center;

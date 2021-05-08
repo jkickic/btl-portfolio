@@ -1,6 +1,8 @@
 import React from "react"
 import FacebookIcon from "@material-ui/icons/Facebook"
 import MailOutlineIcon from "@material-ui/icons/MailOutline"
+import MapIcon from "@material-ui/icons/Map"
+import PhoneIcon from "@material-ui/icons/Phone"
 
 import Fade from "react-reveal/Fade"
 import data from "../site-data/siteData"
@@ -29,6 +31,25 @@ const Footer = () => {
             >
               <FacebookIcon className="social-icon" />
               <span>{contact.facebookContactText}</span>
+            </Link>
+
+            <Link
+              className="social-link"
+              href={contact.gmapsLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MapIcon className="social-icon" />
+              <span>{contact.gmapsText}</span>
+            </Link>
+            <Link
+              className="social-link"
+              href={"tel:" + contact.phoneNumber}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <PhoneIcon className="social-icon" />
+              <span>{contact.phoneText}</span>
             </Link>
             <Link
               className="social-link"
