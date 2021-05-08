@@ -4,38 +4,26 @@
   margin-top: 10vh;
   display: flex;
   justify-content: space-between;
-  @include media(">=phone", "<lgphone") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=tablet", "<desktop") {
+  @include media("<desktop") {
     flex-direction: column-reverse;
     align-items: center;
   }
   .content {
     width: 40vw;
     padding: 1vw;
-    @include media(">=phone", "<lgphone") {
-      width: 100%;
-    }
-    @include media(">=lgphone", "<tablet") {
-      width: 100%;
-    }
-    @include media(">=tablet", "<desktop") {
+    @include media("<desktop") {
       width: 100%;
     }
 
     h1 {
       font-size: 2rem;
       line-height: 50px;
-      @include media(">=tablet", "<desktop") {
+      @include media("<desktop") {
         text-align: center;
       }
     }
     p {
-      @include media(">=tablet", "<desktop") {
+      @include media("<desktop") {
         text-align: center;
       }
     }
@@ -44,6 +32,7 @@
     width: 35vw;
     height: 25vw;
     display: flex;
+    align-self: center;
     align-items: center;
     justify-content: center;
     align-content: center;

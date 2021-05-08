@@ -3,14 +3,8 @@ import fbIcon from "../images/facebook-svgrepo-com.svg"
 export default {
   //   Header Details ---------------------
   name: "Between The Lines",
-  headerTagline: [
-    //Line 1 For Header
-    "Building digital",
-    //Line 2 For Header
-    "products, brands,",
-    //Line 3 For Header
-    "and experience",
-  ],
+  heading: "Hi, we're Between The Lines",
+  headerTagline: ["Get your language", "to the next level", "with us!"],
   //   Header Paragraph
   headerParagraph:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
@@ -18,10 +12,18 @@ export default {
   //Contact Email
   contactEmail: "btllaunguages@gmail.com",
 
+  bookLessonLink: "https://www.facebook.com/btllanguages/services/",
+
   // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
+    {
+      title: "Courses",
+      imageSrc:
+        "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=400",
+      moveTo: "#courses",
+    },
     {
       title: "Translations",
       imageSrc:
@@ -29,38 +31,12 @@ export default {
       moveTo: "#translations",
     },
     {
-      title: "Business English",
+      title: "Interpreting",
       imageSrc:
         "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=400",
-      moveTo: "#businessEnglish",
-    },
-    {
-      title: "Conversations",
-      imageSrc:
-        "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      moveTo: "#conversations",
-    },
-    {
-      title: "Language lessons",
-      imageSrc:
-        "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=400",
-      moveTo: "#languageLessons",
-    },
-    {
-      title: "Job interview preparation",
-      imageSrc:
-        "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
-      moveTo: "#jobInterviewPreparation",
-    },
-    {
-      title: "CV | LinkedIn | Cover Letter",
-      imageSrc:
-        "https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1000",
-      moveTo: "#cv",
+      moveTo: "#interpreting",
     },
   ],
-
-  // End Work Section -----------------------
 
   services: [
     {
@@ -75,111 +51,97 @@ export default {
       imgRight: true,
     },
     {
-      title: "Business English",
-      id: "businessEnglish",
+      title: "Interpreting",
+      id: "interpreting",
       paragraphs: [
-        "Being both HR and finance specialists as well as professional linguists allowed us to create hands-on business programs aimed at elevating your communication skills used in the workplace. We will help you improve your skills in the areas of presentations, meetings, small talk, negotiations, report and business writing, and socializing",
+        "SIMULTANEOUS | CONSECUTIVE | WHISPER",
+        "Having interpreted simultaneously for world organizations such as the United Nations, we know how important precision, accuracy, and confidentiality are. We wish to share our expertize and help you succeed in the relations with your clients",
       ],
       img:
-        "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    },
-    {
-      title: "Conversations",
-      id: "conversations",
-      paragraphs: [
-        "Student-oriented sessions, conducted in a positive and relaxed atmosphere, are based around the current events and topics of your interest.",
-        "You talk, we listen and provide constructive feedback. Your language barrier is gradually replaced with confidence!",
-      ],
-      img:
-        "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&w=1000",
-      imgRight: true,
-    },
-    {
-      title: "Language lessons",
-      id: "languageLessons",
-      paragraphs: [
-        "Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure you make progress in leaps and bounds!",
-        "Wir üben mit Ihnen Sprechen, Lesen, Hören, Grammatik und Schreiben damit Sie die deutsche Sprache beherrschen und um sicherzustellen, dass Sie schnell Fortschritte machen!",
-        "Puoi acquisire una buona conoscenza della lingua italiana grazie agli esercizi di scrittura, lettura, ascolto, grammatica e di parlato. Nei nostri corsi ci concentriamo su queste abilità linguistiche in modo tale da farti fare passi da gigante!",
-      ],
-      img:
-        "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&w=1000",
-    },
-    {
-      title: "Job interview preparation",
-      id: "jobInterviewPreparation",
-      paragraphs: [
-        "Our Talent Acquisition specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she knows this business inside out and is more than willing to help you land your dream job",
-      ],
-      img:
-        "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1000",
-      imgRight: true,
-    },
-    {
-      title: "CV | LinkedIn | Cover Letter",
-      id: "cv",
-      paragraphs: [
-        "CV revisions are carried out by our experienced HR Talent Acquisition specialist - Natalia, who can not only help you make your resume stand out but also ensures it gets noticed through the proper use of keywords\n",
-      ],
-      img:
-        "https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1000",
+        "https://images.pexels.com/photos/3321791/pexels-photo-3321791.jpeg?auto=compress&cs=tinysrgb&w=1000",
     },
   ],
 
-  // About Secton --------------
-  aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-  aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  courses: {
+    title: "Courses",
+    id: "courses",
+    listOfItems: [
+      {
+        itemTitle: "General English",
+        imageSrc:
+          "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure you make progress in leaps and bounds!",
+        ],
+      },
+      {
+        itemTitle: "Conversations",
+        imageSrc:
+          "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Student-oriented sessions, conducted in a positive and relaxed atmosphere, are based around the current events and topics of your interest.",
+          "You talk, we listen and provide constructive feedback. Your language barrier is gradually replaced with confidence!",
+        ],
+      },
+      {
+        itemTitle: "Business English",
+        imageSrc:
+          "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Being both HR and finance specialists as well as professional linguists allowed us to create hands-on business programs aimed at elevating your communication skills used in the workplace. We will help you improve your skills in the areas of presentations, meetings, small talk, negotiations, report and business writing, and socializing",
+        ],
+      },
+      {
+        itemTitle: "Landing a new job",
+        imageSrc:
+          "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Our Talent Acquisition specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she knows this business inside out and is more than willing to help you land your dream job",
+        ],
+      },
+      {
+        itemTitle: "Exam preparation",
+        imageSrc:
+          "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Had a sudden change of heart and decided to take up English in the school-leaving, Matura examination? Together we will create a study plan and make sure you stick to it so that you can pursue your dream studies!",
+        ],
+      },
+      {
+        itemTitle: "Accent reduction",
+        imageSrc:
+          "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Accent-reduction sessions are based around the 'shadowing' technique, used by simultaneous interpreters as a training method. In this section we focus particularly on the rhythm, flow, and intonation. Train like a Pro and sound naturally in a blink of an eye!",
+        ],
+      },
+      {
+        itemTitle: "Kids",
+        imageSrc:
+          "https://images.pexels.com/photos/261895/pexels-photo-261895.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Learning a foreign language can and should be fun! We know it perfectly well and have a wide range of games, videos, and other interactive teaching techniques up our sleeve!",
+        ],
+      },
+      {
+        itemTitle: "Teenagers",
+        imageSrc:
+          "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Learning a foreign language can and should be fun! We know it perfectly well and have a wide range of games, videos, and other interactive teaching techniques up our sleeve!",
+        ],
+      },
+      {
+        itemTitle: "Creative writing course",
+        imageSrc:
+          "https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1000",
+        paragraphs: [
+          "If you're like us and love blogging, mentoring, or transferring your thoughts into writing, get in touch with us! We will not only help you make your writing in a foreign language correct and crystal clear but also help you apply the appropriate tone and style as well as idioms to eloquently get your message across",
+        ],
+      },
+    ],
+  },
 
-  //   End About Section ---------------------
-
-  // Skills Section ---------------
-
-  //   Import Icons from the top and link it here
-
-  skills: [
-    {
-      img: "htmlIcon",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: "cssIcon",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: "jsIcon",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: "reactIcon",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: "designIcon",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: "codeIcon",
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-  ],
-
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-
-  contactSubHeading: "Let's create your next experience together",
   social: [
     {
       img: fbIcon,

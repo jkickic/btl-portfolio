@@ -8,40 +8,27 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <Fade bottom>
-            <h2>
-              Hi, I'm {data.name}{" "}
+            <h1>
+              {data.heading}{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
-            </h2>
+            </h1>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
-              <h1>
-                {data.headerTagline[0]
-                  ? data.headerTagline[0]
-                  : "Building digital"}
-              </h1>
-              <h1>
-                {" "}
-                {data.headerTagline[1]
-                  ? data.headerTagline[1]
-                  : "products, brands"}
-              </h1>
-              <h1>
-                {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
-              </h1>
+              {data.headerTagline.map((it, idx) => (
+                <h1 id={idx}>{it}</h1>
+              ))}
             </div>
           </Fade>
           <Fade bottom>
-            <p>{data.headerParagraph}</p>
-          </Fade>
-          <Fade bottom>
-            <a href={`mailto:${data.contactEmail}`} className="primary-btn">
-              Connect with us!
+            <a
+              href={data.bookLessonLink}
+              target="_blank"
+              className="primary-btn"
+            >
+              Book a lesson now!
             </a>
           </Fade>
         </div>

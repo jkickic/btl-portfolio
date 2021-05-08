@@ -16,8 +16,8 @@ const Navbar = () => {
           <div className="links-wrapper">
             {renderMenu ? (
               <ButtonGroup variant="text">
+                <Button onClick={() => scrollTo("#home")}>About</Button>
                 <Button onClick={() => scrollTo("#services")}>Services</Button>
-                <Button onClick={() => scrollTo("#about")}>About</Button>
                 <Button onClick={() => scrollTo("#contact")}>Contact</Button>
               </ButtonGroup>
             ) : (

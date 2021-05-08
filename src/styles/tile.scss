@@ -5,8 +5,10 @@
     width: 42vw;
   }
   @include media(">=tablet") {
-    height: 15vw;
     width: 25vw;
+    height: 15vw;
+    max-width: 500px;
+    max-height: 333px;
   }
   overflow: hidden !important;
   display: flex;
@@ -31,7 +33,10 @@
       text-decoration: none;
     }
     h1 {
-      font-size: larger;
+      font-size: 2.5rem;
+      @include media("<desktop") {
+        font-size: 1.3rem;
+      }
       color: white;
       white-space: normal;
       line-height: 30px;
