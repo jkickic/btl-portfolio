@@ -6,7 +6,7 @@ import Header from "../components/Header"
 import Services from "../components/Services"
 import Courses from "../components/Courses"
 import Service from "../components/Service"
-import Footer from "../components/Footer"
+import Contact from "../components/Contact"
 import data from "../site-data/siteData"
 
 import DisappearingFab from "../components/DisappearingFab"
@@ -16,7 +16,7 @@ const EnPage = () => (
     <SEO title="Portfolio Template" />
     <Header />
     <Services />
-    <Footer />
+    <Contact />
     <Courses {...data.courses} />
     {data.services.map((it, idx) => (
       <Service key={idx} {...it} />

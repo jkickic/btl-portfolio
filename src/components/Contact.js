@@ -1,14 +1,14 @@
 import React from "react"
 import FacebookIcon from "@material-ui/icons/Facebook"
 import MailOutlineIcon from "@material-ui/icons/MailOutline"
-import MapIcon from "@material-ui/icons/Map"
+import RoomIcon from "@material-ui/icons/Room"
 import PhoneIcon from "@material-ui/icons/Phone"
 
 import Fade from "react-reveal/Fade"
 import data from "../site-data/siteData"
 import { Link } from "@material-ui/core"
 
-const Footer = () => {
+const Contact = () => {
   let { contact } = data
   return (
     <div className="section" id="contact">
@@ -39,7 +39,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MapIcon className="social-icon" />
+              <RoomIcon className="social-icon" />
               <span>{contact.gmapsText}</span>
             </Link>
             <Link
@@ -67,4 +67,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Contact
