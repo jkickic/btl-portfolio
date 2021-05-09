@@ -7,14 +7,15 @@ export default {
     heading: "Contact",
     subHeading: "Write us a message!",
     email: "btllaunguages@gmail.com",
+    emailText: "Send us an email!",
     fbLink: "https://www.facebook.com/btllanguages",
     facebookContactText: "Contact us via facebook!",
     facebookSessionLink: "https://www.facebook.com/btllanguages/services/",
     fbBookSessionText: "Book a session now!",
     gmapsLink: "https://goo.gl/maps/iUE6ui1WRi7A5ERPA",
-    gmapsText: "Find us here!",
+    gmapsText: "Find us on google maps!",
     phoneNumber: "+48791111655",
-    phoneText: "Give us a call!",
+    phoneText: "Give us a phone call!",
   },
 
   projects: [

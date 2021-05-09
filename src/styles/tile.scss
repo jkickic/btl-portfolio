@@ -1,12 +1,24 @@
 .card {
   width: 100%;
   @include media("<lgphone") {
-    width: 60vw;
-    height: 40vw;
+    @include media("portrait") {
+      width: 60vw;
+      height: 40vw;
+    }
+    @include media("landscape") {
+      width: 60vh;
+      height: 40vh;
+    }
   }
   @include media(">=lgphone", "<tablet") {
-    width: 45vw;
-    height: 30vw;
+    @include media("portrait") {
+      width: 45vw;
+      height: 30vw;
+    }
+    @include media("landscape") {
+      width: 45vh;
+      height: 30vh;
+    }
   }
   @include media(">=tablet") {
     width: 25vw;
@@ -38,8 +50,8 @@
     }
     h1 {
       font-size: 2.5rem;
-      @include media("<desktop") {
-        font-size: 1.3rem;
+      @include media(">=phone", "<desktop") {
+        font-size: 1.6rem;
       }
       color: white;
       white-space: normal;

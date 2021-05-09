@@ -4,10 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   h1 {
     font-size: 3rem;
     line-height: 20px;
   }
+
   h2 {
     font-size: 1.5rem;
     overflow: hidden;
@@ -21,6 +23,7 @@
       font-size: 1.2rem;
     }
   }
+
   .social-link {
     font-size: 1.5rem;
     @include media(">=phone", "<lgphone") {
@@ -28,23 +31,38 @@
     }
     color: black;
   }
+
   .social-icons {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+
     img {
       height: 2rem;
       margin: 10px;
     }
-    .social-icon {
+
+    .contact-icon {
       font-size: 3rem;
+    }
+
+    .social-icon {
       color: #0053a1;
     }
+
+    .map-icon {
+      color: #ea4335;
+    }
+
+    .phone-icon {
+      color: #148913;
+    }
+
     a {
       color: black;
-      display:flex;
-      align-items:center;
-      justify-content:center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
