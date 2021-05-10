@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div className="section" id="contact">
       <div className="container">
-        <div className="footer-container">
+        <div className="contact-container">
           <Fade bottom cascade>
             <h1>{contact.heading}</h1>
             <h2>{contact.subHeading}</h2>
