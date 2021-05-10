@@ -9,15 +9,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 function SEO({ description, lang, meta, title }) {
-  const defaultTitle = "TITLE"
-
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={title}
       meta={[
         {
           name: `description`,

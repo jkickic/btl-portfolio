@@ -21,7 +21,7 @@
 }
 
 .navbar-wrapper {
-  @include media(">=phone", "<tablet") {
+  @include media("<tablet") {
     width: 80vw;
   }
   @include media(">=tablet") {

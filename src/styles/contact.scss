@@ -13,7 +13,7 @@
   h2 {
     font-size: 1.5rem;
     overflow: hidden;
-    @include media(">=phone", "<lgphone") {
+    @include media("<lgphone") {
       display: none;
     }
     @include media(">=lgphone", "<tablet") {
@@ -26,7 +26,7 @@
 
   .social-link {
     font-size: 1.5rem;
-    @include media(">=phone", "<lgphone") {
+    @include media("<lgphone") {
       font-size: 1.1rem;
     }
     color: black;
@@ -44,6 +44,7 @@
 
     .contact-icon {
       font-size: 3rem;
+      margin-right: 15px;
     }
 
     .social-icon {
@@ -62,7 +63,6 @@
       color: black;
       display: flex;
       align-items: center;
-      justify-content: center;
     }
   }
 }

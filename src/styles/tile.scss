@@ -50,7 +50,7 @@
     }
     h1 {
       font-size: 2.5rem;
-      @include media(">=phone", "<desktop") {
+      @include media("<desktop") {
         font-size: 1.6rem;
       }
       color: white;

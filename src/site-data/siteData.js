@@ -1,4 +1,5 @@
 export default {
+  title: "Between The Lines - Language Courses, Translations and Interpreting",
   name: "Between The Lines",
   heading: "Hi, we're Between The Lines",
   headerTagline: ["Get your language skills", "to the next level", "with us!"],

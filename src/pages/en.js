@@ -13,7 +13,7 @@ import DisappearingFab from "../components/DisappearingFab"
 
 const EnPage = () => (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <SEO title={data.title} />
     <Header />
     <Services />
     <Contact />
