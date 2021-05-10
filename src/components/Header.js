@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../site-data/siteData"
-import logo from "../images/logo2.png"
+import logo from "../images/logo.png"
 
 const Header = () => {
   return (

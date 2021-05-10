@@ -24,15 +24,20 @@
   .hi-wrapper {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    @include media("portrait") {
+      flex-direction: column;
+    }
+    @include media("landscape") {
+      flex-direction: row;
+    }
     img {
       margin-right: 15px;
-      max-width: 150px;
+      max-width: 300px;
       @include media("portrait") {
-        width: 25vw;
+        width: 55vw;
       }
       @include media("landscape") {
-        width: 32vh;
+        width: 40vh;
       }
     }
   }
