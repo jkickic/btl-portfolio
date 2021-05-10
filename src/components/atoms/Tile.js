@@ -1,10 +1,10 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
-const Tile = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Tile = ({ heading, imgUrl, projectLink }) => {
   return (
     <div
-      className="card"
+      className="tile"
       style={{
         backgroundSize: "cover",
         backgroundImage:

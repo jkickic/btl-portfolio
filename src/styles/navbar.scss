@@ -32,9 +32,6 @@
   display: flex;
   align-items: center;
   justify-content: right;
-  .name {
-    font-weight: 600;
-  }
   .links-wrapper {
     button {
       font-weight: bold;
@@ -44,9 +41,6 @@
       &:hover{
         opacity: 0.8;
       }
-    }
-    .active {
-      color: black;
     }
   }
 }

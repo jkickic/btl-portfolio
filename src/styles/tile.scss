@@ -1,4 +1,4 @@
-.card {
+.tile {
   width: 100%;
   @include media("<lgphone") {
     @include media("portrait") {
@@ -42,12 +42,6 @@
     transition: all 500ms ease-in-out;
     transform: translate(0, -5px);
     cursor: pointer;
-    .explore {
-      background-color: black;
-      color: white;
-      padding: 10px;
-      text-decoration: none;
-    }
     h1 {
       font-size: 2.5rem;
       @include media("<desktop") {
@@ -56,11 +50,6 @@
       color: white;
       white-space: normal;
       line-height: 30px;
-    }
-    p {
-      font-size: 10px;
-      color: white;
-      margin-bottom: 20px;
     }
     &:hover {
       opacity: 1;
