@@ -21,8 +21,8 @@
     }
   }
   @include media(">=tablet") {
-    width: 25vw;
-    height: 15vw;
+    width: 19vw;
+    height: 11vw;
     max-width: 500px;
     max-height: 333px;
   }
@@ -43,9 +43,12 @@
     transform: translate(0, -5px);
     cursor: pointer;
     h1 {
-      font-size: 2.5rem;
-      @include media("<desktop") {
-        font-size: 1.6rem;
+      font-size: clamp(16px, 2vw, 40px);
+      display: inline;
+      @include media("<tablet") {
+        @include media("portrait") {
+          font-size: 6vw;
+        }
       }
       color: white;
       white-space: normal;

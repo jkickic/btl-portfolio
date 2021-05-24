@@ -79,7 +79,11 @@
     color: #3F6E73;
     padding: 6px 15px;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    @include media("<tablet"){
+      padding: 3px 15px;
+      font-size: 0.8rem;
+    }
     font-family: "Open Sans", serif;
     &:hover{
       opacity: 0.8;
