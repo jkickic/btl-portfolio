@@ -17,19 +17,39 @@
   max-width: $maxWidth;
   max-height: ($maxWidth/$navBgRatio);
   position: relative;
+  @include media("<tablet", "portrait"){
+    $width: 100vw;
+    $navBgRatio: 1.242;
+    background-image: url("../images/nav-bg-narrow2.png");
+    background-size: cover;
+    width: $width;
+    height: ($width/$navBgRatio);
+    max-width: none;
+    max-height: none;
+    position: relative;
+  }
 }
 
 .logo-container {
   $width: 17%;
+  $widthMobile: 42%;
   $height: 50%;
+  $heightMobile: 40%;
   background-image: url("../images/logo.png");
   background-size: cover;
   // size
   width:  $width;
   height:  $height;
+  @include media("<tablet", "portrait"){
+    width: $widthMobile;
+    height: $widthMobile;
+  }
 
   // position
   position: absolute;
   bottom: -($height/2);
+  @include media("<tablet", "portrait"){
+    bottom: -($heightMobile/2);
+  }
   left: 10%;
 }

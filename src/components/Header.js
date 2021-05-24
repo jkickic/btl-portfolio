@@ -1,20 +1,32 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../site-data/siteData"
+import { useMediaQuery } from "@material-ui/core"
+import constants from "./constants"
 
 const Header = () => {
+  var isPortrait = useMediaQuery(constants.media.portrait)
+  var lessThanTablet = useMediaQuery(
+    constants.media.maxWidth(constants.media.breakpoints.tablet)
+  )
+  const renderHi = !(isPortrait && lessThanTablet)
   return (
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <div className="hi-wrapper">
-            <Fade bottom>
-              <h1>
-                {data.heading}
-                {" 👋"}
-              </h1>
-            </Fade>
-          </div>
+          {renderHi ? (
+            <div className="hi-wrapper">
+              <Fade bottom>
+                <h1>
+                  {data.heading}
+                  {" 👋"}
+                </h1>
+              </Fade>
+            </div>
+          ) : (
+            ""
+          )}
+
           <div className="video-wrapper">
             <iframe
               width="100%"
