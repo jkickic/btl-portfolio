@@ -1,7 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../site-data/siteData"
-import logo from "../images/logo.png"
 
 const Header = () => {
   return (
@@ -9,8 +8,23 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <div className="hi-wrapper">
-            <img src={logo} alt="btl-logo"/>
-            <Fade bottom><h1>{data.heading}{" 👋"}</h1></Fade>
+            <Fade bottom>
+              <h1>
+                {data.heading}
+                {" 👋"}
+              </h1>
+            </Fade>
+          </div>
+          <div className="video-wrapper">
+            <iframe
+              width="100%"
+              height="100%"
+              src={data.promoVideo}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
 
           <Fade bottom cascade>

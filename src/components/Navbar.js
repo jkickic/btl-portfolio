@@ -11,19 +11,8 @@ const Navbar = () => {
   const renderMenu = !(isPortrait && lessThanTablet)
   return (
     <div className="navbar-section">
-      <div className="navbar-container">
-        <div className="navbar-wrapper">
-          <div className="links-wrapper">
-            {renderMenu ? (
-              <ButtonGroup variant="text">
-                <Button onClick={() => scrollTo("#home")}>About</Button>
-                <Button onClick={() => scrollTo("#services")}>Services</Button>
-                <Button onClick={() => scrollTo("#contact")}>Contact</Button>
-              </ButtonGroup>
-            ) : (
-              ""
-            )}
-          </div>
+      <div className="background-container">
+        <div className="logo-container">
         </div>
       </div>
     </div>
