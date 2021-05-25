@@ -5,6 +5,25 @@ export default {
   promoVideo: "https://www.youtube.com/embed/LWImGqRbBzo", // EN
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
 
+  navigation: [
+    {
+      text: "About",
+      selector: "#home",
+    },
+    {
+      text: "Services",
+      selector: "#services",
+    },
+    {
+      text: "Blog",
+      href: "https://btllanguages.blogspot.com/",
+    },
+    {
+      text: "Contact",
+      selector: "#contact",
+    },
+  ],
+
   contact: {
     heading: "Contact",
     subHeading: "Write us a message!",

@@ -3,6 +3,7 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 import constants from "./constants"
 import { Button, ButtonGroup, useMediaQuery } from "@material-ui/core"
 import Link from "gatsby-link"
+import siteData from "../site-data/siteData"
 
 const Navbar = () => {
   var isPortrait = useMediaQuery(constants.media.portrait)
@@ -19,29 +20,24 @@ const Navbar = () => {
         <div className="navigation-container">
           <div className="links-wrapper">
             <ButtonGroup variant="text">
-              <Button
-                className="navbarButton"
-                onClick={() => scrollTo("#home")}
-              >
-                About
-              </Button>
-              <Button
-                className="navbarButton"
-                onClick={() => scrollTo("#services")}
-              >
-                Services
-              </Button>
-              <Link target="_blank" to="https://btllanguages.blogspot.com/">
-                <Button className="navbarButton">Blog</Button>
-              </Link>
-              <Button
-                className="navbarButton"
-                onClick={() => scrollTo("#contact")}
-              >
-                Contact
-              </Button>
+              {siteData.navigation.map((nav, index) => (
+                <div key={index}>
+                  {!!nav.href ? (
+                    <Link target="_blank" to={nav.href}>
+                      <Button className="navbarButton">{nav.text}</Button>
+                    </Link>
+                  ) : (
+                    <Button
+                      className="navbarButton"
+                      onClick={() => scrollTo(nav.selector)}
+                    >
+                      {nav.text}
+                    </Button>
+                  )}
+                </div>
+              ))}
             </ButtonGroup>
-          </div>{" "}
+          </div>
         </div>
       ) : (
         ""

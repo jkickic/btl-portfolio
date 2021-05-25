@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 // Components
+import Drawer from "../components/Drawer"
 import Header from "../components/Header"
 import Services from "../components/Services"
 import Courses from "../components/Courses"
@@ -15,6 +16,7 @@ import DisappearingFab from "../components/DisappearingFab"
 const EnPage = () => (
   <Layout>
     <SEO title={data.title} />
+    <Drawer />
     <Header />
     <Services />
     <Contact />
