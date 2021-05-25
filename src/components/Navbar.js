@@ -12,7 +12,7 @@ const Navbar = () => {
   )
   const renderMenu = !(isPortrait && lessThanTablet)
   return (
-    <div className="navbar-section">
+    <div className="navbar-section" id="navbar">
       <div className="background-container">
         <div className="logo-container" />
       </div>

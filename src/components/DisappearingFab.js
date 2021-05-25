@@ -30,11 +30,7 @@ class DisappearingFab extends Component {
         {this.state.shouldHide ? (
           ""
         ) : (
-          <Fab
-            id="fab"
-            variant="extended"
-            onClick={() => scrollTo("#services")}
-          >
+          <Fab id="fab" variant="extended" onClick={() => scrollTo("#navbar")}>
             <NavigationIcon />
           </Fab>
         )}
