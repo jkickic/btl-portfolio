@@ -18,13 +18,13 @@ const EnPage = () => (
     <SEO title={data.title} />
     <Drawer />
     <Header />
-    <Services />
-    <Contact />
     <Divider />
+    <Services />
     <Courses {...data.courses} />
     {data.services.map((it, idx) => (
       <Service key={idx} {...it} />
     ))}
+    <Contact />
     <DisappearingFab />
   </Layout>
 )
