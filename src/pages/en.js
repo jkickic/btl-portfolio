@@ -24,6 +24,7 @@ const EnPage = () => (
     {data.services.map((it, idx) => (
       <Service key={idx} {...it} />
     ))}
+    <Divider />
     <Contact />
     <DisappearingFab />
   </Layout>
