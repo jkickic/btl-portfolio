@@ -1,7 +1,7 @@
 import React from "react"
 import FacebookIcon from "@material-ui/icons/Facebook"
 import MailOutlineIcon from "@material-ui/icons/MailOutline"
-import RoomTwoToneIcon from "@material-ui/icons/RoomTwoTone"
+import RoomIcon from "@material-ui/icons/Room"
 import PhoneIcon from "@material-ui/icons/Phone"
 
 import Fade from "react-reveal/Fade"
@@ -19,7 +19,7 @@ const Contact = ({ siteData }) => {
           </Fade>
           <div className="social-icons">
             <Link className="social-link" href={`mailto:${contact.email}`}>
-              <MailOutlineIcon className="contact-icon social-icon" />
+              <MailOutlineIcon className="contact-icon" />
               <span>{contact.emailText}</span>
             </Link>
             <Link
@@ -28,7 +28,7 @@ const Contact = ({ siteData }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FacebookIcon className="contact-icon social-icon" />
+              <FacebookIcon className="contact-icon" />
               <span>{contact.facebookContactText}</span>
             </Link>
 
@@ -38,7 +38,7 @@ const Contact = ({ siteData }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <RoomTwoToneIcon className="contact-icon map-icon" />
+              <RoomIcon className="contact-icon" />
               <span>{contact.gmapsText}</span>
             </Link>
             <Link
@@ -47,7 +47,7 @@ const Contact = ({ siteData }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <PhoneIcon className="contact-icon phone-icon" />
+              <PhoneIcon className="contact-icon" />
               <span>{contact.phoneText}</span>
             </Link>
             <Link
@@ -56,7 +56,7 @@ const Contact = ({ siteData }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FacebookIcon className="contact-icon social-icon" />
+              <FacebookIcon className="contact-icon" />
               <span>{contact.fbBookSessionText}</span>
             </Link>
           </div>
