@@ -3,9 +3,8 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 import constants from "./constants"
 import { Button, ButtonGroup, useMediaQuery } from "@material-ui/core"
 import Link from "gatsby-link"
-import siteData from "../site-data/siteData"
 
-const Navbar = () => {
+const Navbar = ({ siteData }) => {
   var isPortrait = useMediaQuery(constants.media.portrait)
   var lessThanTablet = useMediaQuery(
     constants.media.maxWidth(constants.media.breakpoints.tablet)

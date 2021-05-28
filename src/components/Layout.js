@@ -9,10 +9,10 @@ import React from "react"
 import Navbar from "./Navbar"
 import "../styles/mains.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, siteData }) => {
   return (
     <div className="layout">
-      <Navbar />
+      <Navbar siteData={siteData} />
       <main>{children}</main>
     </div>
   )

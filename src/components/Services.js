@@ -3,9 +3,7 @@ import Fade from "react-reveal/Fade"
 
 import Tile from "./atoms/Tile"
 
-import data from "../site-data/siteData"
-
-const Services = () => {
+const Services = ({ siteData }) => {
   return (
     <div className="section" id="services">
       <div className="container">
@@ -16,7 +14,7 @@ const Services = () => {
 
           <div className="grid">
             <Fade bottom cascade>
-              {data.projects.map((project, index) => (
+              {siteData.projects.map((project, index) => (
                 <Tile
                   key={index}
                   heading={project.title}

@@ -27,7 +27,7 @@ export default {
   contact: {
     heading: "Contact",
     subHeading: "Write us a message!",
-    email: "btllaunguages@gmail.com",
+    email: "btl.languagestudio@gmail.com",
     emailText: "Send us an email!",
     fbLink: "https://www.facebook.com/btllanguages",
     facebookContactText: "Contact us via facebook!",

@@ -5,11 +5,10 @@ import RoomTwoToneIcon from "@material-ui/icons/RoomTwoTone"
 import PhoneIcon from "@material-ui/icons/Phone"
 
 import Fade from "react-reveal/Fade"
-import data from "../site-data/siteData"
 import { Link } from "@material-ui/core"
 
-const Contact = () => {
-  let { contact } = data
+const Contact = ({ siteData }) => {
+  let { contact } = siteData
   return (
     <div className="section" id="contact">
       <div className="container">

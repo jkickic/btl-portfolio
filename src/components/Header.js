@@ -1,10 +1,9 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../site-data/siteData"
 import { useMediaQuery } from "@material-ui/core"
 import constants from "./constants"
 
-const Header = () => {
+const Header = ({ siteData }) => {
   var isPortrait = useMediaQuery(constants.media.portrait)
   var lessThanTablet = useMediaQuery(
     constants.media.maxWidth(constants.media.breakpoints.tablet)
@@ -18,7 +17,7 @@ const Header = () => {
             <div className="hi-wrapper">
               <Fade bottom>
                 <h1>
-                  {data.heading}
+                  {siteData.heading}
                   {" 👋"}
                 </h1>
               </Fade>
@@ -31,7 +30,7 @@ const Header = () => {
             <iframe
               width="100%"
               height="100%"
-              src={data.promoVideo}
+              src={siteData.promoVideo}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -41,18 +40,18 @@ const Header = () => {
 
           <Fade bottom cascade>
             <div className="heading-wrapper">
-              {data.headerTagline.map((it, idx) => (
+              {siteData.headerTagline.map((it, idx) => (
                 <h1 id={idx}>{it}</h1>
               ))}
             </div>
           </Fade>
           <Fade bottom>
             <a
-              href={data.contact.facebookSessionLink}
+              href={siteData.contact.facebookSessionLink}
               target="_blank"
               className="primary-btn"
             >
-              {data.contact.fbBookSessionText}
+              {siteData.contact.fbBookSessionText}
             </a>
           </Fade>
         </div>

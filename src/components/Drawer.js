@@ -11,11 +11,10 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
 
-import siteData from "../site-data/siteData"
 import Link from "gatsby-link"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
-export default function PersistentDrawerLeft() {
+export default function PersistentDrawerLeft({ siteData }) {
   const theme = useTheme()
   const [open, setOpen] = React.useState(false)
 
