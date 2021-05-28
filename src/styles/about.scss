@@ -1,3 +1,5 @@
+$standardMaxWidth: 960px;
+
 .header-wrapper {
   width: 80vw;
   margin-top: 5vh;
@@ -12,22 +14,21 @@
   }
 
   .about-content-wrapper{
-    @include media("portrait") {
-      width: 80vw;
-    }
-    @include media("landscape") {
+    width: 90vw;
+    @include media("landscape", ">=tablet") {
       width: 60vw;
+      max-width: $standardMaxWidth;
     }
     p {
       text-align: justify;
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
   }
 
   .video-wrapper {
     margin-top: 5vh;
     width: 80vw;
-    max-width: 960px;
+    max-width: $standardMaxWidth;
     height: 45vw;
     max-height: 540px;
   }
