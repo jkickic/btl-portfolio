@@ -36,15 +36,14 @@ $standardMaxWidth: 960px;
   .heading-wrapper {
     margin-top: 10vh;
     h1 {
-      font-size: 3rem;
       text-align: center;
       line-height: 20px;
       @include media("<tablet") {
         font-size: 1.3rem;
         line-height: 14px;
       }
-      @include media(">=tablet", "<desktop") {
-        font-size: 2.5rem;
+      @include media(">=tablet") {
+        font-size: 2rem;
       }
     }
   }

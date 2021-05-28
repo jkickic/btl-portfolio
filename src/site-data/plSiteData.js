@@ -65,7 +65,7 @@ export default {
       moveTo: "#translations",
     },
     {
-      title: "Interpreting",
+      title: "Tłumaczenia ustne",
       imageSrc: interpreterImg,
       moveTo: "#interpreting",
     },
@@ -89,7 +89,7 @@ export default {
       imgRight: true,
     },
     {
-      title: "Interpreting",
+      title: "Tłumaczenia ustne",
       id: "interpreting",
       paragraphs: [
         "<b>TŁUMACZENIA SYMULTANICZNE | KONSEKUTYWNE | SZEPTANE</b>",
