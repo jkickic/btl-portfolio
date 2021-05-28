@@ -76,7 +76,10 @@ export default {
       paragraphs: [
         "Nasze doświadczenie obejmuje tłumaczenie dokumentów unijnuch w Parlamencie Europejskim w Luksemburgu, pracę dla wiodących firm tłumaczeniowych we Włoszech (dokumenty oraz strony internetowe), a także współpracę z międzynarodowymi firmami i globalnymi koncernami budowlanymi (wiodąca firma z branży kolejowej na rynku austriackim i międzynarodowym).",
         "Specjalizujemy się w tekstach finansowo-ekonomicznych, marketingowych i prawnych. Oferujemy tłumaczenia w dowolnej kombinacji językowej spośród języków: ",
-        // "<ul><li>angielskiego</li><li>włoskiego</li><li>polskiego</li><li>niemieckiego</li></ul>",
+        "<b> • angielskiego</b>",
+        "<b> • włoskiego</b>",
+        "<b> • polskiego</b>",
+        "<b> • niemieckiego</b>",
         `W przypadku treści marketingowych czasem nie potrzeba tłumacza, a po prostu osoby z "lekkim piórem" i doskonałymi umiejętnościami językowymi, która w sposób perswazyjny, a zarazem czytelny i łatwy w odbiorze, przeakże określone treści. Oferujemy także usługi właśnie z zakresu marketingu treści i copywritingu. Zapraszamy do zapoznania się z naszym portfolio artykułów w sekcji <a href="${blogUrl}", target="_blank">BLOG.</a>`,
       ],
       img:
