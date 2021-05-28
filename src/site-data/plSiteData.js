@@ -1,10 +1,13 @@
+const interpreterImg = require("../images/interpreter-small.jpg")
+
 const blogUrl = "https://btllanguages.blogspot.com/"
 
 export default {
-  title: "Between The Lines - Language Courses, Translations and Interpreting",
+  title:
+    "Between The Lines - Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne, konsekutywne, szeptane",
   name: "Between The Lines",
-  promoVideo: "https://www.youtube.com/embed/LWImGqRbBzo", // EN
-  headerTagline: ["Get your language skills", "to the next level", "with us!"],
+  promoVideo: "https://www.youtube.com/embed/efYmKA3TP4g", // PL
+  headerTagline: ["Wznieś się", "na wyżyny językowe", "z nami!"],
 
   about: {
     heading: "Cześć, jesteśmy Between The Lines",
@@ -50,28 +53,27 @@ export default {
 
   projects: [
     {
-      title: "Courses",
+      title: "Kursy",
       imageSrc:
         "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=400",
       moveTo: "#courses",
     },
     {
-      title: "Translations",
+      title: "Tłumaczenia",
       imageSrc:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       moveTo: "#translations",
     },
     {
       title: "Interpreting",
-      imageSrc:
-        "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=400",
+      imageSrc: interpreterImg,
       moveTo: "#interpreting",
     },
   ],
 
   services: [
     {
-      title: "Translations",
+      title: "Tłumaczenia",
       id: "translations",
       paragraphs: [
         "Nasze doświadczenie obejmuje tłumaczenie dokumentów unijnuch w Parlamencie Europejskim w Luksemburgu, pracę dla wiodących firm tłumaczeniowych we Włoszech (dokumenty oraz strony internetowe), a także współpracę z międzynarodowymi firmami i globalnymi koncernami budowlanymi (wiodąca firma z branży kolejowej na rynku austriackim i międzynarodowym).",
@@ -97,13 +99,12 @@ export default {
         "Podczas <b>tłumaczenia konsekutywnego</b> prelegent zatrzymuje się co kilka minut, po czym wkracza tłumacz i tłumaczy na język słuchaczy to, co zostało powiedziane. Tłumaczenie konsekutywne wymaga sporządzania notatek, aby nie umknął żaden istotny szczegół. Jest ono zalecane w przypadku mniejszych spotkaniach biznesowych.",
         "<b>Tłumaczenie szeptane</b> jest podobne do tłumaczenia symultanicznego, jednak tłumacz nie używa mikrofonu ani zestawu słuchawkowego, a raczej siedzi obok osoby (lub małej grupy), która wymaga tłumaczenia. Ten tryb jest zalecany podczas spotkań biznesowych, w których tylko jedna osoba potrzebuje tłumaczenia.",
       ],
-      img:
-        "https://images.pexels.com/photos/3321791/pexels-photo-3321791.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      img: interpreterImg,
     },
   ],
 
   courses: {
-    title: "Courses",
+    title: "Kursy",
     id: "courses",
     listOfItems: [
       {

@@ -1,3 +1,4 @@
+const interpreterImg = require("../images/interpreter-small.jpg")
 const blogUrl = "https://btllanguages.blogspot.com/"
 
 export default {
@@ -63,8 +64,7 @@ export default {
     },
     {
       title: "Interpreting",
-      imageSrc:
-        "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=400",
+      imageSrc: interpreterImg,
       moveTo: "#interpreting",
     },
   ],
@@ -94,8 +94,7 @@ export default {
         "During <b>consecutive interpreting</b> the speaker stops every few minutes after which the interpreter steps in and renders what has just been said to the language of the listeners. Consecutive interpreting involves notetaking (to prevent loss of detail) and is recommended for smaller business meetings.",
         "<b>Whisper interpreting</b> is similar to simultaneous interpreting however, the interpreter doesn't use a microphone or a headset, rather he or she sits next to the person (or a small group) who requires interpreting. This mode is recommended for business meetings where only one person requires interpreting.",
       ],
-      img:
-        "https://images.pexels.com/photos/3321791/pexels-photo-3321791.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      img: interpreterImg,
     },
   ],
 
