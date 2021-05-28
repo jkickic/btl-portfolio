@@ -6,6 +6,11 @@
   }
   color: black;
   header {
+    position: fixed;
+    left: 0;
+    right: auto;
+    width: auto;
+
     button {
       background-color: rgba(64, 64, 64, 0.5);
       border-radius: 10%;

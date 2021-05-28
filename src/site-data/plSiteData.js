@@ -1,9 +1,18 @@
+const blogUrl = "https://btllanguages.blogspot.com/"
+
 export default {
   title: "Between The Lines - Language Courses, Translations and Interpreting",
   name: "Between The Lines",
-  heading: "Cześć, jesteśmy Between The Lines",
   promoVideo: "https://www.youtube.com/embed/LWImGqRbBzo", // EN
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
+
+  about: {
+    heading: "Cześć, jesteśmy Between The Lines",
+    content: [
+      "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z angielskim, włoskim, niemieckim i polskim. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
+      "Prywatnie uwielbiamy podróże. Posłuchajcie sami!",
+    ],
+  },
 
   navigation: [
     {
@@ -16,7 +25,7 @@ export default {
     },
     {
       text: "Blog",
-      href: "https://btllanguages.blogspot.com/",
+      href: blogUrl,
     },
     {
       text: "Kontakt",
@@ -65,8 +74,10 @@ export default {
       title: "Translations",
       id: "translations",
       paragraphs: [
-        "Our experience in translation includes working for the European Parliament translating EU documents, working for leading translation companies in Italy translating documents and websites for the Tuscany and Veneto Region, and helping a leading railway construction company in Austria operating in Poland.",
-        "In our translation work, we focus on research and finding the right language and tone to attract your clients. We will make sure your translation will read as well as if the source documents were written in the target language in the first place.",
+        "Nasze doświadczenie obejmuje tłumaczenie dokumentów unijnuch w Parlamencie Europejskim w Luksemburgu, pracę dla wiodących firm tłumaczeniowych we Włoszech (dokumenty oraz strony internetowe), a także współpracę z międzynarodowymi firmami i globalnymi koncernami budowlanymi (wiodąca firma z branży kolejowej na rynku austriackim i międzynarodowym).",
+        "Specjalizujemy się w tekstach finansowo-ekonomicznych, marketingowych i prawnych. Oferujemy tłumaczenia w dowolnej kombinacji językowej spośród języków: ",
+        "<ul><li>angielskiego</li><li>włoskiego</li><li>polskiego</li><li>niemieckiego</li></ul>",
+        `W przypadku treści marketingowych czasem nie potrzeba tłumacza, a po prostu osoby z "lekkim piórem" i doskonałymi umiejętnościami językowymi, która w sposób perswazyjny, a zarazem czytelny i łatwy w odbiorze, przeakże określone treści. Oferujemy także usługi właśnie z zakresu marketingu treści i copywritingu. Zapraszamy do zapoznania się z naszym portfolio artykułów w sekcji <a href="${blogUrl}", target="_blank">BLOG</a>`,
       ],
       img:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
@@ -76,8 +87,12 @@ export default {
       title: "Interpreting",
       id: "interpreting",
       paragraphs: [
-        "SIMULTANEOUS | CONSECUTIVE | WHISPER",
-        "Having interpreted simultaneously for world organizations such as the United Nations, we know how important precision, accuracy, and confidentiality are. We wish to share our expertize and help you succeed in the relations with your clients",
+        "<b>TŁUMACZENIA SYMULTANICZNE | KONSEKUTYWNE | SZEPTANE</b>",
+        "Przy wyborze tłumacza ustnego fachowa wiedza merytoryczna jest równie ważna, jak doświadczenie w tłumaczeniu. Dlatego też oferujemy naszą wiedzą nie tylko jako lingwiści, ale także specjaliści w dziedzinie ekonomii i HR. Pracując dla światowych organizacji, takich jak Organizacja Narodów Zjednoczonych i wielu globalnych firm, wiemy, jak ważna jest precyzja, dokładność i poufność.",
+        "Naszym celem jest pomóc Ci odnieść sukces w relacjach z klientami, dlatego stronę językową pozostaw nam i skup się w pełni na merytoryce sprawy.",
+        "W <b>tłumaczeniu symultanicznym</b> wypowiedź mówcy nie jest zakłócana i pozwala słuchaczom na jej zrozumienie w czasie rzeczywistym, ponieważ nie muszą czekać na tłumaczenie. Stąd też tłumaczenie symultaniczne jest zalecane na konferencjach i wydarzeniach o dużej skali, gdzie nie ma czasu na opóźnienia w przekazie wiadomości. ",
+        "Podczas <b>tłumaczenia konsekutywnego</b> prelegent zatrzymuje się co kilka minut, po czym wkracza tłumacz i tłumaczy na język słuchaczy to, co zostało powiedziane. Tłumaczenie konsekutywne wymaga sporządzania notatek, aby nie umknął żaden istotny szczegół. Jest ono zalecane w przypadku mniejszych spotkaniach biznesowych.",
+        "<b>Tłumaczenie szeptane</b> jest podobne do tłumaczenia symultanicznego, jednak tłumacz nie używa mikrofonu ani zestawu słuchawkowego, a raczej siedzi obok osoby (lub małej grupy), która wymaga tłumaczenia. Ten tryb jest zalecany podczas spotkań biznesowych, w których tylko jedna osoba potrzebuje tłumaczenia.",
       ],
       img:
         "https://images.pexels.com/photos/3321791/pexels-photo-3321791.jpeg?auto=compress&cs=tinysrgb&w=1000",

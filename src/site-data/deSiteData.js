@@ -1,9 +1,18 @@
+const blogUrl = "https://btllanguages.blogspot.com/"
+
 export default {
   title: "Between The Lines - Language Courses, Translations and Interpreting",
   name: "Between The Lines",
-  heading: "Hallo, wir sind Between The Lines",
   promoVideo: "https://www.youtube.com/embed/LWImGqRbBzo", // EN
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
+
+  about: {
+    heading: "Hallo, wir sind Between The Lines",
+    content: [
+      "We are professional conference interpreters and language trainers and work with English, Italian, German, and Polish. Our clients are global companies (construction concerns), international organizations (United Nations), the City of Cracow, cultural institutions, local companies, non-governmental organizations, as well as individuals.",
+      "Offstage we love traveling. Watch the video below and find out more!",
+    ],
+  },
 
   navigation: [
     {
@@ -16,7 +25,7 @@ export default {
     },
     {
       text: "Blog",
-      href: "https://btllanguages.blogspot.com/",
+      href: blogUrl,
     },
     {
       text: "Contact",
@@ -65,8 +74,10 @@ export default {
       title: "Translations",
       id: "translations",
       paragraphs: [
-        "Our experience in translation includes working for the European Parliament translating EU documents, working for leading translation companies in Italy translating documents and websites for the Tuscany and Veneto Region, and helping a leading railway construction company in Austria operating in Poland.",
-        "In our translation work, we focus on research and finding the right language and tone to attract your clients. We will make sure your translation will read as well as if the source documents were written in the target language in the first place.",
+        "Our experience in translation includes working for the European Parliament translating EU documents, working for leading translation companies in Italy translating documents and websites for the Tuscany and Veneto Region, and helping a leading railway construction company in Austria and other European countries.",
+        "We specialize in financial, marketing, and legal texts. We offer translation services in any of the following language pair: ",
+        "<b>[ENG <=> ITA <=> PL <=> DE]</b>",
+        `In case of marketing content, sometimes you do not need a translator, but simply a person with "flow" and excellent language and writing skills, who can write up a persuasive and easy-to-read text. As avid bloggers, we offer also content marketing and copywriting services. Take a look at our portfolio of articles in the <a href="${blogUrl}", target="_blank">BLOG</a> section`,
       ],
       img:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
@@ -76,8 +87,12 @@ export default {
       title: "Interpreting",
       id: "interpreting",
       paragraphs: [
-        "SIMULTANEOUS | CONSECUTIVE | WHISPER",
-        "Having interpreted simultaneously for world organizations such as the United Nations, we know how important precision, accuracy, and confidentiality are. We wish to share our expertize and help you succeed in the relations with your clients",
+        "<b>SIMULTANEOUS | CONSECUTIVE | WHISPER</b>",
+        "When choosing an interpreter, expert knowledge of the subject matter is just as important as interpreting experience. Therefore, we wish to share with you our expertise not only as linguists but also qualified professionals in the areas of Economy and Human Resources. Having worked for world organizations such as the United Nations and multiple global companies, we know how important precision, accuracy, and confidentiality are.",
+        "Our goal is to help you succeed in the relations with your clients, so leave the language aspect to us and focus fully on the merits of the matter.",
+        "In <b>simultaneous interpreting</b>, the natural flow of the speaker is not disturbed and allows for a smooth experience for listeners, as they don't need to wait in order to understand the message. Simultaneous interpretation is therefore recommended for large-scale conferences and events, where there is no time for the delay in the delivery of the message.",
+        "During <b>consecutive interpreting</b> the speaker stops every few minutes after which the interpreter steps in and renders what has just been said to the language of the listeners. Consecutive interpreting involves notetaking (to prevent loss of detail) and is recommended for smaller business meetings.",
+        "<b>Whisper interpreting</b> is similar to simultaneous interpreting however, the interpreter doesn't use a microphone or a headset, rather he or she sits next to the person (or a small group) who requires interpreting. This mode is recommended for business meetings where only one person requires interpreting.",
       ],
       img:
         "https://images.pexels.com/photos/3321791/pexels-photo-3321791.jpeg?auto=compress&cs=tinysrgb&w=1000",

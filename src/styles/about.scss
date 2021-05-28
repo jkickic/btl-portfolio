@@ -7,23 +7,20 @@
   text-align: center;
 
   .hi-wrapper {
-    display: flex;
-    align-items: center;
+    font-size: 1rem;
+    margin-top: 5vh;
+  }
+
+  .about-content-wrapper{
     @include media("portrait") {
-      flex-direction: column;
+      width: 80vw;
     }
     @include media("landscape") {
-      flex-direction: row;
+      width: 60vw;
     }
-    img {
-      margin-right: 15px;
-      max-width: 300px;
-      @include media("portrait") {
-        width: 55vw;
-      }
-      @include media("landscape") {
-        width: 40vh;
-      }
+    p {
+      text-align: justify;
+      font-size: 1.3rem;
     }
   }
 

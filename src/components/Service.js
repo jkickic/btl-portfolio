@@ -47,7 +47,7 @@ class Service extends React.Component {
                 <h1>{title}</h1>
               </Fade>
               {paragraphs.map((it, idx) => (
-                <p key={idx}>{it}</p>
+                <p key={idx} dangerouslySetInnerHTML={{ __html: it }} />
               ))}
             </div>
             {!imgBeforeText ? imgDiv : ""}

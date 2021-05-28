@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 // Components
 import Drawer from "../components/Drawer"
-import Header from "../components/Header"
+import About from "../components/About"
 import Services from "../components/Services"
 import Courses from "../components/Courses"
 import Divider from "../components/atoms/Divider"
@@ -16,7 +16,7 @@ const InternationalPage = ({ siteData }) => (
   <Layout siteData={siteData}>
     <SEO title={siteData.title} />
     <Drawer siteData={siteData} />
-    <Header siteData={siteData} />
+    <About siteData={siteData} />
     <Divider />
     <Services siteData={siteData} />
     <Courses {...siteData.courses} />
