@@ -2,6 +2,7 @@ const interpreterImg = require("../images/interpreter-small.jpg")
 
 const blogUrl = "https://btllanguages.blogspot.com/"
 
+let bookSessionLink = "https://www.facebook.com/btllanguages/services/"
 export default {
   title:
     "Between The Lines - Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne, konsekutywne, szeptane",
@@ -12,7 +13,7 @@ export default {
   about: {
     heading: "Cześć, jesteśmy Between The Lines",
     content: [
-      "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z angielskim, włoskim, niemieckim i polskim. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
+      "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z <b>angielskim, włoskim, niemieckim</b> i <b>polskim</b>. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
       "Prywatnie uwielbiamy podróże. Posłuchajcie sami!",
     ],
   },
@@ -43,8 +44,8 @@ export default {
     emailText: "Napisz do nas!",
     fbLink: "https://www.facebook.com/btllanguages",
     facebookContactText: "Skontaktuj się przez Facebook!",
-    facebookSessionLink: "https://www.facebook.com/btllanguages/services/",
-    fbBookSessionText: "Umów się na sesję!",
+    facebookSessionLink: bookSessionLink,
+    fbBookSessionText: "Zarezerwuj bezpłatne spotkanie",
     gmapsLink: "https://goo.gl/maps/iUE6ui1WRi7A5ERPA",
     gmapsText: "Znajdź nas na google maps!",
     phoneNumber: "+48791111655",
@@ -71,6 +72,7 @@ export default {
     },
   ],
 
+  servicesHeading: "Nasze usługi",
   services: [
     {
       title: "Tłumaczenia",
@@ -92,7 +94,7 @@ export default {
       title: "Tłumaczenia ustne",
       id: "interpreting",
       paragraphs: [
-        "<b>TŁUMACZENIA SYMULTANICZNE | KONSEKUTYWNE | SZEPTANE</b>",
+        "<b>TŁUMACZENIA SYMULTANICZNE | KONSEKUTYWNE | SZEPTANE</b> [ENG / ITA / PL]",
         "Przy wyborze tłumacza ustnego fachowa wiedza merytoryczna jest równie ważna, jak doświadczenie w tłumaczeniu. Dlatego też oferujemy naszą wiedzą nie tylko jako lingwiści, ale także specjaliści w dziedzinie ekonomii i HR. Pracując dla światowych organizacji, takich jak Organizacja Narodów Zjednoczonych i wielu globalnych firm, wiemy, jak ważna jest precyzja, dokładność i poufność.",
         "Naszym celem jest pomóc Ci odnieść sukces w relacjach z klientami, dlatego stronę językową pozostaw nam i skup się w pełni na merytoryce sprawy.",
         "W <b>tłumaczeniu symultanicznym</b> wypowiedź mówcy nie jest zakłócana i pozwala słuchaczom na jej zrozumienie w czasie rzeczywistym, ponieważ nie muszą czekać na tłumaczenie. Stąd też tłumaczenie symultaniczne jest zalecane na konferencjach i wydarzeniach o dużej skali, gdzie nie ma czasu na opóźnienia w przekazie wiadomości. ",
@@ -108,76 +110,72 @@ export default {
     id: "courses",
     listOfItems: [
       {
-        itemTitle: "General English",
+        itemTitle: "angielski / niemiecki / włoski",
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure you make progress in leaps and bounds!",
+          "Na opanowanie języka obcego składa się ćwiczenie mówienia, czytania, słuchania, gramatyki i pisania. W BTL ćwiczymy wszystkie te umiejętności! Opracowując dla Ciebie indywidualny plan nauki, bierzemy pod uwagę Twój unikalny styl pracy, a także cele, które chcesz osiągnąć. Materiał z każdych zajęć jest utrwalany i powtarzany. Ponadto regularnie monitorujemy Twoje postępy, także zawsze wiesz nad czym pracować, aby zmaksymalizować efekty nauki.",
+          "Atmosfera na zajęciach jest przyjazna i nieformalna, ponieważ chcemy wspierać Cię w nauce języka raczej jako mentorzy, niż nauczyciele. ",
+          `Zarezerwuj bezpłatną sesję próbną <a href='${bookSessionLink}' target="_blank">tutaj</a>.`,
         ],
       },
       {
-        itemTitle: "Conversations",
+        itemTitle: "Konwersacje",
         imageSrc:
           "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Student-oriented sessions, conducted in a positive and relaxed atmosphere, are based around the current events and topics of your interest.",
-          "You talk, we listen and provide constructive feedback. Your language barrier is gradually replaced with confidence!",
+          "Konwersacje prowadzimy w pozytywnej i swobodnej atmosferze, abyś się „otworzył” i zaczął mówić. Tak jak dzieci zaczynają mówić niekoniecznie skupiając się cały czas na gramatyce, tak w przypadku nauki języka obcego najważniejsze byś mówił i to dużo!",
+          "Najpierw jednak, musisz się pozbyć bariery językowej i obawy, że popełnisz błąd. Z czasem Twoje wypowiedzi będą coraz bardziej poprawne i będziesz je formułował coraz bardziej świadomie. Pomożemy Ci pozbyć się bariery językowej i nabrać pewności siebie w mówieniu!",
         ],
       },
       {
-        itemTitle: "Business English",
+        itemTitle: "Angielski biznesowy",
         imageSrc:
           "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Being both HR and finance specialists as well as professional linguists allowed us to create hands-on business programs aimed at elevating your communication skills used in the workplace. We will help you improve your skills in the areas of presentations, meetings, small talk, negotiations, report and business writing, and socializing",
+          "Jako lingwiści, a zarazem profesjonaliści z zakresu ekonomii i HR, opracowaliśmy specjalistyczne kursy biznesowe, które mają na celu podniesienie Twoich kompetencji komunikacyjnych w środowisku zawodowym. Znamy sektor korporacyjny „od wewnątrz”, co w połączeniu z naszym wieloletnim doświadczeniem w pracy akademickiej pomoże Ci opanować kompleksowo najważniejsze umiejętności w komunikacji biznesowej: wygłaszanie prezentacji, aktywny udział w spotkaniach z zagranicznymi partnerami, small talk, sztukę negocjacji, sporządzanie raportów, a także aktywny udział w firmowych spotkaniach towarzyskich.",
         ],
       },
       {
-        itemTitle: "Landing a new job",
+        itemTitle: "Nowa praca",
         imageSrc:
           "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Our Talent Acquisition specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she knows this business inside out and is more than willing to help you land your dream job",
+          "Nasz specjalista ds. zasobów ludzkich, przygotuje Cię gruntownie do rozmowy kwalifikacyjnej w języku obcym. Pracując w branży HR od ponad 4 lat i rekrutując setki kandydatów z całego świata, Natalia zna tę branżę od podszewki i chętnie pomoże Ci zdobyć wymarzoną pracę.",
         ],
       },
       {
-        itemTitle: "Exam preparation",
+        itemTitle: "Przygotowanie do egzaminów",
         imageSrc:
           "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Had a sudden change of heart and decided to take up English in the school-leaving, Matura examination? Together we will create a study plan and make sure you stick to it so that you can pursue your dream studies!",
+          "Jako wykładowcy akademiccy i licencjonowani egzaminatorzy Pearson, oferujemy kompleksowe przygotowanie do egzaminów FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General oraz do matury egzaminu Maturalnego (podstawa i rozszerzenie).",
+          "Wspólnie opracujemy plan nauki i pomożemy Ci zdobyć kwalifikacje językowe abyś mógł zdobyć pracę marzeń lub podjąć wymarzone studia.",
         ],
       },
       {
-        itemTitle: "Accent reduction",
+        itemTitle: "Redukcja akcentu",
         imageSrc:
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Accent-reduction sessions are based around the 'shadowing' technique, used by simultaneous interpreters as a training method. In this section we focus particularly on the rhythm, flow, and intonation. Train like a Pro and sound naturally in a blink of an eye!",
+          `Sesje redukcji akcentu bazują na technice shadowing (więcej informacji na temat shadowing można znaleźć na naszym <a href='${blogUrl}' target="_blank">blogu</a>), używanej przez tłumaczy symultanicznych jako niezywkle skutecznej metody  nauki. Podczas zajęć z redukcji akcentu pracujemy nad akcentem, rytmem, płynnością i intonacją. W tym celu wykorzystujemy metody audiowizualne oraz zestaw słuchawkowy. Po zajęciach dostajesz serię ćwiczeń do wykonania samodzielnie w domu. Trenuj z nami jak zawodowiec!`,
         ],
       },
       {
-        itemTitle: "Kids",
-        imageSrc:
-          "https://images.pexels.com/photos/261895/pexels-photo-261895.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-        paragraphs: [
-          "Learning a foreign language can and should be fun! We know it perfectly well and have a wide range of games, videos, and other interactive teaching techniques up our sleeve!",
-        ],
-      },
-      {
-        itemTitle: "Teenagers",
+        itemTitle: "Młodzież",
         imageSrc:
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Learning a foreign language can and should be fun! We know it perfectly well and have a wide range of games, videos, and other interactive teaching techniques up our sleeve!",
+          "Nauka języka obcego może i powinna być świetną zabawą! Wiemy o tym doskonale i mamy w zanadrzu szeroką gamę gier, filmów i innych interaktywnych technik nauczania!",
         ],
       },
       {
-        itemTitle: "Creative writing course",
+        itemTitle: "Kurs kreatywnego pisania",
         imageSrc:
           "https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1000",
         paragraphs: [
-          "If you're like us and love blogging, mentoring, or transferring your thoughts into writing, get in touch with us! We will not only help you make your writing in a foreign language correct and crystal clear but also help you apply the appropriate tone and style as well as idioms to eloquently get your message across",
+          "Jeśli także uwielbiasz blogować lub przelewać swoje myśli na papier, skontaktuj się z nami! Pomożemy Ci wypracować Twój unikalny styl pisania w języku obcym, który będzie poprawny, prosty w odbiorze a zarazem perswazyjny. Z nami poznasz odpowiednie środki przekazu, wzbogacisz swoje słownictwo, a także zachwycisz wszystkich elokwencją!",
+          `Kurs kreatywnego pisania jest dedykowany dla wszystkich, którzy mają do czynienia z tekstami, lub chcieliby poszerzyć swoje słownictwo, a także podnieść swoje umiejętności marketingowe. Zajrzyj na naszego <a href='${blogUrl}' target="_blank">bloga</a>.`,
         ],
       },
     ],

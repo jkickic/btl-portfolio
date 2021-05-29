@@ -15,7 +15,7 @@ const About = ({ siteData }) => {
 
           <div className="about-content-wrapper">
             {siteData.about.content.map((it, idx) => (
-              <p id={idx}>{it}</p>
+              <p id={idx} dangerouslySetInnerHTML={{ __html: it }} />
             ))}
           </div>
 

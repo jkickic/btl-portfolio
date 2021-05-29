@@ -10,8 +10,8 @@ export default {
   about: {
     heading: "Hi, we're Between The Lines",
     content: [
-      "We are professional conference interpreters and language trainers and work with English, Italian, German, and Polish. Our clients are global companies (construction concerns), international organizations (United Nations), the City of Cracow, cultural institutions, local companies, non-governmental organizations, as well as individuals.",
-      "Offstage we love traveling. Watch the video below and find out more!",
+      "We are professional conference interpreters and language trainers and work with <b>English, Italian, German,</b> and <b>Polish</b>. Our clients are global companies (construction concerns), international organizations (United Nations), the City of Cracow, cultural institutions, local companies, non-governmental organizations, as well as individuals.",
+      "Offstage we love traveling and public speaking. Watch the video below and find out more!",
     ],
   },
 
@@ -69,6 +69,7 @@ export default {
     },
   ],
 
+  servicesHeading: "Our services",
   services: [
     {
       title: "Translations",
@@ -87,7 +88,7 @@ export default {
       title: "Interpreting",
       id: "interpreting",
       paragraphs: [
-        "<b>SIMULTANEOUS | CONSECUTIVE | WHISPER</b>",
+        "<b>SIMULTANEOUS | CONSECUTIVE | WHISPER</b> [ENG / ITA / PL]",
         "When choosing an interpreter, expert knowledge of the subject matter is just as important as interpreting experience. Therefore, we wish to share with you our expertise not only as linguists but also qualified professionals in the areas of Economy and Human Resources. Having worked for world organizations such as the United Nations and multiple global companies, we know how important precision, accuracy, and confidentiality are.",
         "Our goal is to help you succeed in the relations with your clients, so leave the language aspect to us and focus fully on the merits of the matter.",
         "In <b>simultaneous interpreting</b>, the natural flow of the speaker is not disturbed and allows for a smooth experience for listeners, as they don't need to wait in order to understand the message. Simultaneous interpretation is therefore recommended for large-scale conferences and events, where there is no time for the delay in the delivery of the message.",

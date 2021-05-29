@@ -37,7 +37,7 @@ var mapParagraphs = function (paragraphs) {
     return (
       <>
         {paragraphs.map((it, idx) => (
-          <p key={idx}>{it}</p>
+          <p key={idx} dangerouslySetInnerHTML={{ __html: it }} />
         ))}
       </>
     )
