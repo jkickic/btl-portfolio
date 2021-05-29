@@ -1,8 +1,7 @@
 const interpreterImg = require("../images/interpreter-small.jpg")
-
 const blogUrl = "https://btllanguages.blogspot.com/"
+const bookSessionLink = "https://www.facebook.com/btllanguages/services/"
 
-let bookSessionLink = "https://www.facebook.com/btllanguages/services/"
 export default {
   title:
     "Between The Lines - Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne, konsekutywne, szeptane",
@@ -47,7 +46,7 @@ export default {
     facebookSessionLink: bookSessionLink,
     fbBookSessionText: "Zarezerwuj bezpłatne spotkanie",
     gmapsLink: "https://goo.gl/maps/iUE6ui1WRi7A5ERPA",
-    gmapsText: "Znajdź nas na google maps!",
+    gmapsText: "Znajdź nas na Google Maps!",
     phoneNumber: "+48791111655",
     phoneText: "Zadzwoń do nas!",
   },

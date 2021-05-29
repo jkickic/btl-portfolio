@@ -1,5 +1,6 @@
 const interpreterImg = require("../images/interpreter-small.jpg")
 const blogUrl = "https://btllanguages.blogspot.com/"
+const bookSessionLink = "https://www.facebook.com/btllanguages/services/"
 
 export default {
   title: "Between The Lines - Language Courses, Translations and Interpreting",
@@ -44,7 +45,7 @@ export default {
     facebookSessionLink: "https://www.facebook.com/btllanguages/services/",
     fbBookSessionText: "Book a session now!",
     gmapsLink: "https://goo.gl/maps/iUE6ui1WRi7A5ERPA",
-    gmapsText: "Find us on google maps!",
+    gmapsText: "Find us on Google Maps!",
     phoneNumber: "+48791111655",
     phoneText: "Give us a phone call!",
   },
@@ -104,11 +105,13 @@ export default {
     id: "courses",
     listOfItems: [
       {
-        itemTitle: "General English",
+        itemTitle: "General English / German / Italian",
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure you make progress in leaps and bounds!",
+          "Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure you make progress in leaps and bounds! By creating a study plan specifically for you, we take into consideration your unique learning style as well as your goals. Each session is then revised to get it fixed in your mind and your progress is regularly monitored. " +
+            "The atmosphere is always friendly and informal, as we want to support you in your language learning experience as mentors, rather than teachers.",
+          `Book your free trial session now <a href='${bookSessionLink}' target="_blank">here</a>.`,
         ],
       },
       {
@@ -116,8 +119,8 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Student-oriented sessions, conducted in a positive and relaxed atmosphere, are based around the current events and topics of your interest.",
-          "You talk, we listen and provide constructive feedback. Your language barrier is gradually replaced with confidence!",
+          "We conduct conversation sessions in a positive and relaxed atmosphere so that you “open up” and start speaking. Just as children start talking without necessarily focusing on grammar all the time, when learning a foreign language, the most important thing is to talk and to talk a lot! First, however, you need to get rid of the language barrier and the fear of making a mistake. Over time, your utterances will become more and more correct in terms of grammar and you will formulate them more and more consciously.",
+          "Our student-oriented conversation sessions are based on the current events and topics of your interest. You speak, we listen, and provide constructive feedback. Your language barrier is gradually replaced with confidence!",
         ],
       },
       {
@@ -125,7 +128,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Being both HR and finance specialists as well as professional linguists allowed us to create hands-on business programs aimed at elevating your communication skills used in the workplace. We will help you improve your skills in the areas of presentations, meetings, small talk, negotiations, report and business writing, and socializing",
+          'As linguists and professionals in the field of Economics and HR, we have developed specialized business courses aiming at improving your communication skills in the professional environment. We know the corporate sector "from within", which, combined with our experience in academic work, will help you master the most important skills sought after in business communication: giving presentations, active participation in meetings with foreign partners, small talk, the art of negotiations, reporting, as well as active participation in company social events.',
         ],
       },
       {
@@ -133,7 +136,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Our Talent Acquisition specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she knows this business inside out and is more than willing to help you land your dream job",
+          "Our Talent Acquisition specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she knows this business inside out and is more than willing to help you land your dream job.",
         ],
       },
       {
@@ -141,7 +144,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Had a sudden change of heart and decided to take up English in the school-leaving, Matura examination? Together we will create a study plan and make sure you stick to it so that you can pursue your dream studies!",
+          "As academic lecturers and licensed Pearson examiners we offer comprehensive exam preparation for FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General, and the „Matura” exam. Together we will create a study plan and make sure you stick to it so that your certified language skills will help you pursue your dream studies or career.",
         ],
       },
       {
@@ -149,23 +152,15 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Accent-reduction sessions are based around the 'shadowing' technique, used by simultaneous interpreters as a training method. In this section we focus particularly on the rhythm, flow, and intonation. Train like a Pro and sound naturally in a blink of an eye!",
+          `Accent reduction sessions are based on the shadowing technique (find out more about shadowing at our <a href='${blogUrl}' target="_blank">blog</a>), which is used by simultaneous interpreters as an extremely powerful training method. In stress reduction classes, we work on your accent, rhythm, „flow”, and intonation. To this end, we use audiovisual facilities and a headset. Later on, you are given special exercises to do yourself at home. Train like a pro with us and sound natural in a blink of an eye!!`,
         ],
       },
       {
-        itemTitle: "Kids",
-        imageSrc:
-          "https://images.pexels.com/photos/261895/pexels-photo-261895.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-        paragraphs: [
-          "Learning a foreign language can and should be fun! We know it perfectly well and have a wide range of games, videos, and other interactive teaching techniques up our sleeve!",
-        ],
-      },
-      {
-        itemTitle: "Teenagers",
+        itemTitle: "Young Lerners / Teenagers",
         imageSrc:
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Learning a foreign language can and should be fun! We know it perfectly well and have a wide range of games, videos, and other interactive teaching techniques up our sleeve!",
+          "Learning a foreign language can and should be loads of fun! We know it perfectly well and have a wide range of engaging activities, games, videos, and other interactive teaching techniques up our sleeve!",
         ],
       },
       {
@@ -173,7 +168,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1000",
         paragraphs: [
-          "If you're like us and love blogging, mentoring, or transferring your thoughts into writing, get in touch with us! We will not only help you make your writing in a foreign language correct and crystal clear but also help you apply the appropriate tone and style as well as idioms to eloquently get your message across",
+          `If you're like us and love blogging or transferring your thoughts into writing, get in touch with us! As avid bloggers, we will not only help you make your writing in a foreign language correct and crystal clear but also help you apply the appropriate tone and style as well as idioms to eloquently get your message across. This course is highly recomended if you wish to elevate your vocabulary and level up your marketing skills. To get a taste of our writing style, read our <a href="${blogUrl}" target="_blank">blog</a>.`,
         ],
       },
     ],
