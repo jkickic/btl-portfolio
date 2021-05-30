@@ -1,8 +1,13 @@
-const interpreterImg = require("../images/interpreter-small.jpg")
-const blogUrl = "https://btllanguages.blogspot.com/"
-const bookSessionLink = "https://www.facebook.com/btllanguages/services/"
+const commonData = require("./commonData")
+const {
+  interpreterImg,
+  blogUrl,
+  bookSessionLink,
+  languages,
+} = require("./commonData")
 
 export default {
+  currentLng: languages.PL,
   title:
     "Between The Lines - Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne, konsekutywne, szeptane",
   name: "Between The Lines",
@@ -179,4 +184,5 @@ export default {
       },
     ],
   },
+  ...commonData,
 }

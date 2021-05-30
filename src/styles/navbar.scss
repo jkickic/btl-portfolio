@@ -17,7 +17,7 @@
   max-width: $maxWidth;
   max-height: ($maxWidth/$navBgRatio);
   position: relative;
-  @include media("<tablet", "portrait"){
+  @include media("<tablet", "portrait") {
     $width: 100vw;
     $navBgRatio: 1.242;
     background-image: url("../images/nav-bg-narrow2.png");
@@ -27,6 +27,48 @@
     max-width: none;
     max-height: none;
     position: relative;
+  }
+
+  .language-menu-button {
+    position: absolute;
+    right: 1vw;
+    top: 1vw;
+  }
+
+  img {
+    width: 4vw;
+    height: 3vw;
+    max-width: 40px;
+    max-height: 30px;
+    @include media("<tablet", "portrait") {
+      width: 12vw;
+      height: 8vw;
+    }
+  }
+}
+
+.language-menu {
+  ul {
+    background-color: #7aa1a840;
+  }
+  li {
+    line-height: unset;
+  }
+}
+.language-flag-menu-item {
+  line-height: unset;
+
+  img {
+    width: 4vw;
+    height: 3vw;
+    max-width: 40px;
+    max-height: 30px;
+    @include media("<tablet", "portrait") {
+      width: 12vw;
+      height: 8vw;
+      max-width: unset;
+      max-height: unset;
+    }
   }
 }
 
@@ -39,9 +81,9 @@
   background-image: url("../images/logo.png");
   background-size: cover;
   // size
-  width:  $width;
-  height:  $height;
-  @include media("<tablet", "portrait"){
+  width: $width;
+  height: $height;
+  @include media("<tablet", "portrait") {
     width: $widthMobile;
     height: $widthMobile;
   }
@@ -49,13 +91,16 @@
   // position
   position: absolute;
   bottom: -($height/2);
-  @include media("<tablet", "portrait"){
+  @include media("<tablet", "portrait") {
     bottom: -($heightMobile/2);
   }
   left: 10%;
 }
 
 .navigation-container {
+  @include media("<tablet", "portrait") {
+    display: none;
+  }
   $width: 100vw;
   width: $width;
   height: 6.5vw;
@@ -75,17 +120,19 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+
   button {
     color: #3F6E73;
     padding: 6px 15px;
     font-weight: bold;
     font-size: 1.1rem;
-    @include media("<tablet"){
+    @include media("<tablet") {
       padding: 3px 15px;
       font-size: 0.8rem;
     }
     font-family: "Open Sans", serif;
-    &:hover{
+
+    &:hover {
       opacity: 0.8;
     }
   }
