@@ -12,12 +12,12 @@ export default {
     "Between The Lines - Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne, konsekutywne, szeptane",
   name: "Between The Lines",
   promoVideo: "https://www.youtube.com/embed/efYmKA3TP4g", // PL
-  headerTagline: ["Wznieś się", "na wyżyny językowe", "z nami!"],
+  headerTagline: ["Get your language skills", "to the next level", "with us!"],
 
   about: {
     heading: "Cześć, jesteśmy Between The Lines",
     content: [
-      "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z <b>angielskim, włoskim, niemieckim</b> i <b>polskim</b>. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
+      "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z <b>angielskim</b>, <b>włoskim</b>, <b>niemieckim</b> i <b>polskim</b>. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
       "Prywatnie uwielbiamy podróże. Posłuchajcie sami!",
     ],
   },
@@ -64,7 +64,7 @@ export default {
       moveTo: "#courses",
     },
     {
-      title: "Tłumaczenia",
+      title: "Tłumaczenia pisemne & copywriting",
       imageSrc:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       moveTo: "#translations",
@@ -79,16 +79,17 @@ export default {
   servicesHeading: "Nasze usługi",
   services: [
     {
-      title: "Tłumaczenia",
+      title: "Tłumaczenia pisemne",
       id: "translations",
       paragraphs: [
         "Nasze doświadczenie obejmuje tłumaczenie dokumentów unijnuch w Parlamencie Europejskim w Luksemburgu, pracę dla wiodących firm tłumaczeniowych we Włoszech (dokumenty oraz strony internetowe), a także współpracę z międzynarodowymi firmami i globalnymi koncernami budowlanymi (wiodąca firma z branży kolejowej na rynku austriackim i międzynarodowym).",
-        "Specjalizujemy się w tekstach finansowo-ekonomicznych, marketingowych i prawnych. Oferujemy tłumaczenia w dowolnej kombinacji językowej spośród języków: ",
+        "Specjalizujemy się w tekstach finansowo-ekonomicznych, marketingowych, prawnych i IT. Oferujemy tłumaczenia w dowolnej kombinacji językowej spośród języków: ",
         "<b> • angielskiego</b>",
         "<b> • włoskiego</b>",
         "<b> • polskiego</b>",
         "<b> • niemieckiego</b>",
-        `W przypadku treści marketingowych czasem nie potrzeba tłumacza, a po prostu osoby z "lekkim piórem" i doskonałymi umiejętnościami językowymi, która w sposób perswazyjny, a zarazem czytelny i łatwy w odbiorze, przeakże określone treści. Oferujemy także usługi właśnie z zakresu marketingu treści i copywritingu. Zapraszamy do zapoznania się z naszym portfolio artykułów w sekcji <a href="${blogUrl}", target="_blank">BLOG.</a>`,
+        "<h1>Copywriting</h1>",
+        `Czasem nie potrzeba tłumacza, a po prostu osoby z "lekkim piórem" i doskonałymi umiejętnościami językowymi, która w sposób perswazyjny, a zarazem czytelny i łatwy w odbiorze, przeakże określone treści. Oferujemy także usługi właśnie z zakresu marketingu treści i copywritingu. Zapraszamy do zapoznania się z naszym portfolio artykułów w sekcji <a href="${blogUrl}", target="_blank">BLOG.</a>`,
       ],
       img:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
@@ -98,7 +99,7 @@ export default {
       title: "Tłumaczenia ustne",
       id: "interpreting",
       paragraphs: [
-        "<b>TŁUMACZENIA SYMULTANICZNE | KONSEKUTYWNE | SZEPTANE</b> [ENG / ITA / PL]",
+        "<b>TŁUMACZENIA SYMULTANICZNE</b> | <b>KONSEKUTYWNE</b> | <b>SZEPTANE</b> <br/>[ENG / ITA / PL]",
         "Przy wyborze tłumacza ustnego fachowa wiedza merytoryczna jest równie ważna, jak doświadczenie w tłumaczeniu. Dlatego też oferujemy naszą wiedzą nie tylko jako lingwiści, ale także specjaliści w dziedzinie ekonomii i HR. Pracując dla światowych organizacji, takich jak Organizacja Narodów Zjednoczonych i wielu globalnych firm, wiemy, jak ważna jest precyzja, dokładność i poufność.",
         "Naszym celem jest pomóc Ci odnieść sukces w relacjach z klientami, dlatego stronę językową pozostaw nam i skup się w pełni na merytoryce sprawy.",
         "W <b>tłumaczeniu symultanicznym</b> wypowiedź mówcy nie jest zakłócana i pozwala słuchaczom na jej zrozumienie w czasie rzeczywistym, ponieważ nie muszą czekać na tłumaczenie. Stąd też tłumaczenie symultaniczne jest zalecane na konferencjach i wydarzeniach o dużej skali, gdzie nie ma czasu na opóźnienia w przekazie wiadomości. ",

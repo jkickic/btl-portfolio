@@ -46,7 +46,7 @@ export default {
     email: "btl.languagestudio@gmail.com",
     emailText: "Send us an email!",
     fbLink: "https://www.facebook.com/btllanguages",
-    facebookContactText: "Contact us via facebook!",
+    facebookContactText: "Contact us via Facebook!",
     facebookSessionLink: "https://www.facebook.com/btllanguages/services/",
     fbBookSessionText: "Book a session now!",
     gmapsLink: "https://goo.gl/maps/iUE6ui1WRi7A5ERPA",
@@ -63,7 +63,7 @@ export default {
       moveTo: "#courses",
     },
     {
-      title: "Translations",
+      title: "Translations & copywriting",
       imageSrc:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       moveTo: "#translations",
@@ -84,7 +84,8 @@ export default {
         "Our experience in translation includes working for the European Parliament translating EU documents, working for leading translation companies in Italy translating documents and websites for the Tuscany and Veneto Region, and helping a leading railway construction company in Austria and other European countries.",
         "We specialize in financial, marketing, and legal texts. We offer translation services in any of the following language pair: ",
         "<b>[ENG <=> ITA <=> PL <=> DE]</b>",
-        `In case of marketing content, sometimes you do not need a translator, but simply a person with "flow" and excellent language and writing skills, who can write up a persuasive and easy-to-read text. As avid bloggers, we offer also content marketing and copywriting services. Take a look at our portfolio of articles in the <a href="${blogUrl}", target="_blank">BLOG</a> section.`,
+        "<h1>Copywriting</h1>",
+        `Sometimes you do not need a translator, but simply a person with "flow" and excellent language and writing skills, who can write up a persuasive and easy-to-read text. As avid bloggers, we offer also content marketing and copywriting services. Take a look at our portfolio of articles in the <a href="${blogUrl}", target="_blank">BLOG</a> section.`,
       ],
       img:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",

@@ -19,7 +19,7 @@ $link: rgba(236, 64, 64, 0.75);
 
     h1 {
       font-size: 2rem;
-      line-height: 50px;
+      //line-height: 50px;
       @include media("<desktop") {
         text-align: center;
       }
