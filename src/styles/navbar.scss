@@ -10,7 +10,7 @@
   $width: 100vw;
   $maxWidth: 1440px;
   $navBgRatio: 4.05;
-  background-image: url("../images/nav-bg.jpg");
+  background-image: url("../images/nav-bg.webp");
   background-size: cover;
   width: $width;
   height: ($width/$navBgRatio);
@@ -20,7 +20,7 @@
   @include media("<tablet", "portrait") {
     $width: 100vw;
     $navBgRatio: 1.242;
-    background-image: url("../images/nav-bg-narrow2.png");
+    background-image: url("../images/nav-bg-narrow2.webp");
     background-size: cover;
     width: $width;
     height: ($width/$navBgRatio);
@@ -83,7 +83,7 @@
   $widthMobile: 42%;
   $height: 50%;
   $heightMobile: 40%;
-  background-image: url("../images/logo.png");
+  background-image: url("../images/logo.webp");
   background-size: cover;
   // size
   width: $width;
