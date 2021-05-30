@@ -60,6 +60,9 @@ const Contact = ({ siteData }) => {
               <span>{contact.fbBookSessionText}</span>
             </Link>
           </div>
+          <div className="copyright">
+            <p>© by MATEUSZ ZAJĄC Software 2021</p>
+          </div>
         </div>
       </div>
     </div>
