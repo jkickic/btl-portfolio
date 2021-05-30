@@ -1,5 +1,4 @@
 import React from "react"
-import Loadable from "@loadable/component"
 
 const PromoVideo = ({ siteData }) => {
   return (
@@ -17,5 +16,4 @@ const PromoVideo = ({ siteData }) => {
 
 PromoVideo.propTypes = {}
 
-const LoadablePromoVideo = Loadable(() => import("./PromoVideo"))
-export default LoadablePromoVideo
+export default PromoVideo
