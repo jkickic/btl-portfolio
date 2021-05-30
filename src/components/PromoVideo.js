@@ -1,7 +1,7 @@
 import React from "react"
-// import Loadable from "@loadable/component"
+import Loadable from "@loadable/component"
 
-const PromoVideo = () => {
+const PromoVideo = ({ siteData }) => {
   return (
     <iframe
       width="100%"
@@ -17,5 +17,5 @@ const PromoVideo = () => {
 
 PromoVideo.propTypes = {}
 
-// const LoadablePromoVideo = Loadable(() => import("./PromoVideo"))
-export default PromoVideo
+const LoadablePromoVideo = Loadable(() => import("./PromoVideo"))
+export default LoadablePromoVideo
