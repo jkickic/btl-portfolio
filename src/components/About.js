@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import PromoVideo from "./PromoVideo"
 
 const About = ({ siteData }) => {
   return (
@@ -20,15 +21,7 @@ const About = ({ siteData }) => {
           </div>
 
           <div className="video-wrapper">
-            <iframe
-              width="100%"
-              height="100%"
-              src={siteData.promoVideo}
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+            <PromoVideo siteData={siteData} />
           </div>
 
           <Fade bottom cascade>
