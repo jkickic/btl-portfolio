@@ -31,8 +31,13 @@
 
   .language-menu-button {
     position: absolute;
-    right: 1vw;
-    top: 1vw;
+    right: 0;
+    top: 0;
+    min-width: unset;
+    padding: clamp(6px, 1.5vw, 14px);
+    @include media("<tablet", "portrait") {
+      padding: clamp(12px, 3vw, 20px);
+    }
   }
 
   img {
@@ -41,8 +46,8 @@
     max-width: 40px;
     max-height: 30px;
     @include media("<tablet", "portrait") {
-      width: 12vw;
-      height: 8vw;
+      width: 6vw;
+      height: 4vw;
     }
   }
 }
