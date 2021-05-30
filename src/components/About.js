@@ -1,7 +1,5 @@
-import React, { lazy, Suspense } from "react"
+import React from "react"
 import Fade from "react-reveal/Fade"
-import { CircularProgress } from "@material-ui/core"
-const PromoVideo = lazy(() => import("./PromoVideo"))
 
 const About = ({ siteData }) => {
   return (
@@ -22,9 +20,15 @@ const About = ({ siteData }) => {
           </div>
 
           <div className="video-wrapper">
-            <Suspense fallback={<CircularProgress />}>
-              <PromoVideo siteData={siteData} />
-            </Suspense>
+            <iframe
+              width="100%"
+              height="100%"
+              src={siteData.promoVideo}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
 
           <Fade bottom cascade>
