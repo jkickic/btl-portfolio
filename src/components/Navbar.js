@@ -40,11 +40,14 @@ const Navbar = ({ siteData }) => {
             .filter(
               lngKey => languages[lngKey].code !== siteData.currentLng.code
             )
-            .map(lngKey => (
-              <div className="language-flag-menu-item">
+            .map((lngKey, idx) => (
+              <div key={idx} className="language-flag-menu-item">
                 <MenuItem onClick={handleClose}>
                   <Link to={`/${languages[lngKey].code}/`}>
-                    <img src={languages[lngKey].flag} />
+                    <img
+                      src={languages[lngKey].flag}
+                      alt={languages[lngKey].code}
+                    />
                   </Link>
                 </MenuItem>
               </div>

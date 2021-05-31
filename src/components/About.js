@@ -16,7 +16,7 @@ const About = ({ siteData }) => {
 
           <div className="about-content-wrapper">
             {siteData.about.content.map((it, idx) => (
-              <p id={idx} dangerouslySetInnerHTML={{ __html: it }} />
+              <p key={idx} dangerouslySetInnerHTML={{ __html: it }} />
             ))}
           </div>
 
@@ -27,7 +27,7 @@ const About = ({ siteData }) => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               {siteData.headerTagline.map((it, idx) => (
-                <h1 id={idx}>{it}</h1>
+                <h1 key={idx}>{it}</h1>
               ))}
             </div>
           </Fade>
@@ -35,6 +35,7 @@ const About = ({ siteData }) => {
             <a
               href={siteData.contact.facebookSessionLink}
               target="_blank"
+              rel="noreferrer"
               className="primary-btn"
             >
               {siteData.contact.fbBookSessionText}

@@ -1,5 +1,4 @@
 import React from "react"
-import { useTheme } from "@material-ui/core/styles"
 import Drawer from "@material-ui/core/Drawer"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
@@ -15,7 +14,6 @@ import Link from "gatsby-link"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 export default function PersistentDrawerLeft({ siteData }) {
-  const theme = useTheme()
   const [open, setOpen] = React.useState(false)
 
   const handleDrawerOpen = () => {

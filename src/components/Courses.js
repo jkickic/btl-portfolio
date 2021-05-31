@@ -45,28 +45,21 @@ var mapParagraphs = function (paragraphs) {
   return ""
 }
 
-class Courses extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
-  render() {
-    let { title, listOfItems, id } = this.props
-    return (
-      <div className="section" id={id}>
-        <div className="container">
-          <div className="courses-section">
-            <div className="content">
-              <Fade bottom>
-                <h1>{title}</h1>
-              </Fade>
-              {createContent(listOfItems)}
-            </div>
+const Courses = ({ title, listOfItems, id }) => {
+  return (
+    <div className="section" id={id}>
+      <div className="container">
+        <div className="courses-section">
+          <div className="content">
+            <Fade bottom>
+              <h1>{title}</h1>
+            </Fade>
+            {createContent(listOfItems)}
           </div>
         </div>
       </div>
-    )
-  }
+    </div>
+  )
 }
 
 Courses.propTypes = {
