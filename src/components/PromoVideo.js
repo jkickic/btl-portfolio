@@ -1,17 +1,14 @@
 import React from "react"
-import ReactPlayer from "react-player/lazy"
+import Youtube from "react-lazyload-youtube"
+import "react-lazyload-youtube/dist/index.css"
 
 const PromoVideo = ({ siteData }) => {
   return (
-    <ReactPlayer
+    <Youtube
       width="100%"
       height="100%"
-      url={siteData.promoVideo}
-      config={{
-        youtube: {
-          playerVars: {},
-        },
-      }}
+      videoId={siteData.promoVideoId}
+      imgSize="sddefault"
     />
   )
 }

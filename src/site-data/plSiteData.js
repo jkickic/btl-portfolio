@@ -11,7 +11,7 @@ export default {
   title:
     "Between The Lines - Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne, konsekutywne, szeptane",
   name: "Between The Lines",
-  promoVideo: "https://www.youtube.com/embed/efYmKA3TP4g", // PL
+  promoVideoId: "efYmKA3TP4g", // PL
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
 
   about: {

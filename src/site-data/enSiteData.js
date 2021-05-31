@@ -10,7 +10,7 @@ export default {
   currentLng: languages.EN,
   title: "Between The Lines - Language Courses, Translations and Interpreting",
   name: "Between The Lines",
-  promoVideo: "https://www.youtube.com/embed/LWImGqRbBzo", // EN
+  promoVideoId: "LWImGqRbBzo", // EN
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
 
   about: {
