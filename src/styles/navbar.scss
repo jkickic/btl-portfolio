@@ -142,3 +142,15 @@
     }
   }
 }
+
+.no-webp {
+  .background-container {
+    background-image: url("../images/nav-bg.jpg");
+    @include media("<tablet", "portrait") {
+      background-image: url("../images/nav-bg-narrow2.png");
+    }
+  }
+  .logo-container {
+    background-image: url("../images/logo.png");
+  }
+}

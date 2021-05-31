@@ -50,7 +50,9 @@ function SEO({ description, lang, meta, title }) {
           content: description,
         },
       ].concat(meta)}
-    />
+    >
+      <script src="../../modernizr.js" type="text/javascript" />
+    </Helmet>
   )
 }
 

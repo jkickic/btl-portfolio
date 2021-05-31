@@ -1,0 +1,14 @@
+{
+  "classPrefix": "",
+  "enableClasses": true,
+  "enableJSClass": true,
+  "scriptGlobalName": "window",
+  "usePrefixes": true,
+  "minify": false,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "img/webp"
+  ]
+}
