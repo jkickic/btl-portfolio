@@ -6,7 +6,7 @@ import NavigationIcon from "@material-ui/icons/Navigation"
 class DisappearingFab extends Component {
   constructor() {
     super()
-    this.state = { shouldHide: false }
+    this.state = { shouldHide: true }
   }
 
   componentDidMount() {
