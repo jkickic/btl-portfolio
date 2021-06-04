@@ -4,7 +4,9 @@ import flagDE from "../images/1024px-Flag_of_Germany.svg.png"
 
 export const interpreterImg = require("../images/interpreter-small.jpg")
 export const blogUrl = "https://btllanguages.blogspot.com/"
-export const bookSessionLink = "https://www.facebook.com/btllanguages/services/"
+export const bookSessionLink =
+  "https://www.facebook.com/btllanguagestudio/services/"
+export const gmapsLink = "https://goo.gl/maps/iUE6ui1WRi7A5ERPA"
 
 export const languages = {
   PL: { code: "pl", flag: flagPL },

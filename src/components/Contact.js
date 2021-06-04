@@ -34,7 +34,7 @@ const Contact = ({ siteData }) => {
 
             <Link
               className="social-link"
-              href={contact.gmapsLink}
+              href={siteData.gmapsLink}
               target="_blank"
               rel="noopener noreferrer"
             >
