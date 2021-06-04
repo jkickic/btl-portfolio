@@ -1,0 +1,23 @@
+.pdf-modal-wrapper {
+  margin: 10px;
+}
+
+.pdf-modal {
+  transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+  width: clamp(0px, 80vw, 960px);
+  height: 100vh;
+}
+
+.open-modal-button {
+  height: clamp(100px, 15vw, 150px);
+  width: clamp(100px, 15vw, 150px);
+  border-radius: 50% 50%;
+  margin: 3px;
+  border: 2px solid #7aa1a8DD;
+
+  &:hover {
+    margin: 0px;
+    cursor: pointer;
+    border: 5px solid #7aa1a8DD;
+  }
+}

@@ -1,6 +1,9 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import PromoVideo from "./PromoVideo"
+import PdfModal from "./PdfModal"
+import helenaImg from "../images/helena.jpg"
+import nataliaImg from "../images/natalia.jpg"
 
 const About = ({ siteData }) => {
   return (
@@ -12,6 +15,10 @@ const About = ({ siteData }) => {
               {siteData.about.heading}
               {" 👋"}
             </h2>
+            <div className="pdfs-wrapper">
+              <PdfModal pdfSrc="../../helena.pdf" imgSrc={helenaImg} />
+              <PdfModal pdfSrc="../../natalia.pdf" imgSrc={nataliaImg} />
+            </div>
           </div>
 
           <div className="about-content-wrapper">
