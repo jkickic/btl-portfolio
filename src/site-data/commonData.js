@@ -6,7 +6,7 @@ export const interpreterImg = require("../images/interpreter-small.jpg")
 export const blogUrl = "https://btllanguages.blogspot.com/"
 export const bookSessionLink =
   "https://www.facebook.com/btllanguagestudio/services/"
-export const gmapsLink = "https://goo.gl/maps/iUE6ui1WRi7A5ERPA"
+export const gmapsLink = "https://g.page/BTLlanguagestudiokrakow?share"
 
 export const languages = {
   PL: { code: "pl", flag: flagPL },
