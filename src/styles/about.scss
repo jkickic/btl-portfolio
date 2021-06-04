@@ -16,7 +16,6 @@ $standardMaxWidth: 960px;
   .about-content-wrapper{
     width: 90vw;
     @include media("landscape", ">=tablet") {
-      width: 60vw;
       max-width: $standardMaxWidth;
     }
     p {

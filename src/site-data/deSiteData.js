@@ -50,7 +50,6 @@ export default {
     facebookContactText: "Contact us via facebook!",
     facebookSessionLink: "https://www.facebook.com/btllanguages/services/",
     fbBookSessionText: "Book a session now!",
-    gmapsLink: gmapsLink,
     gmapsText: "Find us on google maps!",
     phoneNumber: "+48791111655",
     phoneText: "Give us a phone call!",
