@@ -1,5 +1,6 @@
 import React from "react"
-import Modal from "@material-ui/core/Modal"
+import { Modal } from "@material-ui/core"
+import CloseIcon from "@material-ui/icons/Close"
 
 const PdfModal = ({ pdfSrc, imgSrc }) => {
   const srcWithParams = `${pdfSrc}#toolbar=0&navpanes=0`
@@ -11,7 +12,7 @@ const PdfModal = ({ pdfSrc, imgSrc }) => {
     setOpen(false)
   }
   return (
-    <div className="pdf-modal-wrapper">
+    <div className="pdf-modal-button-wrapper">
       <img className="open-modal-button" src={imgSrc} onClick={handleOpen} />
       <Modal
         open={open}
@@ -19,12 +20,15 @@ const PdfModal = ({ pdfSrc, imgSrc }) => {
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
       >
-        <embed
-          className="pdf-modal"
-          src={srcWithParams}
-          type="application/pdf"
-          width="60%"
-        />
+        <div className="embed-wrapper">
+          <CloseIcon className="escape-button" onClick={handleClose} />
+          <embed
+            className="pdf-modal"
+            src={srcWithParams}
+            type="application/pdf"
+            width="60%"
+          />
+        </div>
       </Modal>
     </div>
   )

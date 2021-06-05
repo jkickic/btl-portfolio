@@ -122,7 +122,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          `Na opanowanie języka obcego składa się ćwiczenie mówienia, czytania, słuchania, gramatyki i pisania. W BTL ćwiczymy wszystkie te umiejętności! Opracowując dla Ciebie indywidualny plan nauki, bierzemy pod uwagę Twój unikalny styl pracy, a także cele, które chcesz osiągnąć. Nowy materiał z każdych zajęć jest następnie utrwalany i powtarzany. Ponadto regularnie monitorujemy Twoje postępy, abyś zawsze wiedział, nad czym pracować, aby zmaksymalizować efekty nauki. Atmosfera na zajęciach jest przyjazna i nieformalna, ponieważ chcemy Cię wspierać w nauce języka raczej jako mentorzy, niż nauczyciele. Zajęcia dostępne są w formie on-line oraz na żywo w naszym studio w Krakowie. Więcej o naszym stylu pracy znajdziesz na naszym blogu <a href='${blogUrl}' target="_blank">language coaching</a>.`,
+          `Na opanowanie języka obcego składa się ćwiczenie mówienia, czytania, słuchania, gramatyki i pisania. W BTL ćwiczymy wszystkie te umiejętności! Opracowując dla Ciebie indywidualny plan nauki, bierzemy pod uwagę Twój unikalny styl pracy, a także cele, które chcesz osiągnąć. Nowy materiał z każdych zajęć jest następnie utrwalany i powtarzany. Ponadto regularnie monitorujemy Twoje postępy, abyś zawsze wiedział, nad czym pracować, aby zmaksymalizować efekty nauki. Atmosfera na zajęciach jest przyjazna i nieformalna, ponieważ chcemy Cię wspierać w nauce języka raczej jako mentorzy, niż nauczyciele. Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie. Więcej o naszym stylu pracy znajdziesz na naszym blogu <a href='${blogUrl}' target="_blank">language coaching</a>.`,
           `Zarezerwuj bezpłatną sesję próbną <a href='${bookSessionLink}' target="_blank">tutaj</a>.`,
         ],
       },
@@ -169,7 +169,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Sesje redukcji akcentu bazują na technice shadowing (więcej informacji na temat shadowing można znaleźć na naszym blogu), używanej przez tłumaczy symultanicznych jako niezwykle skutecznej metody formułowania wypowiedzi, które są płynne i brzmią naturalnie. Podczas zajęć z redukcji akcentu pracujemy nad akcentem, rytmem, płynnością i intonacją w języku obcym. W tym celu wykorzystujemy metody audiowizualne oraz zestaw słuchawkowy. Po zajęciach dostajesz serię ćwiczeń do wykonania samodzielnie w domu. Trenuj z nami jak zawodowiec!",
+          `Sesje redukcji akcentu bazują na technice shadowing (więcej informacji na temat shadowing można znaleźć na <a href='${blogUrl}' target="_blank">naszym blogu</a>), używanej przez tłumaczy symultanicznych jako niezwykle skutecznej metody formułowania wypowiedzi, które są płynne i brzmią naturalnie. Podczas zajęć z redukcji akcentu pracujemy nad akcentem, rytmem, płynnością i intonacją w języku obcym. W tym celu wykorzystujemy metody audiowizualne oraz zestaw słuchawkowy. Po zajęciach dostajesz serię ćwiczeń do wykonania samodzielnie w domu. Trenuj z nami jak zawodowiec!`,
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
