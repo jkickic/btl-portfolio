@@ -16,8 +16,8 @@ const About = ({ siteData }) => {
               {" 👋"}
             </h2>
             <div className="pdfs-wrapper">
-              <PdfModal pdfSrc="../../helena.pdf" imgSrc={helenaImg} />
-              <PdfModal pdfSrc="../../natalia.pdf" imgSrc={nataliaImg} />
+              <PdfModal resumeSrc="../../helena.jpg" imgSrc={helenaImg} />
+              <PdfModal resumeSrc="../../natalia.jpg" imgSrc={nataliaImg} />
             </div>
           </div>
 
