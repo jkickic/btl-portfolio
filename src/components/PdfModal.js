@@ -12,7 +12,13 @@ const PdfModal = ({ resumeSrc, imgSrc }) => {
   }
   return (
     <div className="pdf-modal-button-wrapper">
-      <img className="open-modal-button" src={imgSrc} onClick={handleOpen} />
+      <div className="open-modal-button">
+        <img
+          className="open-modal-button-img"
+          src={imgSrc}
+          onClick={handleOpen}
+        />
+      </div>
       <Modal
         open={open}
         onClose={handleClose}

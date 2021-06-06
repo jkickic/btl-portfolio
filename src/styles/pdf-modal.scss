@@ -1,8 +1,10 @@
+@import "./ripple.scss";
+
 .pdf-modal-button-wrapper {
-  margin: 10px;
+  margin: 20px;
 
   .open-modal-button {
-    $borderColor: rgba(236, 64, 64, .75);
+    $borderColor: rgba(0, 83, 161, 1);
     $min: 80px;
     $max: 150px;
     min-height: $min;
@@ -11,15 +13,31 @@
     min-width: $min;
     width: 15vw;
     max-width: $max;
-    border-radius: 50% 50%;
-    margin: 3px;
+    border-radius: 100%;
+    margin: 2px;
     border: 2px solid $borderColor;
+    position: relative;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.5);
 
     &:hover {
       margin: 0;
       cursor: pointer;
-      border: 5px solid $borderColor;
+      border: 4px solid $borderColor;
     }
+
+    &::after {
+      @include rings(5s, 0s);
+    }
+
+    &::before {
+      @include rings(5s, 0.5s);
+    }
+  }
+
+  .open-modal-button-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
   }
 
 }
