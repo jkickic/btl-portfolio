@@ -17,7 +17,7 @@ export default {
   about: {
     heading: "Hi, we're Between The Lines",
     content: [
-      "We are professional conference interpreters and language trainers. We work with <b>English</b>, <b>Italian</b>, <b>German</b>, and <b>Polish</b>. Our clients are global companies (e.g., construction concerns), international organizations (e.g., the United Nations), the City of Krakow, cultural institutions, local companies, non-governmental organizations, as well as individuals, to whom we render various language services.",
+      "We are professional conference interpreters and language trainers. We work in <b>English</b>, <b>Italian</b>, <b>German</b>, and <b>Polish</b>. Our clients are global companies (e.g., construction concerns), international organizations (e.g., the United Nations), the City of Krakow, cultural institutions, local companies, non-governmental organizations, as well as individuals, to whom we render various language services.",
       "Offstage we love traveling and public speaking. Watch the video below and find out more!",
     ],
   },
@@ -85,7 +85,7 @@ export default {
         "We specialize in financial, marketing, IT, and legal texts and offer translation services in any of the following languages: ",
         "<b>[English <=> Italian<=> Polish <=> German <=> Chinese]</b>",
         "<h1>Copywriting</h1>",
-        `Sometimes you do not need a translator but simply a person with excellent language and writing skills, who can write up a persuasive and easy-to-read text. In BTL, we offer content marketing and copywriting services.`,
+        `Sometimes you do not need a translator but simply a person with excellent language and writing skills, who can write up a persuasive and easy-to-read text.`,
         "Do you need to develop promotional material in a foreign language? Or maybe you want to tell the world what distinguishes your brand, product, or service from all others available on the market? We will help you achieve this goal in a creative way! At BTL, we offer content marketing and copywriting services in foreign languages.",
         `Read our <a href='${blogUrl}' target="_blank">blog</a>.`,
       ],
@@ -99,7 +99,7 @@ export default {
       paragraphs: [
         "<b>SIMULTANEOUS | CONSECUTIVE | WHISPER</b> [English / Italian / Polish / Chinese]",
         "When choosing an interpreter, their expert knowledge of the subject matter is just as important as their interpreting experience. Therefore, we wish to share with you our expertise not only as linguists but also as qualified professionals in the areas of Economics and Human Resources. Having worked for world organizations such as the United Nations and multiple global companies as well as rendering interpretation services during international trade fairs, we know how important precision, accuracy and confidentiality are.",
-        "Our goal is to help you succeed in the relations with your clients, so let us take care of the language aspect.",
+        "Our goal is to help you succeed in the relations with your clients, so let us take care of the language aspect.</br>",
         "In <b>simultaneous interpretation</b>, the natural flow of the speaker is not disturbed and it allows for a smooth listening experience, as the listeners do not need to wait in order to understand the message. Simultaneous interpretation is therefore recommended for large-scale conferences and events, where there is no time for delay in the delivery of the message.",
         "During <b>consecutive interpretation</b> the speaker stops every few minutes, after which the interpreter steps in and renders what has just been said into the language of the listeners. Consecutive interpreting involves note-taking (to prevent the loss of detail) and is recommended for smaller business meetings.",
         "<b>Whisper interpretation</b> is similar to simultaneous interpretation, however, the interpreter does not use a microphone or a headset, but rather sits next to the person (or small group) who requires the interpretation. This mode of interpretation is recommended for business meetings, where only one person requires interpretation.",
@@ -117,9 +117,9 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure that you make progress in leaps and bounds! By creating a study plan specifically for you, we take into consideration your unique learning style as well as your goals. New material is then revised to get it fixed in your mind and your progress is regularly monitored. The atmosphere is always friendly and informal, as we want to support you in your language learning experience as mentors, rather than teachers." +
-            `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow. Find out more about our working style on our <a href='${blogUrl}' target="_blank">blog</a>.`,
-          `Book your free trial session now <a href='${bookSessionLink}' target="_blank">here</a>.`,
+          `Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure that you make progress in leaps and bounds! By creating a study plan specifically for you, we take into consideration your unique learning style as well as your goals. New material is then revised to get it fixed in your mind and your progress is regularly monitored. The atmosphere is always friendly and informal, as we want to support you in your language learning experience as mentors, rather than teachers. Find out more about our working style on our <a href='${blogUrl}' target="_blank">blog</a>.`,
+          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
+          `Book your free trial session <a href='${bookSessionLink}' target="_blank">here</a>.`,
         ],
       },
       {
@@ -128,7 +128,7 @@ export default {
           "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Conversation sessions are conducted in a positive and relaxed atmosphere so that you can “open up” and start speaking. Just as children start talking in their mother tongue without the formal study of grammar beforehand, the most important thing when learning a foreign language is to talk and to talk a lot! We will help you get rid of the language barrier and the fear of making a mistake. Over time, your utterances will become more and more correct in terms of grammar and you will formulate them more and more consciously and freely.",
-          "If you are already an advanced speaker, we can help you to further improve the quality of your vocabulary and we help you to speak even more fluently. ",
+          "If you are already an advanced speaker, we can help you to further improve the quality of your vocabulary to speak even more fluently. ",
           "Our student-oriented conversation sessions are based on current events and topics of your interest. You speak, we listen and provide constructive feedback. The language barrier is gradually replaced with confidence!",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
@@ -165,7 +165,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          `Accent reduction sessions are based on the shadowing technique (find out more about shadowing on our <a href='${blogUrl}' target="_blank">blog</a>), which is an extremely powerful training method used by simultaneous interpreters. In stress reduction classes we work on your accent, rhythm, “flow” and intonation. To this end, we use audiovisual facilities and a headset. After the class, you are given special exercises to do by yourself at home. Train like a pro with us!`,
+          `Accent reduction sessions are based on the <i>shadowing</i> technique (find out more about <i>shadowing</i> on our <a href='${blogUrl}' target="_blank">blog</a>), which is an extremely powerful training method used by simultaneous interpreters. In accent reduction classes we work on your accent, rhythm, “flow” and intonation. To this end, we use audiovisual facilities and a headset. After the class, you are given special exercises to do by yourself at home. Train like a pro with us!`,
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
