@@ -9,8 +9,7 @@ const {
 
 export default {
   currentLng: languages.PL,
-  title:
-    "Between The Lines - Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne, konsekutywne, szeptane",
+  title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
   name: "Between The Lines",
   promoVideoId: "efYmKA3TP4g", // PL
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
@@ -89,7 +88,7 @@ export default {
         "<b> • polskiego</b>",
         "<b> • niemieckiego</b>",
         "<b> • chińskiego</b>",
-        "<h1>Copywriting</h1>",
+        "<h2>Copywriting</h2>",
         'Czasem nie potrzeba tłumacza, a po prostu osoby z "lekkim piórem" i doskonałymi umiejętnościami językowymi, która w sposób perswazyjny, a zarazem czytelny i łatwy w odbiorze, przekaże określone treści, wywoła określoną reakcję w odbiorcy.',
         "Potrzebujesz opracować materiał promocyjny w języku obcym? Chcesz powiedzieć światu co wyróżnia Twoją markę, produkt lub usługę spośród wszystkich innych dostępnych na rynku? Pomożemy Ci to osiągnąć w sposób skuteczny i kreatywny! W BTL oferujemy usługi z zakresu marketingu treści i copywritingu w językach obcych. ",
         `Zapraszamy do zapoznania się z naszym <a href="${blogUrl}", target="_blank">blogiem</a>.`,

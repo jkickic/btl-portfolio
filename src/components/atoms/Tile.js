@@ -14,7 +14,7 @@ const Tile = ({ heading, imgUrl, projectLink }) => {
       }}
     >
       <div className="content" onClick={() => scrollTo(projectLink)}>
-        <h1 className="header">{heading}</h1>
+        <h2 className="header">{heading}</h2>
       </div>
     </div>
   )

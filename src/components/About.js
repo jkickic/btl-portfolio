@@ -34,7 +34,7 @@ const About = ({ siteData }) => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               {siteData.headerTagline.map((it, idx) => (
-                <h1 key={idx}>{it}</h1>
+                <h2 key={idx}>{it}</h2>
               ))}
             </div>
           </Fade>

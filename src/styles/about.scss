@@ -34,7 +34,7 @@ $standardMaxWidth: 960px;
 
   .heading-wrapper {
     margin-top: 10vh;
-    h1 {
+    h2 {
       text-align: center;
       line-height: 20px;
       @include media("<tablet") {

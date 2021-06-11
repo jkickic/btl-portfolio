@@ -9,7 +9,7 @@ const Services = ({ siteData }) => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>{siteData.servicesHeading}</h1>
+            <h2>{siteData.servicesHeading}</h2>
           </Fade>
 
           <div className="grid">

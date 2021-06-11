@@ -52,7 +52,7 @@ const Courses = ({ title, listOfItems, id }) => {
         <div className="courses-section">
           <div className="content">
             <Fade bottom>
-              <h1>{title}</h1>
+              <h2>{title}</h2>
             </Fade>
             {createContent(listOfItems)}
           </div>

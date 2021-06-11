@@ -9,7 +9,7 @@ const {
 
 export default {
   currentLng: languages.DE,
-  title: "Between The Lines - Language Courses, Translations and Interpreting",
+  title: "BTL - Language Courses, Translations, Interpreting",
   name: "Between The Lines",
   promoVideoId: "LWImGqRbBzo", // EN
   headerTagline: ["Get your language skills", "to the next level", "with us!"],

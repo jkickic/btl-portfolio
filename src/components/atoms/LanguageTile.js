@@ -14,7 +14,7 @@ const LanguageTile = ({ linkTo, linkText, imgUrl }) => {
     >
       <div className="content">
         <Link to={linkTo}>
-          <h1>{linkText}</h1>
+          <h2>{linkText}</h2>
         </Link>
       </div>
     </div>

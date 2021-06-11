@@ -9,7 +9,7 @@ const {
 
 export default {
   currentLng: languages.EN,
-  title: "Between The Lines - Language Courses, Translations and Interpreting",
+  title: "BTL - Language Courses, Translations, Interpreting",
   name: "Between The Lines",
   promoVideoId: "LWImGqRbBzo", // EN
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
@@ -84,7 +84,7 @@ export default {
         "Our experience in translation includes working for the European Parliament translating EU documents, working for leading translation companies in Italy translating documents and websites for the Tuscany and Veneto Region, court translations, and helping a leading Austrian railway construction company with its strategic projects.",
         "We specialize in financial, marketing, IT, and legal texts and offer translation services in any of the following languages: ",
         "<b>[English <=> Italian<=> Polish <=> German <=> Chinese]</b>",
-        "<h1>Copywriting</h1>",
+        "<h2>Copywriting</h2>",
         `Sometimes you do not need a translator but simply a person with excellent language and writing skills, who can write up a persuasive and easy-to-read text.`,
         "Do you need to develop promotional material in a foreign language? Or maybe you want to tell the world what distinguishes your brand, product, or service from all others available on the market? We will help you achieve this goal in a creative way! At BTL, we offer content marketing and copywriting services in foreign languages.",
         `Read our <a href='${blogUrl}' target="_blank">blog</a>.`,

@@ -14,8 +14,8 @@ const Contact = ({ siteData }) => {
       <div className="container">
         <div className="contact-container">
           <Fade bottom cascade>
-            <h1>{contact.heading}</h1>
-            <h2>{contact.subHeading}</h2>
+            <h2>{contact.heading}</h2>
+            <h3>{contact.subHeading}</h3>
           </Fade>
           <div className="social-icons">
             <Link className="social-link" href={`mailto:${contact.email}`}>
