@@ -11,6 +11,7 @@ export default {
   currentLng: languages.PL,
   title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
   seo: {
+    url: "https://btl-languagestudio.pl/pl/",
     lang: languages.PL.code,
     title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
     description:

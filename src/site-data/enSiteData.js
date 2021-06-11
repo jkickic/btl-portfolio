@@ -10,6 +10,7 @@ const {
 export default {
   currentLng: languages.EN,
   seo: {
+    url: "https://btl-languagestudio.pl/en/",
     lang: languages.EN.code,
     title: "BTL - Language Courses, Translations, Interpreting",
     description:

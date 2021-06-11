@@ -33,14 +33,14 @@ function SEO({ description, lang, meta, title, url }) {
           property: "og:type",
           content: "website",
         },
-        // {
-        //   property: "og:url",
-        //   content: url,
-        // },
-        // {
-        //   property: "og:image",
-        //   content: url,
-        // },
+        {
+          property: "og:url",
+          content: url,
+        },
+        {
+          property: "og:image",
+          content: "https://btl-languagestudio.pl/logo.png",
+        },
         {
           name: "twitter:card",
           content: "summary",
