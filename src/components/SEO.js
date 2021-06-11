@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, url }) {
   return (
     <Helmet
       htmlAttributes={{
@@ -18,35 +18,43 @@ function SEO({ description, lang, meta, title }) {
       titleTemplate={title}
       meta={[
         {
-          name: `description`,
+          name: "description",
           content: description,
         },
         {
-          property: `og:title`,
+          property: "og:title",
           content: title,
         },
         {
-          property: `og:description`,
+          property: "og:description",
           content: description,
         },
         {
-          property: `og:type`,
-          content: `website`,
+          property: "og:type",
+          content: "website",
+        },
+        // {
+        //   property: "og:url",
+        //   content: url,
+        // },
+        // {
+        //   property: "og:image",
+        //   content: url,
+        // },
+        {
+          name: "twitter:card",
+          content: "summary",
         },
         {
-          name: `twitter:card`,
-          content: `summary`,
+          name: "twitter:creator",
+          content: "Helena Zając",
         },
         {
-          name: `twitter:creator`,
-          content: `author`,
-        },
-        {
-          name: `twitter:title`,
+          name: "twitter:title",
           content: title,
         },
         {
-          name: `twitter:description`,
+          name: "twitter:description",
           content: description,
         },
       ].concat(meta)}
@@ -57,9 +65,9 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: "en",
   meta: [],
-  description: ``,
+  description: "",
 }
 
 SEO.propTypes = {

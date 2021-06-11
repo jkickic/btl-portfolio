@@ -10,6 +10,7 @@ const {
 export default {
   currentLng: languages.EN,
   seo: {
+    lang: languages.EN.code,
     title: "BTL - Language Courses, Translations, Interpreting",
     description:
       "Professional conference interpreters working with English, Italian, German, and Polish. We offer language courses, translations and interpreting.",

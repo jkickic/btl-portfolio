@@ -11,6 +11,7 @@ export default {
   currentLng: languages.PL,
   title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
   seo: {
+    lang: languages.PL.code,
     title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
     description:
       "Profesjonalni tłumacze konferencyjni pracujący z angielskim, włoskim, niemieckim i polskim. Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne...",
