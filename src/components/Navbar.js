@@ -60,18 +60,9 @@ const Navbar = ({ siteData }) => {
           <ButtonGroup variant="text">
             {siteData.navigation.map((nav, index) => (
               <div key={index}>
-                {!!nav.href ? (
-                  <Link target="_blank" to={nav.href}>
-                    <Button className="navbarButton">{nav.text}</Button>
-                  </Link>
-                ) : (
-                  <Button
-                    className="navbarButton"
-                    onClick={() => scrollTo(nav.selector)}
-                  >
-                    {nav.text}
-                  </Button>
-                )}
+                <Link target="_blank" to={nav.href || nav.selector}>
+                  <Button className="navbarButton">{nav.text}</Button>
+                </Link>
               </div>
             ))}
           </ButtonGroup>

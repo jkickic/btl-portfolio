@@ -1,5 +1,6 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import { Link } from "gatsby"
 
 const Tile = ({ heading, imgUrl, projectLink }) => {
   return (
@@ -13,8 +14,10 @@ const Tile = ({ heading, imgUrl, projectLink }) => {
           ")",
       }}
     >
-      <div className="content" onClick={() => scrollTo(projectLink)}>
-        <h2 className="header">{heading}</h2>
+      <div className="content">
+        <Link to={projectLink}>
+          <h2 className="header">{heading}</h2>
+        </Link>
       </div>
     </div>
   )

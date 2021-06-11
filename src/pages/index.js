@@ -17,7 +17,7 @@ const LandingPage = () => {
       <div className="landing-wrapper">
         <Fade bottom>
           <h1>
-            Wybierz swój język.
+            Wybierz język.
             <br />
             Pick your language.
           </h1>

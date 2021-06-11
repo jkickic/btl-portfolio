@@ -55,15 +55,10 @@ export default function PersistentDrawerLeft({ siteData }) {
                   </ListItem>
                 </Link>
               ) : (
-                <ListItem
-                  button
-                  key={nav.text}
-                  onClick={() => {
-                    scrollTo(nav.selector)
-                    handleDrawerClose()
-                  }}
-                >
-                  <ListItemText primary={nav.text} />
+                <ListItem button key={nav.text}>
+                  <Link to={nav.selector}>
+                    <ListItemText primary={nav.text} />
+                  </Link>
                 </ListItem>
               )}
             </div>

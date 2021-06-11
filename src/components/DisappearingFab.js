@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Fab from "@material-ui/core/Fab"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import NavigationIcon from "@material-ui/icons/Navigation"
+import { Link } from "gatsby"
 
 class DisappearingFab extends Component {
   constructor() {
@@ -30,8 +31,10 @@ class DisappearingFab extends Component {
         {this.state.shouldHide ? (
           ""
         ) : (
-          <Fab id="fab" variant="extended" onClick={() => scrollTo("#navbar")}>
-            <NavigationIcon />
+          <Fab id="fab" variant="extended">
+            <Link to="#navbar">
+              <NavigationIcon />
+            </Link>
           </Fab>
         )}
       </div>
