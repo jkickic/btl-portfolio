@@ -14,7 +14,7 @@ export default {
     lang: languages.PL.code,
     title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
     description:
-      "Profesjonalni tłumacze konferencyjni pracujący z angielskim, włoskim, niemieckim i polskim. Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne...",
+      "BTL Profesjonalne Usługi Językowe: jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z angielskim, włoskim, niemieckim i polskim.",
   },
   name: "Between The Lines",
   promoVideoId: "efYmKA3TP4g", // PL

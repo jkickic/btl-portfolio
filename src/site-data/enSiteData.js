@@ -13,7 +13,7 @@ export default {
     lang: languages.EN.code,
     title: "BTL - Language Courses, Translations, Interpreting",
     description:
-      "Professional conference interpreters working with English, Italian, German, and Polish. We offer language courses, translations and interpreting.",
+      "BTL Professional Language Services: we are conference interpreters, translators, and language teachers. We work in English, Italian, German and Polish.",
   },
   name: "Between The Lines",
   promoVideoId: "LWImGqRbBzo", // EN
