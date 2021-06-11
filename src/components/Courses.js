@@ -21,7 +21,7 @@ var createContent = function (listOfItems) {
           <li key={idx}>
             {imgDiv(item.imageSrc)}
             <div className="text-wrapper">
-              <h2>{item.itemTitle}</h2>
+              <h3>{item.itemTitle}</h3>
               {mapParagraphs(item.paragraphs)}
             </div>
           </li>
