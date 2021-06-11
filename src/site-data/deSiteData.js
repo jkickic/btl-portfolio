@@ -9,7 +9,11 @@ const {
 
 export default {
   currentLng: languages.DE,
-  title: "BTL - Language Courses, Translations, Interpreting",
+  seo: {
+    title: "BTL - Language Courses, Translations, Interpreting",
+    description:
+      "Professional conference interpreters working with English, Italian, German, and Polish. We offer language courses, translations and interpreting.",
+  },
   name: "Between The Lines",
   promoVideoId: "LWImGqRbBzo", // EN
   headerTagline: ["Get your language skills", "to the next level", "with us!"],

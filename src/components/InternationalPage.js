@@ -14,7 +14,7 @@ import DisappearingFab from "../components/DisappearingFab"
 
 const InternationalPage = ({ siteData }) => (
   <Layout siteData={siteData}>
-    <Seo title={siteData.title} />
+    <Seo {...siteData.seo} />
     <Drawer siteData={siteData} />
     <About siteData={siteData} />
     <Divider />

@@ -5,15 +5,22 @@ import flagEN from "../images/1280px-Flag_of_the_United_Kingdom.png"
 import flagDE from "../images/1024px-Flag_of_Germany.svg.png"
 import Fade from "react-reveal/Fade"
 import "../styles/mains.scss"
+import siteDataPl from "../site-data/plSiteData"
 
 import LanguageTile from "../components/atoms/LanguageTile"
+import Seo from "../components/SEO"
 
 const LandingPage = () => {
   return (
     <div className="landingPageContainer">
+      <Seo {...siteDataPl.seo} />
       <div className="landing-wrapper">
         <Fade bottom>
-          <h1>Pick your language</h1>
+          <h1>
+            Wybierz swój język.
+            <br />
+            Pick your language.
+          </h1>
         </Fade>
 
         <div className="lngGrid">

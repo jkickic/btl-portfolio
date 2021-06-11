@@ -10,6 +10,11 @@ const {
 export default {
   currentLng: languages.PL,
   title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
+  seo: {
+    title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
+    description:
+      "Profesjonalni tłumacze konferencyjni pracujący z angielskim, włoskim, niemieckim i polskim. Kursy językowe, tłumaczenia ustne, pisemne, symultaniczne...",
+  },
   name: "Between The Lines",
   promoVideoId: "efYmKA3TP4g", // PL
   headerTagline: ["Get your language skills", "to the next level", "with us!"],

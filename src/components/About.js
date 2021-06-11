@@ -11,10 +11,10 @@ const About = ({ siteData }) => {
       <div className="container">
         <div className="header-wrapper">
           <div className="hi-wrapper">
-            <h2>
+            <h1>
               {siteData.about.heading}
               {" 👋"}
-            </h2>
+            </h1>
             <div className="pdfs-wrapper">
               <PdfModal resumeSrc="../../helena.jpg" imgSrc={helenaImg} />
               <PdfModal resumeSrc="../../natalia.jpg" imgSrc={nataliaImg} />
