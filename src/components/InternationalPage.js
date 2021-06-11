@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 // Components
 import Drawer from "../components/Drawer"
 import About from "../components/About"
@@ -14,7 +14,7 @@ import DisappearingFab from "../components/DisappearingFab"
 
 const InternationalPage = ({ siteData }) => (
   <Layout siteData={siteData}>
-    <SEO title={siteData.title} />
+    <Seo title={siteData.title} />
     <Drawer siteData={siteData} />
     <About siteData={siteData} />
     <Divider />
