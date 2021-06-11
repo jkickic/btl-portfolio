@@ -1,6 +1,5 @@
 import React from "react"
-import scrollTo from "gatsby-plugin-smoothscroll"
-import { Link } from "gatsby"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Tile = ({ heading, imgUrl, projectLink }) => {
   return (
@@ -15,9 +14,9 @@ const Tile = ({ heading, imgUrl, projectLink }) => {
       }}
     >
       <div className="content">
-        <Link to={projectLink}>
+        <AnchorLink href={projectLink}>
           <h2 className="header">{heading}</h2>
-        </Link>
+        </AnchorLink>
       </div>
     </div>
   )

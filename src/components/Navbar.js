@@ -1,7 +1,7 @@
 import React from "react"
-import scrollTo from "gatsby-plugin-smoothscroll"
 import { Button, ButtonGroup, Menu, MenuItem } from "@material-ui/core"
 import Link from "gatsby-link"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Navbar = ({ siteData }) => {
   const languages = siteData.languages
@@ -60,9 +60,15 @@ const Navbar = ({ siteData }) => {
           <ButtonGroup variant="text">
             {siteData.navigation.map((nav, index) => (
               <div key={index}>
-                <Link target="_blank" to={nav.href || nav.selector}>
-                  <Button className="navbarButton">{nav.text}</Button>
-                </Link>
+                {!!nav.href ? (
+                  <Link target="_blank" to={nav.href}>
+                    <Button className="navbarButton">{nav.text}</Button>
+                  </Link>
+                ) : (
+                  <AnchorLink href={nav.selector}>
+                    <Button className="navbarButton">{nav.text}</Button>
+                  </AnchorLink>
+                )}
               </div>
             ))}
           </ButtonGroup>

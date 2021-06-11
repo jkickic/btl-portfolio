@@ -10,8 +10,8 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
 
+import AnchorLink from "react-anchor-link-smooth-scroll"
 import Link from "gatsby-link"
-import scrollTo from "gatsby-plugin-smoothscroll"
 
 export default function PersistentDrawerLeft({ siteData }) {
   const [open, setOpen] = React.useState(false)
@@ -49,16 +49,16 @@ export default function PersistentDrawerLeft({ siteData }) {
           {siteData.navigation.map((nav, index) => (
             <div key={index}>
               {!!nav.href ? (
-                <Link target="_blank" to={nav.href}>
+                <Link target="_blank" href={nav.href}>
                   <ListItem button key={nav.text}>
                     <ListItemText primary={nav.text} />
                   </ListItem>
                 </Link>
               ) : (
                 <ListItem button key={nav.text}>
-                  <Link to={nav.selector}>
+                  <AnchorLink href={nav.selector}>
                     <ListItemText primary={nav.text} />
-                  </Link>
+                  </AnchorLink>
                 </ListItem>
               )}
             </div>

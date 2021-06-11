@@ -1,8 +1,7 @@
 import React, { Component } from "react"
 import Fab from "@material-ui/core/Fab"
-import scrollTo from "gatsby-plugin-smoothscroll"
 import NavigationIcon from "@material-ui/icons/Navigation"
-import { Link } from "gatsby"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 class DisappearingFab extends Component {
   constructor() {
@@ -32,9 +31,9 @@ class DisappearingFab extends Component {
           ""
         ) : (
           <Fab id="fab" variant="extended">
-            <Link to="#navbar">
-              <NavigationIcon />
-            </Link>
+            <AnchorLink href="#navbar">
+              <NavigationIcon className="fabLink" />
+            </AnchorLink>
           </Fab>
         )}
       </div>
