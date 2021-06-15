@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import * as PropTypes from "prop-types"
+import { magic } from "./utils"
 
 const cssDesktopWidth = 1024
 
@@ -47,7 +48,7 @@ class Service extends React.Component {
                 <h2>{title}</h2>
               </Fade>
               {paragraphs.map((it, idx) => (
-                <p key={idx} dangerouslySetInnerHTML={{ __html: it }} />
+                <p key={idx}>{magic(it)}</p>
               ))}
             </div>
             {!imgBeforeText ? imgDiv : ""}

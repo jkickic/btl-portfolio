@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import * as PropTypes from "prop-types"
+import { magic } from "./utils"
 
 var imgDiv = img => (
   <div
@@ -32,13 +33,13 @@ var createContent = function (listOfItems) {
   return ""
 }
 
-var mapParagraphs = function (paragraphs) {
+const mapParagraphs = function (paragraphs) {
   if (!!paragraphs && paragraphs.length > 0) {
     return (
       <>
-        {paragraphs.map((it, idx) => (
-          <p key={idx} dangerouslySetInnerHTML={{ __html: it }} />
-        ))}
+        {paragraphs.map((it, idx) => {
+          return <p key={idx}>{magic(it)}</p>
+        })}
       </>
     )
   }
