@@ -40,7 +40,7 @@ const About = ({ siteData }) => {
           </Fade>
           <Fade bottom>
             <a
-              href={siteData.contact.facebookSessionLink}
+              href={siteData.bookSessionLink}
               target="_blank"
               rel="noreferrer"
               className="primary-btn"

@@ -30,11 +30,11 @@ class DisappearingFab extends Component {
         {this.state.shouldHide ? (
           ""
         ) : (
-          <Fab id="fab" variant="extended">
-            <AnchorLink href="#navbar">
+          <AnchorLink href="#navbar">
+            <Fab id="fab" variant="extended">
               <NavigationIcon className="fabLink" />
-            </AnchorLink>
-          </Fab>
+            </Fab>
+          </AnchorLink>
         )}
       </div>
     )

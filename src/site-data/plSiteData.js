@@ -51,14 +51,10 @@ export default {
   contact: {
     heading: "Kontakt",
     subHeading: "",
-    email: "btl.languagestudio@gmail.com",
     emailText: "Napisz do nas!",
-    fbLink: "https://www.facebook.com/btllanguages",
     facebookContactText: "Skontaktuj się przez Facebook!",
-    facebookSessionLink: bookSessionLink,
     fbBookSessionText: "Zarezerwuj bezpłatne spotkanie",
     gmapsText: "Znajdź nas na Google Maps!",
-    phoneNumber: "+48791111655",
     phoneText: "Zadzwoń do nas!",
   },
 
