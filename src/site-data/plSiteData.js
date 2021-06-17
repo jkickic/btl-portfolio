@@ -9,13 +9,13 @@ const {
 
 export default {
   currentLng: languages.PL,
-  title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
+  title: "BTL kursy językowe, tłumaczenia, copywriting [eng, de, pl, ita]",
   seo: {
     url: "https://btl-languagestudio.pl/pl/",
     lang: languages.PL.code,
     title: "BTL Kursy językowe, tłumaczenia ustne/pisemne/symultaniczne",
     description:
-      "BTL Profesjonalne Usługi Językowe: jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z angielskim, włoskim, niemieckim i polskim.",
+      "BTL Profesjonalne Usługi Językowe: jesteśmy lektorami i tłumaczami. Pracujemy z angielskim, włoskim, niemieckim i polskim.",
   },
   name: "Between The Lines",
   promoVideoId: "efYmKA3TP4g", // PL

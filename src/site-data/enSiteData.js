@@ -12,9 +12,10 @@ export default {
   seo: {
     url: "https://btl-languagestudio.pl/en/",
     lang: languages.EN.code,
-    title: "BTL - Language Courses, Translations, Interpreting",
+    title:
+      "BTL language courses, translations, interpreting [eng, de, pl, ita]",
     description:
-      "BTL Professional Language Services: we are conference interpreters, translators, and language teachers. We work in English, Italian, German and Polish.",
+      "Professional Language Services: we are language trainers, translators, and interpreters. We work in English, German, Polish, and Italian.",
   },
   name: "Between The Lines",
   promoVideoId: "LWImGqRbBzo", // EN
