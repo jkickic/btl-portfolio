@@ -9,6 +9,11 @@ $standardMaxWidth: 960px;
   text-align: center;
 
   .hi-wrapper {
+    h2 {
+      font-weight: initial;
+      margin-top: 0;
+      padding-top: 0;
+    }
     font-size: 1rem;
     margin-top: 5vh;
   }
@@ -34,6 +39,9 @@ $standardMaxWidth: 960px;
 
   .heading-wrapper {
     margin-top: 10vh;
+    @include media("portrait") {
+      margin-top: 3vh;
+    }
     h2 {
       text-align: center;
       line-height: 20px;
@@ -42,7 +50,7 @@ $standardMaxWidth: 960px;
         line-height: 14px;
       }
       @include media(">=tablet") {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
   }

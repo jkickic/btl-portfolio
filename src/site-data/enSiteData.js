@@ -1,7 +1,7 @@
 const commonData = require("./commonData")
 const {
   interpreterImg,
-  blogUrl,
+  blogUrls,
   bookSessionLink,
   languages,
   gmapsLink,
@@ -21,7 +21,8 @@ export default {
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
 
   about: {
-    heading: "Hi, we're Between The Lines",
+    heading: "Between The Lines",
+    subheading: "Professional Language Services",
     content: [
       "We are professional conference interpreters and language trainers. We work in <b>English</b>, <b>Italian</b>, <b>German</b>, and <b>Polish</b>. Our clients are global companies (e.g., construction concerns), international organizations (e.g., the United Nations), the City of Krakow, cultural institutions, local companies, non-governmental organizations, as well as individuals, to whom we render various language services.",
       "Offstage we love traveling and public speaking. Watch the video below and find out more!",
@@ -39,7 +40,7 @@ export default {
     },
     {
       text: "Blog",
-      href: blogUrl,
+      href: blogUrls.url,
     },
     {
       text: "Contact",
@@ -89,7 +90,7 @@ export default {
         "<h2>Copywriting</h2>",
         `Sometimes you do not need a translator but simply a person with excellent language and writing skills, who can write up a persuasive and easy-to-read text.`,
         "Do you need to develop promotional material in a foreign language? Or maybe you want to tell the world what distinguishes your brand, product, or service from all others available on the market? We will help you achieve this goal in a creative way! At BTL, we offer content marketing and copywriting services in foreign languages.",
-        `Read our <a href='${blogUrl}' target="_blank">blog</a>.`,
+        `Read our <a href='${blogUrls.url}' target="_blank">blog</a>.`,
       ],
       img:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
@@ -119,7 +120,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          `Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure that you make progress in leaps and bounds! By creating a study plan specifically for you, we take into consideration your unique learning style as well as your goals. New material is then revised to get it fixed in your mind and your progress is regularly monitored. The atmosphere is always friendly and informal, as we want to support you in your language learning experience as mentors, rather than teachers. Find out more about our working style on our <a href='${blogUrl}' target="_blank">blog</a>.`,
+          `Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure that you make progress in leaps and bounds! By creating a study plan specifically for you, we take into consideration your unique learning style as well as your goals. New material is then revised to get it fixed in your mind and your progress is regularly monitored. The atmosphere is always friendly and informal, as we want to support you in your language learning experience as mentors, rather than teachers. Find out more about our working style on our <a href='${blogUrls.howOurCoursesLook}' target="_blank">blog</a>.`,
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
           `Book your free trial session <a href='${bookSessionLink}' target="_blank">here</a>.`,
         ],
@@ -130,7 +131,7 @@ export default {
           "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Conversation sessions are conducted in a positive and relaxed atmosphere so that you can “open up” and start speaking. Just as children start talking in their mother tongue without the formal study of grammar beforehand, the most important thing when learning a foreign language is to talk and to talk a lot! We will help you get rid of the language barrier and the fear of making a mistake. Over time, your utterances will become more and more correct in terms of grammar and you will formulate them more and more consciously and freely.",
-          "If you are already an advanced speaker, we can help you to further improve the quality of your vocabulary to speak even more fluently. ",
+          "If you are already an advanced speaker, we can help you to further improve the quality of your vocabulary and to speak even more fluently. ",
           "Our student-oriented conversation sessions are based on current events and topics of your interest. You speak, we listen and provide constructive feedback. The language barrier is gradually replaced with confidence!",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
@@ -149,7 +150,8 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Our Talent Acquisition Specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she “knows the ins and outs” of the industry, and will help you land your dream job.",
+          "Our Talent Acquisition Specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she knows the “ins and outs” of the industry, and will help you land your dream job.",
+          "Moreover, we will: <br/><br/> • revise your CV<br/> • make it look professional <br/> • analyze your LinkedIn profile",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
@@ -167,7 +169,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          `Accent reduction sessions are based on the <i>shadowing</i> technique (find out more about <i>shadowing</i> on our <a href='${blogUrl}' target="_blank">blog</a>), which is an extremely powerful training method used by simultaneous interpreters. In accent reduction classes we work on your accent, rhythm, “flow” and intonation. To this end, we use audiovisual facilities and a headset. After the class, you are given special exercises to do by yourself at home. Train like a pro with us!`,
+          `Accent reduction sessions are based on the <i>shadowing</i> technique (find out more about <i>shadowing</i> on our <a href='${blogUrls.shadowing}' target="_blank">blog</a>), which is an extremely powerful training method used by simultaneous interpreters. In accent reduction classes we work on your accent, rhythm, “flow” and intonation. To this end, we use audiovisual facilities and a headset. After the class, you are given special exercises to do by yourself at home. Train like a pro with us!`,
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
@@ -187,7 +189,7 @@ export default {
         paragraphs: [
           "If you love blogging or transferring your thoughts into writing, get in touch with us! As avid bloggers, we will not only help you make your writing in a foreign language correct and crystal clear, but also help you apply the appropriate tone and style, as well as idioms to eloquently get your message across. This course is highly recommended if you wish to elevate your vocabulary or level up your marketing skills.",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
-          `Read our <a href='${blogUrl}' target="_blank">blog</a>.`,
+          `Read our <a href='${blogUrls.url}' target="_blank">blog</a>.`,
         ],
       },
     ],

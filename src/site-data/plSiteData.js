@@ -1,7 +1,7 @@
 const commonData = require("./commonData")
 const {
   interpreterImg,
-  blogUrl,
+  blogUrls,
   bookSessionLink,
   languages,
   gmapsLink,
@@ -22,7 +22,8 @@ export default {
   headerTagline: ["Get your language skills", "to the next level", "with us!"],
 
   about: {
-    heading: "Cześć, jesteśmy Between The Lines",
+    heading: "Between The Lines",
+    subheading: "Profesjonalne usługi językowe",
     content: [
       "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z <b>angielskim</b>, <b>włoskim</b>, <b>niemieckim</b> i <b>polskim</b>. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
       "Prywatnie uwielbiamy podróże. Posłuchajcie sami!",
@@ -40,7 +41,7 @@ export default {
     },
     {
       text: "Blog",
-      href: blogUrl,
+      href: blogUrls.url,
     },
     {
       text: "Kontakt",
@@ -94,7 +95,7 @@ export default {
         "<h2>Copywriting</h2>",
         'Czasem nie potrzeba tłumacza, a po prostu osoby z "lekkim piórem" i doskonałymi umiejętnościami językowymi, która w sposób perswazyjny, a zarazem czytelny i łatwy w odbiorze, przekaże określone treści, wywoła określoną reakcję w odbiorcy.',
         "Potrzebujesz opracować materiał promocyjny w języku obcym? Chcesz powiedzieć światu co wyróżnia Twoją markę, produkt lub usługę spośród wszystkich innych dostępnych na rynku? Pomożemy Ci to osiągnąć w sposób skuteczny i kreatywny! W BTL oferujemy usługi z zakresu marketingu treści i copywritingu w językach obcych. ",
-        `Zapraszamy do zapoznania się z naszym <a href="${blogUrl}", target="_blank">blogiem</a>.`,
+        `Zapraszamy do zapoznania się z naszym <a href="${blogUrls.url}", target="_blank">blogiem</a>.`,
       ],
       img:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
@@ -105,7 +106,7 @@ export default {
       id: "interpreting",
       paragraphs: [
         "<b>TŁUMACZENIA SYMULTANICZNE</b> | <b>KONSEKUTYWNE</b> | <b>SZEPTANE</b> <br/>[angielski / włoski / polski / chiński]",
-        "Przy wyborze tłumacza ustnego, fachowa wiedza merytoryczna jest równie ważna, jak doświadczenie w tłumaczeniu. Dlatego też oferujemy naszą wiedzą nie tylko jako lingwiści, ale także specjaliści w dziedzinie ekonomii i HR. Pracując dla światowych organizacji, takich jak Organizacja Narodów Zjednoczonych i wielu globalnych firm, a także tłumacząc wystąpienia na międzynarodowych targach handlowych i gospodarczych, wiemy, jak ważna jest precyzja, dokładność i poufność.",
+        "Przy wyborze tłumacza ustnego, fachowa wiedza merytoryczna jest równie ważna, jak doświadczenie w tłumaczeniu. Dlatego też oferujemy naszą wiedzę nie tylko jako lingwiści, ale także specjaliści w dziedzinie ekonomii i HR. Pracując dla światowych organizacji, takich jak Organizacja Narodów Zjednoczonych i wielu globalnych firm, a także tłumacząc wystąpienia na międzynarodowych targach handlowych i gospodarczych, wiemy, jak ważna jest precyzja, dokładność i poufność.",
         "Naszym celem jest pomóc Ci odnieść sukces w relacjach z klientami. Pozwól nam zadbać o stronę językową i skoncentruj się w pełni na kwestiach merytorycznych.",
         "W <b>tłumaczeniu symultanicznym</b> wypowiedź mówcy nie jest zakłócana, co pozwala słuchaczom na jej zrozumienie w czasie rzeczywistym, ponieważ nie muszą czekać na tłumaczenie. Stąd też tłumaczenie symultaniczne jest zalecane na konferencjach i wydarzeniach o dużej skali, gdzie nie ma czasu na opóźnienia w przekazie wiadomości.",
         "Podczas <b>tłumaczenia konsekutywnego</b> prelegent zatrzymuje się co kilka minut, po czym wkracza tłumacz i tłumaczy na język słuchaczy to, co zostało powiedziane. Tłumaczenie konsekutywne wymaga sporządzania notatek, aby w ciągu kilku minut nie umknął żaden istotny szczegół. Jest ono zalecane w przypadku mniejszych spotkaniach biznesowych.",
@@ -124,7 +125,8 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          `Na opanowanie języka obcego składa się ćwiczenie mówienia, czytania, słuchania, gramatyki i pisania. W BTL ćwiczymy wszystkie te umiejętności! Opracowując dla Ciebie indywidualny plan nauki, bierzemy pod uwagę Twój unikalny styl pracy, a także cele, które chcesz osiągnąć. Nowy materiał z każdych zajęć jest następnie utrwalany i powtarzany. Ponadto regularnie monitorujemy Twoje postępy, abyś zawsze wiedział, nad czym pracować, aby zmaksymalizować efekty nauki. Atmosfera na zajęciach jest przyjazna i nieformalna, ponieważ chcemy Cię wspierać w nauce języka raczej jako mentorzy, niż nauczyciele. Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie. Więcej o naszym stylu pracy znajdziesz na naszym blogu <a href='${blogUrl}' target="_blank">language coaching</a>.`,
+          `Na opanowanie języka obcego składa się ćwiczenie mówienia, czytania, słuchania, gramatyki i pisania. W BTL ćwiczymy wszystkie te umiejętności! Opracowując dla Ciebie indywidualny plan nauki, bierzemy pod uwagę Twój unikalny styl pracy, a także cele, które chcesz osiągnąć. Nowy materiał z każdych zajęć jest następnie utrwalany i powtarzany. Ponadto regularnie monitorujemy Twoje postępy, abyś zawsze wiedział, nad czym pracować, aby zmaksymalizować efekty nauki. Atmosfera na zajęciach jest przyjazna i nieformalna, ponieważ chcemy Cię wspierać w nauce języka raczej jako mentorzy, niż nauczyciele. `,
+          `Więcej o naszym stylu pracy znajdziesz na naszym <a href='${blogUrls.howOurCoursesLook}' target="_blank">blogu</a>. Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
           `Zarezerwuj bezpłatną sesję próbną <a href='${bookSessionLink}' target="_blank">tutaj</a>.`,
         ],
       },
@@ -136,7 +138,7 @@ export default {
           "Konwersacje prowadzimy „na luzie”, w pozytywnej i swobodnej atmosferze. Chcemy, abyś poczuł się swobodnie mówiąc w języku obcym, niezależnie od Twojego aktualnego poziomu językowego. Dzieci przyswajając język ojczysty, niekoniecznie skupiają się cały czas na gramatyce. Również w przypadku nauki języka obcego najważniejsze jest to, abyś mówił!",
           "...A może już jesteś na poziomie zaawansowanym, ale wciąż brakuje Ci pewności siebie? Masz wrażenie, że znasz te wszystkie słowa i zwroty, ale po prostu nie przychodzą Ci do głowy na czas?",
           "Pomożemy Ci pozbyć się bariery językowej i obawy, że popełnisz błąd. Z czasem Twoje wypowiedzi będą coraz bardziej poprawne i będziesz je formułował coraz bardziej świadomie i pewnie. ",
-          `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
+          `Konwersacje dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
       {
@@ -145,7 +147,7 @@ export default {
           "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Jako lingwiści, a zarazem profesjonaliści w dziedzinie ekonomii i HR, opracowaliśmy specjalistyczne kursy biznesowe, które mają na celu podniesienie Twoich kompetencji komunikacyjnych w środowisku zawodowym. Znamy sektor korporacyjny „od wewnątrz”, co w połączeniu z naszym wieloletnim doświadczeniem w pracy akademickiej pomoże Ci opanować najważniejsze umiejętności w komunikacji biznesowej. Na naszych zajęciach nabierzesz kompetencji w zakresie: wygłaszania prezentacji, aktywnego udziału w spotkaniach z zagranicznymi partnerami, small talk, sztuki negocjacji, sporządzania raportów, a także aktywnego udziału w firmowych spotkaniach towarzyskich.",
-          `Konwersacje dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
+          `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
       {
@@ -154,6 +156,7 @@ export default {
           "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Nasz specjalista ds. zasobów ludzkich, Natalia, jest także profesjonalnym lingwistą; pracowała w branży HR przez ponad 4 lata i rekrutowała setki kandydatów z całego świata w językach włoskim i angielskim. Zna tę branżę od podszewki i chętnie pomoże Ci przygotować się gruntownie do rozmowy kwalifikacyjnej w języku obcym, a co za tym idzie... zdobyć wymarzoną pracę! ",
+          "Ponadto: <br/><br/> • przeanalizujemy Twoje CV pod kątem językowym i merytorycznym<br/> • zadbamy o profesjonalny układ graficzny <br/> • opracujemy Twój profil LinkedIn",
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
@@ -171,7 +174,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          `Sesje redukcji akcentu bazują na technice shadowing (więcej informacji na temat shadowing można znaleźć na <a href='${blogUrl}' target="_blank">naszym blogu</a>), używanej przez tłumaczy symultanicznych jako niezwykle skutecznej metody formułowania wypowiedzi, które są płynne i brzmią naturalnie. Podczas zajęć z redukcji akcentu pracujemy nad akcentem, rytmem, płynnością i intonacją w języku obcym. W tym celu wykorzystujemy metody audiowizualne oraz zestaw słuchawkowy. Po zajęciach dostajesz serię ćwiczeń do wykonania samodzielnie w domu. Trenuj z nami jak zawodowiec!`,
+          `Sesje redukcji akcentu bazują na technice <i>shadowing</i> (więcej informacji na temat <i>shadowing</i> można znaleźć na <a href='${blogUrls.shadowing}' target="_blank">naszym blogu</a>), używanej przez tłumaczy symultanicznych jako niezwykle skutecznej metody formułowania wypowiedzi, które są płynne i brzmią naturalnie. Podczas zajęć z redukcji akcentu pracujemy nad akcentem, rytmem, płynnością i intonacją w języku obcym. W tym celu wykorzystujemy metody audiowizualne oraz zestaw słuchawkowy. Po zajęciach dostajesz serię ćwiczeń do wykonania samodzielnie w domu. Trenuj z nami jak zawodowiec!`,
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
@@ -192,7 +195,7 @@ export default {
           "Jeśli uwielbiasz blogować lub przelewać swoje myśli na papier, skontaktuj się z nami! Pomożemy Ci wypracować Twój unikalny styl pisania w języku obcym, który będzie poprawny, prosty w odbiorze, a zarazem perswazyjny. Z nami poznasz odpowiednie środki przekazu, wzbogacisz swoje słownictwo, a także zachwycisz wszystkich elokwencją!",
           "Kurs kreatywnego pisania jest dedykowany dla wszystkich, którzy mają do czynienia z językiem pisanym, chcieliby poszerzyć swoje słownictwo lub rozwinąć swoje umiejętności marketingowe w języku obcym.",
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
-          `Zajrzyj na naszego <a href='${blogUrl}' target="_blank">bloga</a>.`,
+          `Zajrzyj na naszego <a href='${blogUrls.url}' target="_blank">bloga</a>.`,
         ],
       },
     ],

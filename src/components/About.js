@@ -12,9 +12,9 @@ const About = ({ siteData }) => {
         <div className="header-wrapper">
           <div className="hi-wrapper">
             <h1>
-              {siteData.about.heading}
-              {" 👋"}
+              <b>{siteData.about.heading}</b>
             </h1>
+            <h2>{siteData.about.subheading}</h2>
             <div className="pdfs-wrapper">
               <PdfModal resumeSrc="../../helena.jpg" imgSrc={helenaImg} />
               <PdfModal resumeSrc="../../natalia.jpg" imgSrc={nataliaImg} />
@@ -34,7 +34,9 @@ const About = ({ siteData }) => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               {siteData.headerTagline.map((it, idx) => (
-                <h2 key={idx}>{it}</h2>
+                <h2 key={idx}>
+                  <i>{it}</i>
+                </h2>
               ))}
             </div>
           </Fade>
