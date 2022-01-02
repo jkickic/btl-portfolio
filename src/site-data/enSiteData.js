@@ -19,13 +19,13 @@ export default {
   },
   name: "Between The Lines",
   promoVideoId: "LWImGqRbBzo", // EN
-  headerTagline: ["Get your language skills", "to the next level", "with us!"],
+  headerTagline: ["Getting your message across!"],
 
   about: {
     heading: "Between The Lines",
     subheading: "Professional Language Services",
     content: [
-      "We are professional conference interpreters and language trainers. We work in <b>English</b>, <b>Italian</b>, <b>German</b>, and <b>Polish</b>. Our clients are global companies (e.g., construction concerns), international organizations (e.g., the United Nations), the City of Krakow, cultural institutions, local companies, non-governmental organizations, as well as individuals, to whom we render various language services.",
+      "We are professional conference interpreters and linguists. We work in <b>English</b>, <b>Italian</b>, <b>German</b>, and <b>Polish</b>. Our clients are global companies (e.g., construction concerns), international organizations (e.g., the United Nations), the City of Krakow, cultural institutions, local companies, non-governmental organizations, as well as individuals, to whom we render various language services.",
       "Offstage we love traveling and public speaking. Watch the video below and find out more!",
     ],
   },
@@ -116,7 +116,7 @@ export default {
     title: "Courses",
     id: "courses",
     listOfItems: [
-      {
+      /*  {
         itemTitle: "General English / German / Italian",
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -136,7 +136,7 @@ export default {
           "Our student-oriented conversation sessions are based on current events and topics of your interest. You speak, we listen and provide constructive feedback. The language barrier is gradually replaced with confidence!",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
-      },
+      },*/
       {
         itemTitle: "Business English",
         imageSrc:
@@ -156,7 +156,7 @@ export default {
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
-      {
+      /*  {
         itemTitle: "Exam preparation",
         imageSrc:
           "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -164,7 +164,7 @@ export default {
           "As academic lecturers and licensed Pearson examiners, we offer comprehensive exam preparation for a wide variety of formal language examinations, such as the FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General, and the Polish “Matura” exam. Together we will create a study plan and make sure you stick to it so that your certified language skills will help you pursue your dream studies or dream career.",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
-      },
+      },*/
       {
         itemTitle: "Accent reduction",
         imageSrc:
@@ -174,7 +174,7 @@ export default {
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
-      {
+      /*      {
         itemTitle: "Young Lerners / Teenagers",
         imageSrc:
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -182,7 +182,7 @@ export default {
           "Learning a foreign language can and should be loads of fun! We have a wide range of engaging activities, games, videos, and other interactive teaching techniques up our sleeve!",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
-      },
+      },*/
       {
         itemTitle: "Creative writing course",
         imageSrc:

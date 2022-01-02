@@ -19,13 +19,13 @@ export default {
   },
   name: "Between The Lines",
   promoVideoId: "efYmKA3TP4g", // PL
-  headerTagline: ["Get your language skills", "to the next level", "with us!"],
+  headerTagline: ["Getting your message across!"],
 
   about: {
     heading: "Between The Lines",
     subheading: "Profesjonalne usługi językowe",
     content: [
-      "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lektorami. Pracujemy z <b>angielskim</b>, <b>włoskim</b>, <b>niemieckim</b> i <b>polskim</b>. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
+      "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lingwistami. Pracujemy z <b>angielskim</b>, <b>włoskim</b>, <b>niemieckim</b> i <b>polskim</b>. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
       "Prywatnie uwielbiamy podróże. Posłuchajcie sami!",
     ],
   },
@@ -120,7 +120,7 @@ export default {
     title: "Kursy",
     id: "courses",
     listOfItems: [
-      {
+      /*      {
         itemTitle: "Angielski / Niemiecki / Włoski – kursy ogólne",
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -140,7 +140,7 @@ export default {
           "Pomożemy Ci pozbyć się bariery językowej i obawy, że popełnisz błąd. Z czasem Twoje wypowiedzi będą coraz bardziej poprawne i będziesz je formułował coraz bardziej świadomie i pewnie. ",
           `Konwersacje dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
-      },
+      },*/
       {
         itemTitle: "Angielski biznesowy",
         imageSrc:
@@ -160,7 +160,7 @@ export default {
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
-      {
+      /*      {
         itemTitle: "Przygotowanie do egzaminów",
         imageSrc:
           "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -168,7 +168,7 @@ export default {
           "Jako wykładowcy akademiccy i licencjonowani egzaminatorzy Pearson, oferujemy kompleksowe przygotowanie do egzaminów FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General oraz do egzaminu maturalnego (poziom podstawowy i rozszerzony). Wspólnie opracujemy plan nauki i pomożemy Ci zdobyć kwalifikacje językowe, abyś mógł zdobyć pracę marzeń lub podjąć wymarzone studia.",
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
-      },
+      },*/
       {
         itemTitle: "Redukcja akcentu",
         imageSrc:
@@ -178,7 +178,7 @@ export default {
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
-      {
+      /*      {
         itemTitle: "Młodzież",
         imageSrc:
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -186,7 +186,7 @@ export default {
           "Nauka języka obcego może i powinna być świetną zabawą! Wiemy o tym doskonale i mamy w zanadrzu szeroką gamę gier, filmów i innych interaktywnych technik nauczania!",
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
-      },
+      },*/
       {
         itemTitle: "Kurs kreatywnego pisania",
         imageSrc:
