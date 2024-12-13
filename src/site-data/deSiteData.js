@@ -25,18 +25,18 @@ export default {
     heading: "Between The Lines",
     subheading: "Professional Language Services",
     content: [
-      "We are professional conference interpreters and linguists. We work in <b>English</b>, <b>Italian</b>, <b>German</b>, and <b>Polish</b>. Our clients are global companies (e.g., construction concerns), international organizations (e.g., the United Nations), the City of Krakow, cultural institutions, local companies, non-governmental organizations, as well as individuals, to whom we render various language services.",
-      "Offstage we love traveling and public speaking. Watch the video below and find out more!",
+      "Wir sind professionelle Konferenzdolmetscher und Linguisten. Wir arbeiten in <b>Englisch</b>, <b>Italienisch</b>, <b>Deutsch</b>, und <b>Polnisch</b>. Unsere Kunden sind globale Unternehmen (z. B. Baukonzerne), internationale Organisationen (z. B. die Vereinten Nationen), die Stadt Krakau, kulturelle Institutionen, lokale Unternehmen, Nichtregierungsorganisationen sowie Privatpersonen, denen wir verschiedene Sprachdienstleistungen anbieten.",
+      "Wir lieben Reisen. Sehen Sie sich das Video unten an, um mehr über uns zu erfahren!",
     ],
   },
 
   navigation: [
     {
-      text: "About",
+      text: "Über uns",
       selector: "#home",
     },
     {
-      text: "Services",
+      text: "Dienstleistungen",
       selector: "#services",
     },
     {
@@ -44,19 +44,19 @@ export default {
       href: blogUrls.url,
     },
     {
-      text: "Contact",
+      text: "Kontakt",
       selector: "#contact",
     },
   ],
 
   contact: {
-    heading: "Contact",
-    subHeading: "Write us a message!",
-    emailText: "Send us an email!",
-    facebookContactText: "Contact us via Facebook!",
-    fbBookSessionText: "Book a session now!",
-    gmapsText: "Find us on Google Maps!",
-    phoneText: "Give us a phone call!",
+    heading: "Kontakt",
+    subHeading: "Schreib uns!",
+    emailText: "Schick uns eine E-Mail!",
+    facebookContactText: "Kontaktiere uns über Facebook!",
+    fbBookSessionText: "Buch ein Treffen!",
+    gmapsText: "Finde uns auf Google Maps!",
+    phoneText: "Ruf uns an!",
   },
 
   projects: [
