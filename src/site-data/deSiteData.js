@@ -23,7 +23,7 @@ export default {
 
   about: {
     heading: "Between The Lines",
-    subheading: "Professional Language Services",
+    subheading: "Professionelle Sprachdienstleistungen",
     content: [
       "Wir sind professionelle Konferenzdolmetscher und Linguisten. Wir arbeiten in <b>Englisch</b>, <b>Italienisch</b>, <b>Deutsch</b>, und <b>Polnisch</b>. Unsere Kunden sind globale Unternehmen (z. B. Baukonzerne), internationale Organisationen (z. B. die Vereinten Nationen), die Stadt Krakau, kulturelle Institutionen, lokale Unternehmen, Nichtregierungsorganisationen sowie Privatpersonen, denen wir verschiedene Sprachdienstleistungen anbieten.",
       "Wir lieben Reisen. Sehen Sie sich das Video unten an, um mehr über uns zu erfahren!",
@@ -61,80 +61,80 @@ export default {
 
   projects: [
     {
-      title: "Courses",
+      title: "Kurse",
       imageSrc:
         "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=400",
       moveTo: "#courses",
     },
     {
-      title: "Translations & copywriting",
+      title: "Übersetzungen & copywriting",
       imageSrc:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       moveTo: "#translations",
     },
     {
-      title: "Interpreting",
+      title: "Dolmetschen",
       imageSrc: interpreterImg,
       moveTo: "#interpreting",
     },
   ],
 
-  servicesHeading: "Our services",
+  servicesHeading: "Unsere Leistungen",
   services: [
     {
-      title: "Translations",
-      id: "translations",
+      title: "Übersetzungen",
+      id: "Übersetzungen",
       paragraphs: [
-        "Our experience in translation includes working for the European Parliament translating EU documents, working for leading translation companies in Italy translating documents and websites for the Tuscany and Veneto Region, court translations, and helping a leading Austrian railway construction company with its strategic projects.",
-        "We specialize in financial, marketing, IT, and legal texts and offer translation services in any of the following languages: ",
-        "<b>[English <=> Italian<=> Polish <=> German <=> Chinese]</b>",
+        "Unsere Übersetzungserfahrung umfasst die Arbeit für das Europäische Parlament, bei der wir EU-Dokumente übersetzt haben, die Zusammenarbeit mit führenden Übersetzungsunternehmen in Italien, für die wir Dokumente und Webseiten für die Regionen Toskana und Venetien übersetzt haben, Gerichtsdolmetschen sowie die Unterstützung eines führenden österreichischen Eisenbahnbauunternehmens bei seinen strategischen Projekten.",
+        "Wir sind auf Finanz-, Marketing-, IT- und Rechtstexte spezialisiert und bieten Übersetzungsdienstleistungen in den folgenden Sprachen an: ",
+        "<b>[Englisch <=> Italienisch<=> Polnisch <=> Deutsch <=> Chinesisch]</b>",
         "<h2>Copywriting</h2>",
-        `Sometimes you do not need a translator but simply a person with excellent language and writing skills, who can write up a persuasive and easy-to-read text.`,
-        "Do you need to develop promotional material in a foreign language? Or maybe you want to tell the world what distinguishes your brand, product, or service from all others available on the market? We will help you achieve this goal in a creative way! At BTL, we offer content marketing and copywriting services in foreign languages.",
-        `Read our <a href='${blogUrls.url}' target="_blank">blog</a>.`,
+        `Manchmal benötigen Sie keinen Übersetzer, sondern einfach eine Person mit ausgezeichneten Sprach- und Schreibfähigkeiten, die einen überzeugenden und leicht verständlichen Text verfassen kann.`,
+        "Müssen Sie Werbematerial in einer Fremdsprache erstellen? Oder möchten Sie der Welt mitteilen, was Ihre Marke, Ihr Produkt oder Ihre Dienstleistung von allen anderen auf dem Markt unterscheidet? Wir helfen Ihnen dabei, dieses Ziel auf kreative Weise zu erreichen! Bei BTL bieten wir Content-Marketing- und Copywriting-Dienstleistungen in Fremdsprachen an.",
+        `Lies unseren <a href='${blogUrls.url}' target="_blank">blog</a>.`,
       ],
       img:
         "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
       imgRight: true,
     },
     {
-      title: "Interpreting",
+      title: "Dolmetschen",
       id: "interpreting",
       paragraphs: [
-        "<b>SIMULTANEOUS | CONSECUTIVE | WHISPER</b> [English / Italian / Polish / Chinese]",
-        "When choosing an interpreter, their expert knowledge of the subject matter is just as important as their interpreting experience. Therefore, we wish to share with you our expertise not only as linguists but also as qualified professionals in the areas of Economics and Human Resources. Having worked for world organizations such as the United Nations and multiple global companies as well as rendering interpretation services during international trade fairs, we know how important precision, accuracy and confidentiality are.",
-        "Our goal is to help you succeed in the relations with your clients, so let us take care of the language aspect.<br/>",
-        "In <b>simultaneous interpretation</b>, the natural flow of the speaker is not disturbed and it allows for a smooth listening experience, as the listeners do not need to wait in order to understand the message. Simultaneous interpretation is therefore recommended for large-scale conferences and events, where there is no time for delay in the delivery of the message.",
-        "During <b>consecutive interpretation</b> the speaker stops every few minutes, after which the interpreter steps in and renders what has just been said into the language of the listeners. Consecutive interpreting involves note-taking (to prevent the loss of detail) and is recommended for smaller business meetings.",
-        "<b>Whisper interpretation</b> is similar to simultaneous interpretation, however, the interpreter does not use a microphone or a headset, but rather sits next to the person (or small group) who requires the interpretation. This mode of interpretation is recommended for business meetings, where only one person requires interpretation.",
+        "<b>Simultandolmetschen | Konsekutivdolmetschen | Flüsterdolmetschen</b> [Englisch / Italienisch / Polisch / Chinesisch]",
+        "Bei der Wahl eines Dolmetschers ist sein Fachwissen im jeweiligen Themenbereich genauso wichtig wie seine Dolmetschererfahrung. Daher möchten wir unser Fachwissen nicht nur als Linguisten, sondern auch als qualifizierte Fachkräfte in den Bereichen Wirtschaft und Personalwesen mit Ihnen teilen. Durch unsere Arbeit für internationale Organisationen wie die Vereinten Nationen sowie für zahlreiche globale Unternehmen und durch die Erbringung von Dolmetschdienstleistungen auf internationalen Handelsmessen wissen wir, wie wichtig Präzision, Genauigkeit und Vertraulichkeit sind.",
+        "Unser Ziel ist es, Ihnen zum Erfolg in den Beziehungen zu Ihren Kunden zu verhelfen – überlassen Sie uns daher den sprachlichen Aspekt.<br/>",
+        "Beim <b>der simultanen Dolmetschen wird der natürliche Redefluss des Sprechers nicht unterbrochen, was ein reibungsloses Zuhörerlebnis ermöglicht, da die Zuhörer nicht warten müssen, um die Botschaft zu verstehen. Simultandolmetschen wird daher für groß angelegte Konferenzen und Veranstaltungen empfohlen, bei denen keine Zeit für Verzögerungen bei der Übermittlung der Botschaft bleibt.",
+        "Beim <b>konsekutiven Dolmetschen macht der Sprecher alle paar Minuten eine Pause, nach der der Dolmetscher das Gesagte in die Sprache der Zuhörer überträgt. Das konsekutive Dolmetschen erfordert Notizen (um Detailverluste zu vermeiden) und wird für kleinere Geschäftstreffen empfohlen.",
+        "Das <b>Flüsterdolmetschen</b> ist dem Simultandolmetschen ähnlich, jedoch verwendet der Dolmetscher weder Mikrofon noch Kopfhörer. Stattdessen sitzt er neben der Person (oder einer kleinen Gruppe), die die Verdolmetschung benötigt. Diese Dolmetschart wird für Geschäftstreffen empfohlen, bei denen nur eine Person eine Verdolmetschung benötigt.",
       ],
       img: interpreterImg,
     },
   ],
 
   courses: {
-    title: "Courses",
+    title: "Kurse",
     id: "courses",
     listOfItems: [
       /*  {
-          itemTitle: "General English / German / Italian",
+          itemTitle: "Englisch / Deutsch / Italienisch",
           imageSrc:
             "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
           paragraphs: [
-            `Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure that you make progress in leaps and bounds! By creating a study plan specifically for you, we take into consideration your unique learning style as well as your goals. New material is then revised to get it fixed in your mind and your progress is regularly monitored. The atmosphere is always friendly and informal, as we want to support you in your language learning experience as mentors, rather than teachers. Find out more about our working style on our <a href='${blogUrls.howOurCoursesLook}' target="_blank">blog</a>.`,
-            `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
-            `Book your free trial session <a href='${bookSessionLink}' target="_blank">here</a>.`,
+            `Das Üben von Sprechen, Lesen, Hören, Grammatik und Schreiben führt dazu, eine Fremdsprache zu meistern. Wir legen Wert auf all diese Bereiche, um sicherzustellen, dass Sie große Fortschritte machen! Durch die Erstellung eines speziell auf Sie zugeschnittenen Lernplans berücksichtigen wir Ihren individuellen Lernstil sowie Ihre Ziele. Neues Material wird anschließend wiederholt, um es fest in Ihrem Gedächtnis zu verankern, und Ihr Fortschritt wird regelmäßig überwacht. Die Atmosphäre ist stets freundlich und ungezwungen, da wir Sie als Mentoren und nicht nur als Lehrer in Ihrem Lernprozess unterstützen möchten. Erfahren Sie mehr über unseren Arbeitsstil auf unserem <a href='${blogUrls.howOurCoursesLook}' target="_blank">blog</a>.`,
+            `Der Unterricht findet online und vor Ort in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
+            `Buch deine kostenlose Probestunde <a href='${bookSessionLink}' target="_blank">hier</a>.`,
           ],
         },
         {
-          itemTitle: "Conversations",
+          itemTitle: "Konversationen",
           imageSrc:
             "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
           paragraphs: [
-            "Conversation sessions are conducted in a positive and relaxed atmosphere so that you can “open up” and start speaking. Just as children start talking in their mother tongue without the formal study of grammar beforehand, the most important thing when learning a foreign language is to talk and to talk a lot! We will help you get rid of the language barrier and the fear of making a mistake. Over time, your utterances will become more and more correct in terms of grammar and you will formulate them more and more consciously and freely.",
-            "If you are already an advanced speaker, we can help you to further improve the quality of your vocabulary and to speak even more fluently. ",
-            "Our student-oriented conversation sessions are based on current events and topics of your interest. You speak, we listen and provide constructive feedback. The language barrier is gradually replaced with confidence!",
-            `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
+            "Konversationssitzungen werden in einer positiven und entspannten Atmosphäre durchgeführt, damit Sie sich „öffnen“ und anfangen können zu sprechen. Genau wie Kinder in ihrer Muttersprache sprechen lernen, ohne vorher formell Grammatik zu studieren, ist das Wichtigste beim Erlernen einer Fremdsprache, zu sprechen – und viel zu sprechen! Wir werden Ihnen helfen, die Sprachbarriere und die Angst vor Fehlern abzubauen. Mit der Zeit werden Ihre Äußerungen grammatisch immer korrekter und Sie werden sie immer bewusster und freier formulieren.",
+            "Wenn Sie bereits ein fortgeschrittener Sprecher sind, können wir Ihnen helfen, die Qualität Ihres Wortschatzes weiter zu verbessern und noch flüssiger zu sprechen. ",
+            "Unsere studentenzentrierten Konversationssitzungen basieren auf aktuellen Ereignissen und Themen, die Sie interessieren. Sie sprechen, wir hören zu und geben konstruktives Feedback. Die Sprachbarriere wird nach und nach durch Selbstvertrauen ersetzt!",
+            `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
           ],
         },*/
       {
@@ -142,36 +142,36 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          'As linguists and professionals in the field of Economics and HR, we have developed hands-on business courses aimed at improving your communication skills in the professional environment. We know the corporate sector "from within” which, combined with our experience in academic work, will help you master the most important skills sought after in business communication, such as giving presentations, active participation in meetings with foreign partners, small talk, the art of negotiations, compiling reports, as well as active participation in company social events (both formally and informally).',
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
+          'Als Linguisten und Fachleute im Bereich Wirtschaft und Personalwesen haben wir praxisorientierte Business-Kurse entwickelt, die darauf abzielen, Ihre Kommunikationsfähigkeiten im beruflichen Umfeld zu verbessern. Wir kennen den Unternehmenssektor „von innen“, was in Kombination mit unserer Erfahrung in der akademischen Arbeit dazu beiträgt, dass Sie die wichtigsten Fähigkeiten in der Geschäftskommunikation meistern – wie das Halten von Präsentationen, die aktive Teilnahme an Meetings mit ausländischen Partnern, Small Talk, die Kunst der Verhandlungen, das Erstellen von Berichten sowie die aktive Teilnahme an sozialen Unternehmensveranstaltungen (sowohl formell als auch informell).',
+          `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
         ],
       },
       {
-        itemTitle: "Landing a new job",
+        itemTitle: "Einen neuen Job finden",
         imageSrc:
           "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Our Talent Acquisition Specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she knows the “ins and outs” of the industry, and will help you land your dream job.",
-          "Moreover, we will: <br/><br/> • revise your CV<br/> • make it look professional <br/> • analyze your LinkedIn profile",
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
+          "Unsere Talent Acquisition Specialist, Natalia, wird Sie mit den Fähigkeiten ausstatten, die für ein erfolgreiches Vorstellungsgespräch erforderlich sind. Mit über 4 Jahren Erfahrung im HR-Bereich und der Rekrutierung von hunderten Kandidaten aus der ganzen Welt kennt sie die „Ins und Outs“ der Branche und wird Ihnen helfen, Ihren Traumjob zu finden.",
+          "Außerdem werden wir: <br/><br/> • Ihren Lebenslauf überarbeiten<br/> • ihn professionell gestalten <br/> •  Ihr LinkedIn-Profil analysieren",
+          `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
         ],
       },
       /*  {
-          itemTitle: "Exam preparation",
+          itemTitle: "Prüfungsvorbereitung",
           imageSrc:
             "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
           paragraphs: [
-            "As academic lecturers and licensed Pearson examiners, we offer comprehensive exam preparation for a wide variety of formal language examinations, such as the FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General, and the Polish “Matura” exam. Together we will create a study plan and make sure you stick to it so that your certified language skills will help you pursue your dream studies or dream career.",
-            `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
+            "Als akademische Dozenten und lizenzierte Pearson-Prüfer bieten wir eine umfassende Prüfungsvorbereitung für eine Vielzahl offizieller Sprachprüfungen an, wie z.B. FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General und die polnische „Matura“-Prüfung. Gemeinsam erstellen wir einen Studienplan und sorgen dafür, dass Sie diesen einhalten, damit Ihre zertifizierten Sprachkenntnisse Ihnen helfen, Ihre Traumstudien oder Ihre Traumkarriere zu verwirklichen..",
+            `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
           ],
         },*/
       {
-        itemTitle: "Accent reduction",
+        itemTitle: "Akzentreduzierung",
         imageSrc:
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          `Accent reduction sessions are based on the <i>shadowing</i> technique (find out more about <i>shadowing</i> on our <a href='${blogUrls.shadowing}' target="_blank">blog</a>), which is an extremely powerful training method used by simultaneous interpreters. In accent reduction classes we work on your accent, rhythm, “flow” and intonation. To this end, we use audiovisual facilities and a headset. After the class, you are given special exercises to do by yourself at home. Train like a pro with us!`,
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
+          `Sitzungen zur Akzentreduzierung basieren auf der Technik des <i>shadowing</i> (mehr über <i>shadowing</i> erfahren Sie in unserem <a href='${blogUrls.shadowing}' target="_blank">blog</a>), einer äußerst effektiven Trainingsmethode, die von Simultandolmetschern genutzt wird. In den Akzentreduzierungsstunden arbeiten wir an Ihrem Akzent, Rhythmus, „Fluss“ und Ihrer Intonation. Zu diesem Zweck verwenden wir audiovisuelle Hilfsmittel und ein Headset. Nach der Stunde erhalten Sie spezielle Übungen, die Sie selbstständig zu Hause durchführen können. Trainieren Sie wie ein Profi mit uns!`,
+          `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
         ],
       },
       /*      {
@@ -179,18 +179,18 @@ export default {
               imageSrc:
                 "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
               paragraphs: [
-                "Learning a foreign language can and should be loads of fun! We have a wide range of engaging activities, games, videos, and other interactive teaching techniques up our sleeve!",
-                `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
+                "Eine Fremdsprache zu lernen kann und sollte richtig Spaß machen! Wir haben eine Vielzahl von unterhaltsamen Aktivitäten, Spielen, Videos und anderen interaktiven Lehrmethoden in petto!",
+                `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
               ],
             },*/
       {
-        itemTitle: "Creative writing course",
+        itemTitle: "Kurs für kreatives Schreiben",
         imageSrc:
           "https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1000",
         paragraphs: [
           "If you love blogging or transferring your thoughts into writing, get in touch with us! As avid bloggers, we will not only help you make your writing in a foreign language correct and crystal clear, but also help you apply the appropriate tone and style, as well as idioms to eloquently get your message across. This course is highly recommended if you wish to elevate your vocabulary or level up your marketing skills.",
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
-          `Read our <a href='${blogUrls.url}' target="_blank">blog</a>.`,
+          `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
+          `Lies unseren <a href='${blogUrls.url}' target="_blank">blog</a>.`,
         ],
       },
     ],
