@@ -83,7 +83,7 @@ export default {
   services: [
     {
       title: "Übersetzungen",
-      id: "Übersetzungen",
+      id: "translations",
       paragraphs: [
         "Unsere Übersetzungserfahrung umfasst die Arbeit für das Europäische Parlament, bei der wir EU-Dokumente übersetzt haben, die Zusammenarbeit mit führenden Übersetzungsunternehmen in Italien, für die wir Dokumente und Webseiten für die Regionen Toskana und Venetien übersetzt haben, Gerichtsdolmetschen sowie die Unterstützung eines führenden österreichischen Eisenbahnbauunternehmens bei seinen strategischen Projekten.",
         "Wir sind auf Finanz-, Marketing-, IT- und Rechtstexte spezialisiert und bieten Übersetzungsdienstleistungen in den folgenden Sprachen an: ",
