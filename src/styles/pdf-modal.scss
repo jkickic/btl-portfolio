@@ -1,4 +1,4 @@
-@import "./ripple.scss";
+@use "./ripple.scss" as *;
 
 .pdf-modal-button-wrapper {
   margin: 20px;
@@ -56,9 +56,9 @@
     cursor: pointer;
     align-self: center;
     color: #ffffffdd;
-    padding: ($escapeHeight / 5);
+    padding: calc($escapeHeight / 5);
     background-color: #7aa1a8dd;
-    border-radius: ($escapeHeight / 4);
+    border-radius: calc($escapeHeight / 4);
     &:hover {
       background-color: #7aa1a8ff;
     }

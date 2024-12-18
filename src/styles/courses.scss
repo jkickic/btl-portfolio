@@ -1,3 +1,7 @@
+@use "./include-media.scss" as *;
+
+$link: rgba(0, 83, 161, 0.75);
+
 .courses-section {
   width: 80vw;
   max-width: 960px;

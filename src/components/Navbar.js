@@ -1,6 +1,6 @@
 import React from "react"
-import { Button, ButtonGroup, Menu, MenuItem } from "@material-ui/core"
-import Link from "gatsby-link"
+import { Button, ButtonGroup, Menu, MenuItem } from "@mui/material"
+import { Link } from "gatsby-link"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Navbar = ({ siteData }) => {

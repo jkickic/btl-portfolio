@@ -1,7 +1,9 @@
+@use "./include-media.scss" as *;
+
 .tile {
   width: 100%;
   filter: opacity(70%);
-  @include media("<lgphone") {
+  @include media("<phone") {
     @include media("portrait") {
       width: 60vw;
       height: 40vw;
@@ -11,7 +13,7 @@
       height: 40vh;
     }
   }
-  @include media(">=lgphone", "<tablet") {
+  @include media(">=phone", "<tablet") {
     @include media("portrait") {
       width: 45vw;
       height: 30vw;

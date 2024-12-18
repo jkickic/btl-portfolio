@@ -1,6 +1,6 @@
 import React from "react"
-import { Modal } from "@material-ui/core"
-import CloseIcon from "@material-ui/icons/Close"
+import { Modal } from "@mui/material"
+import CloseIcon from "@mui/icons-material/Close"
 
 const PdfModal = ({ resumeSrc, imgSrc }) => {
   const [open, setOpen] = React.useState(false)

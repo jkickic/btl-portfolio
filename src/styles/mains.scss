@@ -1,21 +1,22 @@
 @charset "utf-8";
-@import "./include-media.scss";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+@use "./include-media.scss" as *;
 
 // Atoms
-@import "./tile.scss";
+@use "./tile.scss";
 
 // Components
-@import "./about.scss";
-@import "./navbar.scss";
-@import "./drawer.scss";
-@import "./contact.scss";
-@import "./work.scss";
-@import "./service.scss";
-@import "./courses.scss";
-@import "./landing.scss";
-@import "./divider.scss";
-@import "./pdf-modal.scss";
+@use "./about.scss";
+@use "./navbar.scss";
+@use "./drawer.scss";
+@use "./contact.scss";
+@use "./work.scss";
+@use "./service.scss";
+@use "./courses.scss";
+@use "./landing.scss";
+@use "./divider.scss";
+@use "./pdf-modal.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 
 * {
   font-family: "Montserrat", serif;
