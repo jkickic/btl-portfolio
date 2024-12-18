@@ -1,6 +1,6 @@
 import React, { Component } from "react"
-import Fab from "@material-ui/core/Fab"
-import NavigationIcon from "@material-ui/icons/Navigation"
+import Fab from "@mui/material/Fab"
+import NavigationIcon from "@mui/icons-material/Navigation"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
 class DisappearingFab extends Component {

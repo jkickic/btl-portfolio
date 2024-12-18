@@ -1,12 +1,11 @@
 import React from "react"
-import FacebookIcon from "@material-ui/icons/Facebook"
-import MailOutlineIcon from "@material-ui/icons/MailOutline"
-import RoomIcon from "@material-ui/icons/Room"
-import PhoneIcon from "@material-ui/icons/Phone"
+import FacebookIcon from "@mui/icons-material/Facebook"
+import MailOutlineIcon from "@mui/icons-material/MailOutline"
+import RoomIcon from "@mui/icons-material/Room"
+import PhoneIcon from "@mui/icons-material/Phone"
 
 import Fade from "react-reveal/Fade"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
-import { bookSessionLink } from "../site-data/commonData"
 
 const Contact = ({ siteData }) => {
   let { contact } = siteData

@@ -1,7 +1,7 @@
 import reactStringReplace from "react-string-replace"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
 import React from "react"
-import cheerio from "cheerio"
+import * as cheerio from "cheerio"
 
 /**
  * //TODO fix this util... 🤦‍♂️

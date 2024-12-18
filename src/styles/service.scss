@@ -1,3 +1,5 @@
+@use "./include-media.scss" as *;
+
 $link: rgba(0, 83, 161, 0.75);
 
 .service-section {
@@ -65,11 +67,11 @@ $link: rgba(0, 83, 161, 0.75);
     justify-content: center;
     align-content: center;
     overflow: hidden;
-    @include media("<lgphone") {
+    @include media("<phone") {
       width: 100%;
       height: 200px;
     }
-    @include media(">=lgphone", "<tablet") {
+    @include media(">=phone", "<tablet") {
       width: 100%;
       height: 300px;
     }

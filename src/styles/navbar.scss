@@ -1,3 +1,5 @@
+@use "./include-media.scss" as *;
+
 .navbar-section {
   display: flex;
   flex-direction: column;
@@ -13,9 +15,9 @@
   background-image: url("../images/nav-bg.webp");
   background-size: cover;
   width: $width;
-  height: ($width/$navBgRatio);
+  height: calc($width/$navBgRatio);
   max-width: $maxWidth;
-  max-height: ($maxWidth/$navBgRatio);
+  max-height: calc($maxWidth/$navBgRatio);
   position: relative;
   @include media("<tablet", "portrait") {
     $width: 100vw;
@@ -23,7 +25,7 @@
     background-image: url("../images/nav-bg-narrow2.webp");
     background-size: cover;
     width: $width;
-    height: ($width/$navBgRatio);
+    height: calc($width/$navBgRatio);
     max-width: none;
     max-height: none;
     position: relative;
@@ -95,9 +97,9 @@
 
   // position
   position: absolute;
-  bottom: -($height/2);
+  bottom: -(calc($height/2));
   @include media("<tablet", "portrait") {
-    bottom: -($heightMobile/2);
+    bottom: calc($heightMobile / -2);
   }
   left: 10%;
 }
