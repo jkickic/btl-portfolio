@@ -9,6 +9,9 @@
   align-items: center;
   h2 {
     font-size: 3rem;
+    @include media("<tablet", "portrait") {
+      font-size: 2rem;
+    }
     line-height: 40px;
   }
   .grid {
