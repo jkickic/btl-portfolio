@@ -93,8 +93,7 @@ export default {
         "Do you need to develop promotional material in a foreign language? Or maybe you want to tell the world what distinguishes your brand, product, or service from all others available on the market? We will help you achieve this goal in a creative way! At BTL, we offer content marketing and copywriting services in foreign languages.",
         `Read our <a href='${blogUrls.url}' target="_blank">blog</a>.`,
       ],
-      img:
-        "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      img: "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
       imgRight: true,
     },
     {
@@ -116,7 +115,7 @@ export default {
     title: "Courses",
     id: "courses",
     listOfItems: [
-      /*  {
+      {
         itemTitle: "General English / German / Italian",
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -136,7 +135,7 @@ export default {
           "Our student-oriented conversation sessions are based on current events and topics of your interest. You speak, we listen and provide constructive feedback. The language barrier is gradually replaced with confidence!",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
-      },*/
+      },
       {
         itemTitle: "Business English",
         imageSrc:
@@ -156,7 +155,7 @@ export default {
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
-      /*  {
+      {
         itemTitle: "Exam preparation",
         imageSrc:
           "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -164,7 +163,7 @@ export default {
           "As academic lecturers and licensed Pearson examiners, we offer comprehensive exam preparation for a wide variety of formal language examinations, such as the FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General, and the Polish “Matura” exam. Together we will create a study plan and make sure you stick to it so that your certified language skills will help you pursue your dream studies or dream career.",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
-      },*/
+      },
       {
         itemTitle: "Accent reduction",
         imageSrc:
@@ -174,7 +173,7 @@ export default {
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
-      /*      {
+      {
         itemTitle: "Young Lerners / Teenagers",
         imageSrc:
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -182,7 +181,7 @@ export default {
           "Learning a foreign language can and should be loads of fun! We have a wide range of engaging activities, games, videos, and other interactive teaching techniques up our sleeve!",
           `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
-      },*/
+      },
       {
         itemTitle: "Creative writing course",
         imageSrc:

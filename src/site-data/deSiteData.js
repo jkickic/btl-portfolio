@@ -93,8 +93,7 @@ export default {
         "Müssen Sie Werbematerial in einer Fremdsprache erstellen? Oder möchten Sie der Welt mitteilen, was Ihre Marke, Ihr Produkt oder Ihre Dienstleistung von allen anderen auf dem Markt unterscheidet? Wir helfen Ihnen dabei, dieses Ziel auf kreative Weise zu erreichen! Bei BTL bieten wir Content-Marketing- und Copywriting-Dienstleistungen in Fremdsprachen an.",
         `Lesen Sie unseren <a href='${blogUrls.url}' target="_blank">blog</a>.`,
       ],
-      img:
-        "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      img: "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
       imgRight: true,
     },
     {
@@ -116,33 +115,33 @@ export default {
     title: "Kurse",
     id: "courses",
     listOfItems: [
-      /*  {
-          itemTitle: "Englisch / Deutsch / Italienisch",
-          imageSrc:
-            "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          paragraphs: [
-            `Das Üben von Sprechen, Lesen, Hören, Grammatik und Schreiben führt dazu, eine Fremdsprache zu meistern. Wir legen Wert auf all diese Bereiche, um sicherzustellen, dass Sie große Fortschritte machen! Durch die Erstellung eines speziell auf Sie zugeschnittenen Lernplans berücksichtigen wir Ihren individuellen Lernstil sowie Ihre Ziele. Neues Material wird anschließend wiederholt, um es fest in Ihrem Gedächtnis zu verankern. Die Atmosphäre ist stets freundlich und ungezwungen, da wir Sie als Mentoren und nicht nur als Lehrer in Ihrem Lernprozess unterstützen möchten. Erfahren Sie mehr über unseren Arbeitsstil auf unserem <a href='${blogUrls.howOurCoursesLook}' target="_blank">blog</a>.`,
-            `Der Unterricht findet online und vor Ort in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
-            `Buch deine kostenlose Probestunde <a href='${bookSessionLink}' target="_blank">hier</a>.`,
-          ],
-        },
-        {
-          itemTitle: "Konversationen",
-          imageSrc:
-            "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          paragraphs: [
-            "Konversationen werden in einer positiven und entspannten Atmosphäre durchgeführt, damit Sie sich „öffnen“ und anfangen können zu sprechen. Genau wie Kinder in ihrer Muttersprache sprechen lernen, ohne vorher formell Grammatik zu studieren, ist das Wichtigste beim Erlernen einer Fremdsprache, zu sprechen – und viel zu sprechen! Wir werden Ihnen helfen, die Sprachbarriere und die Angst vor Fehlern abzubauen. Mit der Zeit werden Ihre Äußerungen grammatisch immer korrekter und Sie werden sie immer bewusster und freier formulieren.",
-            "Wenn Sie bereits ein fortgeschrittener Sprecher sind, können wir Ihnen helfen, die Qualität Ihres Wortschatzes weiter zu verbessern und noch flüssiger zu sprechen. ",
-            "Unsere studentenzentrierten Konversationen basieren auf aktuellen Ereignissen und Themen, die Sie interessieren. Sie sprechen, wir hören zu und geben konstruktives Feedback. Die Sprachbarriere wird nach und nach durch Selbstvertrauen ersetzt!",
-            `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
-          ],
-        },*/
+      {
+        itemTitle: "Englisch / Deutsch / Italienisch",
+        imageSrc:
+          "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          `Das Üben von Sprechen, Lesen, Hören, Grammatik und Schreiben führt dazu, eine Fremdsprache zu meistern. Wir legen Wert auf all diese Bereiche, um sicherzustellen, dass Sie große Fortschritte machen! Durch die Erstellung eines speziell auf Sie zugeschnittenen Lernplans berücksichtigen wir Ihren individuellen Lernstil sowie Ihre Ziele. Neues Material wird anschließend wiederholt, um es fest in Ihrem Gedächtnis zu verankern. Die Atmosphäre ist stets freundlich und ungezwungen, da wir Sie als Mentoren und nicht nur als Lehrer in Ihrem Lernprozess unterstützen möchten. Erfahren Sie mehr über unseren Arbeitsstil auf unserem <a href='${blogUrls.howOurCoursesLook}' target="_blank">blog</a>.`,
+          `Der Unterricht findet online und vor Ort in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
+          `Buch deine kostenlose Probestunde <a href='${bookSessionLink}' target="_blank">hier</a>.`,
+        ],
+      },
+      {
+        itemTitle: "Konversationen",
+        imageSrc:
+          "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Konversationen werden in einer positiven und entspannten Atmosphäre durchgeführt, damit Sie sich „öffnen“ und anfangen können zu sprechen. Genau wie Kinder in ihrer Muttersprache sprechen lernen, ohne vorher formell Grammatik zu studieren, ist das Wichtigste beim Erlernen einer Fremdsprache, zu sprechen – und viel zu sprechen! Wir werden Ihnen helfen, die Sprachbarriere und die Angst vor Fehlern abzubauen. Mit der Zeit werden Ihre Äußerungen grammatisch immer korrekter und Sie werden sie immer bewusster und freier formulieren.",
+          "Wenn Sie bereits ein fortgeschrittener Sprecher sind, können wir Ihnen helfen, die Qualität Ihres Wortschatzes weiter zu verbessern und noch flüssiger zu sprechen. ",
+          "Unsere studentenzentrierten Konversationen basieren auf aktuellen Ereignissen und Themen, die Sie interessieren. Sie sprechen, wir hören zu und geben konstruktives Feedback. Die Sprachbarriere wird nach und nach durch Selbstvertrauen ersetzt!",
+          `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
+        ],
+      },
       {
         itemTitle: "Business English",
         imageSrc:
           "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          'Als Linguisten und Fachleute im Bereich Wirtschaft und HR haben wir praxisorientierte Business-Kurse entwickelt, die darauf abzielen, Ihre Kommunikationsfähigkeiten im beruflichen Umfeld zu verbessern. Wir kennen den Unternehmenssektor „von innen“, was in Kombination mit unserer Erfahrung in der akademischen Arbeit dazu beiträgt, dass Sie die wichtigsten Fähigkeiten in der Geschäftskommunikation meistern – wie Präsentationsfähigkeiten, die aktive Teilnahme an Meetings mit ausländischen Partnern, Small Talk, die Kunst der Verhandlungen, das Erstellen von Berichten sowie die aktive Teilnahme an sozialen Unternehmensveranstaltungen (sowohl formell als auch informell).',
+          "Als Linguisten und Fachleute im Bereich Wirtschaft und HR haben wir praxisorientierte Business-Kurse entwickelt, die darauf abzielen, Ihre Kommunikationsfähigkeiten im beruflichen Umfeld zu verbessern. Wir kennen den Unternehmenssektor „von innen“, was in Kombination mit unserer Erfahrung in der akademischen Arbeit dazu beiträgt, dass Sie die wichtigsten Fähigkeiten in der Geschäftskommunikation meistern – wie Präsentationsfähigkeiten, die aktive Teilnahme an Meetings mit ausländischen Partnern, Small Talk, die Kunst der Verhandlungen, das Erstellen von Berichten sowie die aktive Teilnahme an sozialen Unternehmensveranstaltungen (sowohl formell als auch informell).",
           `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
         ],
       },
@@ -156,7 +155,7 @@ export default {
           `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
         ],
       },
-      /*  {
+      {
           itemTitle: "Prüfungsvorbereitung",
           imageSrc:
             "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -164,7 +163,7 @@ export default {
             "Als lizenzierte Pearson-Prüfer bieten wir eine umfassende Prüfungsvorbereitung für eine Vielzahl offizieller Sprachprüfungen an, wie z.B. FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1), PTE General und die polnische „Matura“. Gemeinsam erstellen wir einen Studienplan und sorgen dafür, dass Sie diesen einhalten, damit Ihre zertifizierten Sprachkenntnisse Ihnen helfen, Ihre Traumstudien oder Ihre Traumkarriere zu verwirklichen..",
             `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
           ],
-        },*/
+      },
       {
         itemTitle: "Akzentreduzierung",
         imageSrc:
@@ -174,15 +173,15 @@ export default {
           `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
         ],
       },
-      /*      {
-              itemTitle: "Young Lerners / Teenagers",
-              imageSrc:
-                "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-              paragraphs: [
-                "Eine Fremdsprache zu lernen kann und sollte richtig Spaß machen! Wir haben eine Vielzahl von unterhaltsamen Aktivitäten, Spielen, Songs, Videos und anderen interaktiven Lehrmethoden in petto!",
-                `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
-              ],
-            },*/
+      {
+        itemTitle: "Young Lerners / Teenagers",
+        imageSrc:
+          "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        paragraphs: [
+          "Eine Fremdsprache zu lernen kann und sollte richtig Spaß machen! Wir haben eine Vielzahl von unterhaltsamen Aktivitäten, Spielen, Songs, Videos und anderen interaktiven Lehrmethoden in petto!",
+          `Der Unterricht findet online und live in unserem <a href='${gmapsLink}' target="_blank">studio</a> in Krakow statt.`,
+        ],
+      },
       {
         itemTitle: "Kurs für kreatives Schreiben",
         imageSrc:

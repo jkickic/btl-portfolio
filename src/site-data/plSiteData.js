@@ -97,8 +97,7 @@ export default {
         "Potrzebujesz opracować materiał promocyjny w języku obcym? Chcesz powiedzieć światu co wyróżnia Twoją markę, produkt lub usługę spośród wszystkich innych dostępnych na rynku? Pomożemy Ci to osiągnąć w sposób skuteczny i kreatywny! W BTL oferujemy usługi z zakresu marketingu treści i copywritingu w językach obcych. ",
         `Zapraszamy do zapoznania się z naszym <a href="${blogUrls.url}", target="_blank">blogiem</a>.`,
       ],
-      img:
-        "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
+      img: "https://images.pexels.com/photos/5238117/pexels-photo-5238117.jpeg?auto=compress&cs=tinysrgb&w=1000",
       imgRight: true,
     },
     {
@@ -120,7 +119,7 @@ export default {
     title: "Kursy",
     id: "courses",
     listOfItems: [
-      /*      {
+      {
         itemTitle: "Angielski / Niemiecki / Włoski – kursy ogólne",
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -140,7 +139,7 @@ export default {
           "Pomożemy Ci pozbyć się bariery językowej i obawy, że popełnisz błąd. Z czasem Twoje wypowiedzi będą coraz bardziej poprawne i będziesz je formułował coraz bardziej świadomie i pewnie. ",
           `Konwersacje dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
-      },*/
+      },
       {
         itemTitle: "Angielski biznesowy",
         imageSrc:
