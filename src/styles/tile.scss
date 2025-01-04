@@ -47,10 +47,8 @@
     h2 {
       font-size: clamp(16px, 2vw, 40px);
       display: inline;
-      @include media("<tablet") {
-        @include media("portrait") {
-          font-size: 6vw;
-        }
+      @include media("<tablet", "portrait") {
+        font-size: 5vw;
       }
       color: white;
       white-space: normal;
