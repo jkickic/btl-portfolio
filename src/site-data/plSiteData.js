@@ -159,7 +159,7 @@ export default {
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
-      /*      {
+      {
         itemTitle: "Przygotowanie do egzaminów",
         imageSrc:
           "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -167,7 +167,7 @@ export default {
           "Jako wykładowcy akademiccy i licencjonowani egzaminatorzy Pearson, oferujemy kompleksowe przygotowanie do egzaminów FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General oraz do egzaminu maturalnego (poziom podstawowy i rozszerzony). Wspólnie opracujemy plan nauki i pomożemy Ci zdobyć kwalifikacje językowe, abyś mógł zdobyć pracę marzeń lub podjąć wymarzone studia.",
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
-      },*/
+      },
       {
         itemTitle: "Redukcja akcentu",
         imageSrc:
@@ -177,7 +177,7 @@ export default {
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
-      /*      {
+      {
         itemTitle: "Młodzież",
         imageSrc:
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -185,7 +185,7 @@ export default {
           "Nauka języka obcego może i powinna być świetną zabawą! Wiemy o tym doskonale i mamy w zanadrzu szeroką gamę gier, filmów i innych interaktywnych technik nauczania!",
           `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
-      },*/
+      },
       {
         itemTitle: "Kurs kreatywnego pisania",
         imageSrc:
