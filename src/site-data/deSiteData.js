@@ -104,7 +104,7 @@ export default {
         "Unser Ziel ist es, Ihnen zum Erfolg in den Beziehungen zu Ihren Kunden zu helfen.<br/>",
         "Beim <b> simultanen Dolmetschen</b> wird der natürliche Redefluss des Sprechers nicht unterbrochen da die Zuhörer nicht warten müssen, um die Botschaft zu verstehen. Simultandolmetschen wird daher für groß angelegte Konferenzen und Veranstaltungen empfohlen, bei denen keine Zeit für Verzögerungen bei der Übermittlung der Botschaft bleibt.",
         "Beim <b>konsekutiven Dolmetschen</b> macht der Sprecher alle paar Minuten eine Pause, nach der der Dolmetscher das Gesagte in die Sprache der Zuhörer überträgt. Das konsekutive Dolmetschen erfordert Notizen (um Detailverluste zu vermeiden) und wird für kleinere Geschäftstreffen empfohlen.",
-        "Das <b>Flüsterdolmetschen</b> ist dem Simultandolmetschen ähnlich, jedoch verwendet der /die Dolmetscher weder Mikrofon noch Kopfhörer. Stattdessen sitzt er/sie neben einer Person (oder gegenüber einer kleinen Gruppe), die die Dolmetschung benötigt. Diese dolmetsch Art wird für Treffen empfohlen, bei denen nur eine Person die Dolmetschung benötigt.",
+        "Das <b>Flüsterdolmetschen</b> ist dem Simultandolmetschen ähnlich, jedoch verwendet der/die Dolmetscher weder Mikrofon noch Kopfhörer. Stattdessen sitzt er/sie neben einer Person (oder gegenüber einer kleinen Gruppe), die die Dolmetschung benötigt. Diese dolmetsch Art wird für Treffen empfohlen, bei denen nur eine Person die Dolmetschung benötigt.",
       ],
       img: interpreterImg,
     },
@@ -119,7 +119,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          `Das Üben von Schreiben, Lesen, Sprechen, Hören und Grammatik führt dazu, eine Fremdsprache zu erlearnen. Wir legen Wert auf all diese Bereiche, um sicherzustellen, dass Sie große Fortschritte machen! Durch die Erstellung eines speziell auf Sie zugeschnittenen Lernplans berücksichtigen wir Ihren individuellen Lernstil sowie Ihre Ziele. Neues Material wird anschließend wiederholt, um es fest in Ihrem Gedächtnis zu verankern. Die Atmosphäre ist stets freundlich und ungezwungen, da wir Sie als Mentoren und nicht nur als Lehrer in Ihrem Lernprozess unterstützen möchten.  Erfahren Sie mehr über unseren Arbeitsstil auf unserem <a href='${blogUrls.howOurCoursesLook}' target="_blank">Blog</a>.`,
+          `Das Üben von Schreiben, Lesen, Sprechen, Hören und Grammatik führt dazu, eine Fremdsprache zu erlernen. Wir legen Wert auf all diese Bereiche, um sicherzustellen, dass Sie große Fortschritte machen! Durch die Erstellung eines speziell auf Sie zugeschnittenen Lernplans berücksichtigen wir Ihren individuellen Lernstil sowie Ihre Ziele. Neues Material wird anschließend wiederholt, um es fest in Ihrem Gedächtnis zu verankern. Die Atmosphäre ist stets freundlich und ungezwungen, da wir Sie als Mentoren und nicht nur als Lehrer in Ihrem Lernprozess unterstützen möchten.  Erfahren Sie mehr über unseren Arbeitsstil auf unserem <a href='${blogUrls.howOurCoursesLook}' target="_blank">Blog</a>.`,
           `Der Unterricht findet online oder vor Ort in unserem <a href='${gmapsLink}' target="_blank">Studio</a> in Krakow statt.`,
         ],
       },
@@ -129,7 +129,7 @@ export default {
           "https://images.pexels.com/photos/6457524/pexels-photo-6457524.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Die Konversationen werden in einer für Sie angenehmen Atmosphäre durchgeführt, somit fällt es Ihnen leichter  sich zu „öffnen“ und angstfrei sprechen zu können. Genau wie Kinder in ihrer Muttersprache sprechen lernen, ohne vorher formell Grammatik zu studieren, ist das Wichtigste beim Erlernen einer Fremdsprache, zu sprechen – und viel zu sprechen! Wir werden Ihnen helfen, die Sprachbarriere und die Angst vor Fehlern abzubauen. Mit der Zeit wird Ihre Aussprache immer korrekter und Sie werden sie immer bewusster und freier formulieren.",
-          "Wenn Sie bereits ein fortgeschrittener Sprecher sind, können wir Ihnen helfen, die Qualität Ihres Wortschatzes weiter zu verbessern und noch flüssiger zu sprechen. ",
+          "Wenn Sie bereits fortgeschrittener Sprecher sind, können wir Ihnen helfen, die Qualität Ihres Wortschatzes weiter zu verbessern und noch flüssiger zu sprechen. ",
           "Unsere Konversationen basieren auf aktuellen Ereignissen und Themen, die Sie interessieren. Sie sprechen, wir hören zu und geben konstruktives Feedback. Die Sprachbarriere wird nach und nach kleiner",
           `Der Unterricht findet online oder live in unserem <a href='${gmapsLink}' target="_blank">Studio</a> in Krakow statt.`,
         ],
@@ -176,7 +176,7 @@ export default {
         imageSrc:
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
-          "Eine Fremdsprache zu lernen kann und sollte richtig Spaß machen! Wir haben eine Vielzahl von unterhaltsamen Aktivitäten, Spielen, Songs, Videos und anderen interaktiven Lehrmethoden in petto!",
+          "Eine Fremdsprache zu lernen kann und sollte Spaß machen! Wir haben eine Vielzahl von unterhaltsamen Aktivitäten, Spiele, Songs, Videos und anderen interaktiven Lehrmethoden in petto!",
           `Der Unterricht findet online oder live in unserem <a href='${gmapsLink}' target="_blank">Studio</a> in Krakow statt.`,
         ],
       },
