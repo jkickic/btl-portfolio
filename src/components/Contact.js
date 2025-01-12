@@ -9,6 +9,7 @@ import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Contact = ({ siteData }) => {
   let { contact } = siteData
+  const copyrightYear = new Date().getFullYear()
   return (
     <div className="section" id="contact">
       <div className="container">
@@ -44,6 +45,7 @@ const Contact = ({ siteData }) => {
               <RoomIcon className="contact-icon" />
               <span>{contact.gmapsText}</span>
             </OutboundLink>
+
             <OutboundLink
               className="social-link"
               href={"tel:" + siteData.phoneNumber}
@@ -53,18 +55,23 @@ const Contact = ({ siteData }) => {
               <PhoneIcon className="contact-icon" />
               <span>{contact.phoneText}</span>
             </OutboundLink>
-            <OutboundLink
-              className="social-link"
-              href={siteData.bookSessionLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FacebookIcon className="contact-icon" />
-              <span>{contact.fbBookSessionText}</span>
-            </OutboundLink>
+
+            {contact.fbBookSessionText ? (
+              <OutboundLink
+                className="social-link"
+                href={siteData.bookSessionLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FacebookIcon className="contact-icon" />
+                <span>{contact.fbBookSessionText}</span>
+              </OutboundLink>
+            ) : (
+              ""
+            )}
           </div>
           <div className="copyright">
-            <p>© by MATEUSZ ZAJĄC Software 2021</p>
+            <p>© {copyrightYear} by MATEUSZ ZAJĄC Software</p>
           </div>
         </div>
       </div>
