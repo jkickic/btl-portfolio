@@ -28,6 +28,7 @@ export default {
     ],
     chris: {
       paragraphs: [
+        "<b>Chris Berger</b>",
         "Chris is a native German speaker from Austria with over 15 years of experience working with the German language. ",
         "Holding a Master's degree in Economics and Management, he has taught German to professionals from leading international companies including Shell, IBM, Google, UBS, ABB, and Capgemini. ",
         "Alongside his teaching career, he collaborates with German-speaking corporations on language projects and recruitment, and has lectured at the Jagiellonian University and the Cracow University of Economics. ",
