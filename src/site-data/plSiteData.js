@@ -4,7 +4,6 @@ const {
   blogUrls,
   bookSessionLink,
   languages,
-  gmapsLink,
 } = require("./commonData")
 
 export default {
@@ -28,6 +27,15 @@ export default {
       "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lingwistami. Pracujemy z <b>angielskim</b>, <b>włoskim</b>, <b>niemieckim</b> i <b>polskim</b>. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
       "Prywatnie uwielbiamy podróże. Posłuchajcie sami!",
     ],
+    chris: {
+      paragraphs: [
+        "Chris is a native German speaker from Austria with over 15 years of experience working with the German language. ",
+        "Holding a Master's degree in Economics and Management, he has taught German to professionals from leading international companies including Shell, IBM, Google, UBS, ABB, and Capgemini. ",
+        "Alongside his teaching career, he collaborates with German-speaking corporations on language projects and recruitment, and has lectured at the Jagiellonian University and the Cracow University of Economics. ",
+        "Living in Poland since 2004, Chris is fluent in both German and Polish, enabling him to bridge linguistic and cultural differences with accuracy and professionalism. ",
+        "His expertise covers business communication, technical language, and cross-cultural communication, making him a valuable member of our translation team.",
+      ],
+    },
   },
 
   navigation: [
@@ -125,7 +133,7 @@ export default {
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           `Na opanowanie języka obcego składa się ćwiczenie mówienia, czytania, słuchania, gramatyki i pisania. W BTL ćwiczymy wszystkie te umiejętności! Opracowując dla Ciebie indywidualny plan nauki, bierzemy pod uwagę Twój unikalny styl pracy, a także cele, które chcesz osiągnąć. Nowy materiał z każdych zajęć jest następnie utrwalany i powtarzany. Ponadto regularnie monitorujemy Twoje postępy, abyś zawsze wiedział, nad czym pracować, aby zmaksymalizować efekty nauki. Atmosfera na zajęciach jest przyjazna i nieformalna, ponieważ chcemy Cię wspierać w nauce języka raczej jako mentorzy, niż nauczyciele. `,
-          `Więcej o naszym stylu pracy znajdziesz na naszym <a href='${blogUrls.howOurCoursesLook}' target="_blank">blogu</a>. Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
+          `Więcej o naszym stylu pracy znajdziesz na naszym <a href='${blogUrls.howOurCoursesLook}' target="_blank">blogu</a>.`,
           `Zarezerwuj bezpłatną sesję próbną <a href='${bookSessionLink}' target="_blank">tutaj</a>.`,
         ],
       },
@@ -137,7 +145,6 @@ export default {
           "Konwersacje prowadzimy „na luzie”, w pozytywnej i swobodnej atmosferze. Chcemy, abyś poczuł się swobodnie mówiąc w języku obcym, niezależnie od Twojego aktualnego poziomu językowego. Dzieci przyswajając język ojczysty, niekoniecznie skupiają się cały czas na gramatyce. Również w przypadku nauki języka obcego najważniejsze jest to, abyś mówił!",
           "...A może już jesteś na poziomie zaawansowanym, ale wciąż brakuje Ci pewności siebie? Masz wrażenie, że znasz te wszystkie słowa i zwroty, ale po prostu nie przychodzą Ci do głowy na czas?",
           "Pomożemy Ci pozbyć się bariery językowej i obawy, że popełnisz błąd. Z czasem Twoje wypowiedzi będą coraz bardziej poprawne i będziesz je formułował coraz bardziej świadomie i pewnie. ",
-          `Konwersacje dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
       {
@@ -146,7 +153,6 @@ export default {
           "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Jako lingwiści, a zarazem profesjonaliści w dziedzinie ekonomii i HR, opracowaliśmy specjalistyczne kursy biznesowe, które mają na celu podniesienie Twoich kompetencji komunikacyjnych w środowisku zawodowym. Znamy sektor korporacyjny „od wewnątrz”, co w połączeniu z naszym wieloletnim doświadczeniem w pracy akademickiej pomoże Ci opanować najważniejsze umiejętności w komunikacji biznesowej. Na naszych zajęciach nabierzesz kompetencji w zakresie: wygłaszania prezentacji, aktywnego udziału w spotkaniach z zagranicznymi partnerami, small talk, sztuki negocjacji, sporządzania raportów, a także aktywnego udziału w firmowych spotkaniach towarzyskich.",
-          `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
       {
@@ -156,7 +162,6 @@ export default {
         paragraphs: [
           "Nasz specjalista ds. zasobów ludzkich, Natalia, jest także profesjonalnym lingwistą; pracowała w branży HR przez ponad 4 lata i rekrutowała setki kandydatów z całego świata w językach włoskim i angielskim. Zna tę branżę od podszewki i chętnie pomoże Ci przygotować się gruntownie do rozmowy kwalifikacyjnej w języku obcym, a co za tym idzie... zdobyć wymarzoną pracę! ",
           "Ponadto: <br/><br/> • przeanalizujemy Twoje CV pod kątem językowym i merytorycznym<br/> • zadbamy o profesjonalny układ graficzny <br/> • opracujemy Twój profil LinkedIn",
-          `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
       {
@@ -165,7 +170,6 @@ export default {
           "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Jako wykładowcy akademiccy i licencjonowani egzaminatorzy Pearson, oferujemy kompleksowe przygotowanie do egzaminów FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General oraz do egzaminu maturalnego (poziom podstawowy i rozszerzony). Wspólnie opracujemy plan nauki i pomożemy Ci zdobyć kwalifikacje językowe, abyś mógł zdobyć pracę marzeń lub podjąć wymarzone studia.",
-          `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
       {
@@ -174,7 +178,6 @@ export default {
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           `Sesje redukcji akcentu bazują na technice <i>shadowing</i> (więcej informacji na temat <i>shadowing</i> można znaleźć na <a href='${blogUrls.shadowing}' target="_blank">naszym blogu</a>), używanej przez tłumaczy symultanicznych jako niezwykle skutecznej metody formułowania wypowiedzi, które są płynne i brzmią naturalnie. Podczas zajęć z redukcji akcentu pracujemy nad akcentem, rytmem, płynnością i intonacją w języku obcym. W tym celu wykorzystujemy metody audiowizualne oraz zestaw słuchawkowy. Po zajęciach dostajesz serię ćwiczeń do wykonania samodzielnie w domu. Trenuj z nami jak zawodowiec!`,
-          `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
       {
@@ -183,7 +186,6 @@ export default {
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Nauka języka obcego może i powinna być świetną zabawą! Wiemy o tym doskonale i mamy w zanadrzu szeroką gamę gier, filmów i innych interaktywnych technik nauczania!",
-          `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
         ],
       },
       {
@@ -193,7 +195,6 @@ export default {
         paragraphs: [
           "Jeśli uwielbiasz blogować lub przelewać swoje myśli na papier, skontaktuj się z nami! Pomożemy Ci wypracować Twój unikalny styl pisania w języku obcym, który będzie poprawny, prosty w odbiorze, a zarazem perswazyjny. Z nami poznasz odpowiednie środki przekazu, wzbogacisz swoje słownictwo, a także zachwycisz wszystkich elokwencją!",
           "Kurs kreatywnego pisania jest dedykowany dla wszystkich, którzy mają do czynienia z językiem pisanym, chcieliby poszerzyć swoje słownictwo lub rozwinąć swoje umiejętności marketingowe w języku obcym.",
-          `Zajęcia dostępne są w formie on-line oraz na żywo w naszym <a href='${gmapsLink}' target="_blank">studio</a> w Krakowie.`,
           `Zajrzyj na naszego <a href='${blogUrls.url}' target="_blank">bloga</a>.`,
         ],
       },

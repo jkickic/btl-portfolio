@@ -4,7 +4,6 @@ const {
   blogUrls,
   bookSessionLink,
   languages,
-  gmapsLink,
 } = require("./commonData")
 
 export default {
@@ -121,7 +120,6 @@ export default {
           "https://images.pexels.com/photos/4386426/pexels-photo-4386426.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           `Practicing speaking, reading, listening, grammar, and writing translates into mastering a foreign language. We focus on all of these to ensure that you make progress in leaps and bounds! By creating a study plan specifically for you, we take into consideration your unique learning style as well as your goals. New material is then revised to get it fixed in your mind and your progress is regularly monitored. The atmosphere is always friendly and informal, as we want to support you in your language learning experience as mentors, rather than teachers. Find out more about our working style on our <a href='${blogUrls.howOurCoursesLook}' target="_blank">blog</a>.`,
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
           `Book your free trial session <a href='${bookSessionLink}' target="_blank">here</a>.`,
         ],
       },
@@ -133,7 +131,6 @@ export default {
           "Conversation sessions are conducted in a positive and relaxed atmosphere so that you can “open up” and start speaking. Just as children start talking in their mother tongue without the formal study of grammar beforehand, the most important thing when learning a foreign language is to talk and to talk a lot! We will help you get rid of the language barrier and the fear of making a mistake. Over time, your utterances will become more and more correct in terms of grammar and you will formulate them more and more consciously and freely.",
           "If you are already an advanced speaker, we can help you to further improve the quality of your vocabulary and to speak even more fluently. ",
           "Our student-oriented conversation sessions are based on current events and topics of your interest. You speak, we listen and provide constructive feedback. The language barrier is gradually replaced with confidence!",
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
       {
@@ -142,7 +139,6 @@ export default {
           "https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           'As linguists and professionals in the field of Economics and HR, we have developed hands-on business courses aimed at improving your communication skills in the professional environment. We know the corporate sector "from within” which, combined with our experience in academic work, will help you master the most important skills sought after in business communication, such as giving presentations, active participation in meetings with foreign partners, small talk, the art of negotiations, compiling reports, as well as active participation in company social events (both formally and informally).',
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
       {
@@ -152,7 +148,6 @@ export default {
         paragraphs: [
           "Our Talent Acquisition Specialist, Natalia, will arm you with the skills needed for a successful job interview. Having worked in the HR field for over 4 years and recruited hundreds of candidates from all over the world, she knows the “ins and outs” of the industry, and will help you land your dream job.",
           "Moreover, we will: <br/><br/> • revise your CV<br/> • make it look professional <br/> • analyze your LinkedIn profile",
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
       {
@@ -161,7 +156,6 @@ export default {
           "https://images.pexels.com/photos/3380743/pexels-photo-3380743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "As academic lecturers and licensed Pearson examiners, we offer comprehensive exam preparation for a wide variety of formal language examinations, such as the FCE, CAE, LCCI English for Business / English for Accounting (A2, B1, B2, C1, C2), PTE General, and the Polish “Matura” exam. Together we will create a study plan and make sure you stick to it so that your certified language skills will help you pursue your dream studies or dream career.",
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
       {
@@ -170,7 +164,6 @@ export default {
           "https://images.pexels.com/photos/5935755/pexels-photo-5935755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           `Accent reduction sessions are based on the <i>shadowing</i> technique (find out more about <i>shadowing</i> on our <a href='${blogUrls.shadowing}' target="_blank">blog</a>), which is an extremely powerful training method used by simultaneous interpreters. In accent reduction classes we work on your accent, rhythm, “flow” and intonation. To this end, we use audiovisual facilities and a headset. After the class, you are given special exercises to do by yourself at home. Train like a pro with us!`,
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
       {
@@ -179,7 +172,6 @@ export default {
           "https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         paragraphs: [
           "Learning a foreign language can and should be loads of fun! We have a wide range of engaging activities, games, videos, and other interactive teaching techniques up our sleeve!",
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
         ],
       },
       {
@@ -188,7 +180,6 @@ export default {
           "https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1000",
         paragraphs: [
           "If you love blogging or transferring your thoughts into writing, get in touch with us! As avid bloggers, we will not only help you make your writing in a foreign language correct and crystal clear, but also help you apply the appropriate tone and style, as well as idioms to eloquently get your message across. This course is highly recommended if you wish to elevate your vocabulary or level up your marketing skills.",
-          `Classes are available online and live in our <a href='${gmapsLink}' target="_blank">studio</a> in Krakow.`,
           `Read our <a href='${blogUrls.url}' target="_blank">blog</a>.`,
         ],
       },

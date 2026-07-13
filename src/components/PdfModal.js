@@ -1,8 +1,9 @@
 import React from "react"
 import { Modal } from "@mui/material"
 import CloseIcon from "@mui/icons-material/Close"
+import { magic } from "./utils"
 
-const PdfModal = ({ resumeSrc, imgSrc }) => {
+const PdfModal = ({ resumeSrc, paragraphs, imgSrc }) => {
   const [open, setOpen] = React.useState(false)
   const handleOpen = () => {
     setOpen(true)
@@ -29,7 +30,15 @@ const PdfModal = ({ resumeSrc, imgSrc }) => {
         <div className="embed-wrapper">
           <CloseIcon className="escape-button" onClick={handleClose} />
           <div className="resume-wrapper">
-            <img className="resume-img" src={resumeSrc} />
+            {!!resumeSrc ? (
+              <img className="resume-img" src={resumeSrc} />
+            ) : (
+              <>
+                {paragraphs.map((it, idx) => {
+                  return <p key={idx}>{magic(it)}</p>
+                })}
+              </>
+            )}
           </div>
         </div>
       </Modal>

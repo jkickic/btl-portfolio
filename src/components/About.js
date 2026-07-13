@@ -2,8 +2,9 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import PromoVideo from "./PromoVideo"
 import PdfModal from "./PdfModal"
-import helenaImg from "../images/helena.jpg"
+import helenaImg from "../images/helena2.png"
 import nataliaImg from "../images/natalia.jpg"
+import chrisImg from "../images/chris.png"
 
 const About = ({ siteData }) => {
   return (
@@ -16,8 +17,9 @@ const About = ({ siteData }) => {
             </h1>
             <h2>{siteData.about.subheading}</h2>
             <div className="pdfs-wrapper">
-              <PdfModal resumeSrc="../../helena.jpg" imgSrc={helenaImg} />
-              <PdfModal resumeSrc="../../natalia.jpg" imgSrc={nataliaImg} />
+              <PdfModal resumeSrc="../../helena2.jpg" imgSrc={helenaImg} />
+              <PdfModal resumeSrc="../../natalia2.jpg" imgSrc={nataliaImg} />
+              <PdfModal paragraphs={siteData.about.chris.paragraphs} imgSrc={chrisImg} />
             </div>
           </div>
 
