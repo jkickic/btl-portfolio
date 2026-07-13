@@ -27,6 +27,15 @@ export default {
       "We are professional conference interpreters and linguists. We work in <b>English</b>, <b>Italian</b>, <b>German</b>, and <b>Polish</b>. Our clients are global companies (e.g., construction concerns), international organizations (e.g., the United Nations), the City of Krakow, cultural institutions, local companies, non-governmental organizations, as well as individuals, to whom we render various language services.",
       "Offstage we love traveling and public speaking. Watch the video below and find out more!",
     ],
+    chris: {
+      paragraphs: [
+        "Chris is a native German speaker from Austria with over 15 years of experience working with the German language. ",
+        "Holding a Master's degree in Economics and Management, he has taught German to professionals from leading international companies including Shell, IBM, Google, UBS, ABB, and Capgemini. ",
+        "Alongside his teaching career, he collaborates with German-speaking corporations on language projects and recruitment, and has lectured at the Jagiellonian University and the Cracow University of Economics. ",
+        "Living in Poland since 2004, Chris is fluent in both German and Polish, enabling him to bridge linguistic and cultural differences with accuracy and professionalism. ",
+        "His expertise covers business communication, technical language, and cross-cultural communication, making him a valuable member of our translation team.",
+      ],
+    },
   },
 
   navigation: [
