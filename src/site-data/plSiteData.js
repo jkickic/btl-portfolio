@@ -30,11 +30,11 @@ export default {
     chris: {
       paragraphs: [
         "<b>Chris Berger</b>",
-        "Chris is a native German speaker from Austria with over 15 years of experience working with the German language. ",
-        "Holding a Master's degree in Economics and Management, he has taught German to professionals from leading international companies including Shell, IBM, Google, UBS, ABB, and Capgemini. ",
-        "Alongside his teaching career, he collaborates with German-speaking corporations on language projects and recruitment, and has lectured at the Jagiellonian University and the Cracow University of Economics. ",
-        "Living in Poland since 2004, Chris is fluent in both German and Polish, enabling him to bridge linguistic and cultural differences with accuracy and professionalism. ",
-        "His expertise covers business communication, technical language, and cross-cultural communication, making him a valuable member of our translation team.",
+        "Chris jest rodzimym użytkownikiem języka niemieckiego, pochodzi z Austrii i ma ponad 15 lat doświadczenia w pracy z językiem niemieckim.",
+        "Jest absolwentem studiów magisterskich z zakresu ekonomii i zarządzania. Uczył języka niemieckiego specjalistów z czołowych międzynarodowych firm, takich jak Shell, IBM, Google, UBS, ABB i Capgemini.",
+        "Równolegle z działalnością dydaktyczną współpracuje z niemieckojęzycznymi przedsiębiorstwami przy projektach językowych oraz procesach rekrutacyjnych. Prowadził również zajęcia na Uniwersytecie Jagiellońskim oraz Uniwersytecie Ekonomicznym w Krakowie.",
+        "Od 2004 roku mieszka w Polsce. Biegle włada zarówno językiem niemieckim, jak i polskim, dzięki czemu skutecznie i profesjonalnie pomaga pokonywać bariery językowe oraz różnice kulturowe.",
+        "Specjalizuje się w komunikacji biznesowej, języku technicznym oraz komunikacji międzykulturowej, co czyni go cennym członkiem naszego zespołu językowego.",
       ],
     },
   },
