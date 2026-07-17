@@ -26,6 +26,22 @@ export default {
       "Wir sind professionelle Konferenzdolmetscher und Linguisten und arbeiten in Englisch, Italienisch, Deutsch, und Polnisch. Unsere Kunden sind globale Unternehmen (z. B. Baukonzerne), internationale Organisationen (z. B. die Vereinten Nationen), die Stadt Krakau, kulturelle Institutionen, lokale Unternehmen, NGO’s sowie Privatpersonen, denen wir unsere Sprachdienstleistungen anbieten.",
       "Wir lieben Reisen. Sehen Sie sich das Video unten an, um mehr über uns zu erfahren!",
     ],
+    helena: {
+      paragraphs: [
+        "<b>Helena Zając</b>",
+        "Helena ist Sprachwissenschaftlerin, Dolmetscherin und Sprachtrainerin und arbeitet in den Sprachen Englisch, Deutsch und Polnisch. Mit Masterabschlüssen in Wirtschaftswissenschaften sowie in Translationswissenschaft und Dolmetschen verbindet sie sprachliche Expertise mit einem fundierten wirtschaftlichen Hintergrund.",
+        "Sie dolmetschte auf internationalen Veranstaltungen für Organisationen wie die Vereinten Nationen (UN) und die Internationale Organisation für Migration (IOM) und absolvierte eine Ausbildung für Konferenzdolmetscherinnen und Konferenzdolmetscher bei der Europäischen Kommission in Brüssel. Zu ihrer beruflichen Erfahrung gehört ihre Tätigkeit als Dolmetscherin und Übersetzerin für die Geschäftsleitung eines führenden österreichischen Bauunternehmens, wo sie hochrangige Verhandlungen und Geschäftstreffen sprachlich begleitete.",
+        "Als akademische Dozentin unterrichtete Helena Englisch für Studierende der Informatik und Wirtschaft an einer der führenden Hochschulen in Krakau. Zu ihren Fachgebieten zählen Finanzen, Recht, Informationstechnologie und Marketing.",
+      ],
+    },
+    natalia: {
+      paragraphs: [
+        "<b>Natalia Kwiecień</b>",
+        "Natalia ist Konferenzdolmetscherin, Übersetzerin und HR-Spezialistin und arbeitet in den Sprachen Englisch, Italienisch und Polnisch. Mit einem Masterabschluss in Translationswissenschaft und Dolmetschen sowie einem Bachelorabschluss in Italienisch und International Studies von der University of Warwick verbindet sie sprachliche Expertise mit umfassender internationaler Erfahrung und fundierten Kenntnissen im Recruiting.",
+        "Sie dolmetschte auf hochrangigen Konferenzen und internationalen Veranstaltungen für Organisationen wie die Vereinten Nationen (UN) und die Internationale Organisation für Migration (IOM). Darüber hinaus absolvierte sie eine Ausbildung für Konferenzdolmetscher bei der Europäischen Kommission in Brüssel. Zu ihrer beruflichen Erfahrung gehören Übersetzungsaufträge für das Europäische Parlament in Luxemburg sowie für führende Übersetzungsagenturen im Vereinigten Königreich und in Italien.",
+        "Neben ihrer Tätigkeit als Dolmetscherin und Übersetzerin arbeitet Natalia als Talent Acquisition Specialist und rekrutiert Fachkräfte aus aller Welt in englischer und italienischer Sprache. Durch ihren sechsjährigen Aufenthalt im Vereinigten Königreich verfügt sie über wertvolle internationale Erfahrung sowie ausgeprägte interkulturelle Kommunikationskompetenz, die sie in jedes Projekt einbringt.",
+      ]
+    },
     chris: {
       paragraphs: [
         "<b>Chris Berger</b>",

@@ -27,6 +27,22 @@ export default {
       "Jesteśmy profesjonalnymi tłumaczami konferencyjnymi i lingwistami. Pracujemy z <b>angielskim</b>, <b>włoskim</b>, <b>niemieckim</b> i <b>polskim</b>. Naszymi Klientami są przedsiębiorstwa globalne (koncerny budowlane), organizacje międzynarodowe (ONZ), Urząd Miasta Krakowa, instytucje kultury, firmy lokalne, organizacje pozarządowe, a także osoby prywatne.",
       "Prywatnie uwielbiamy podróże. Posłuchajcie sami!",
     ],
+    helena: {
+      paragraphs: [
+        "<b>Helena Zając</b>",
+        "Helena jest lingwistką, tłumaczką symultaniczną oraz lektorką. Pracuje w językach angielskim, niemieckim i polskim. Ukończyła studia magisterskie z zakresu ekonomii oraz przekładoznawstwa i tłumaczeń ustnych, dzięki czemu łączy kompetencje językowe z solidnym przygotowaniem biznesowym.",
+        "Tłumaczyła międzynarodowe wydarzenia organizowane m.in. przez Organizację Narodów Zjednoczonych (ONZ) oraz Międzynarodową Organizację ds. Migracji (IOM). W 2019 roku ukończyła szkolenie dla tłumaczy konferencyjnych w Komisji Europejskiej w Brukseli. Doświadczenie zdobywała także w sektorze korporacyjnym, pracując jako tłumaczka ustna i pisemna dla kadry zarządzającej jednej z czołowych austriackich firm budowlanych, gdzie wspierała negocjacje na najwyższym szczeblu oraz spotkania biznesowe.",
+        "Jako wykładowczyni akademicka prowadziła zajęcia z języka angielskiego dla studentów kierunków informatycznych i biznesowych. Specjalizuje się w zagadnieniach z zakresu finansów, prawa, IT oraz marketingu.",
+      ],
+    },
+    natalia: {
+      paragraphs: [
+        "<b>Natalia Kwiecień</b>",
+        "Natalia jest tłumaczką konferencyjną, pisemną oraz specjalistką HR. Pracuje w językach angielskim, włoskim i polskim. Ukończyła studia magisterskie z zakresu przekładoznawstwa i tłumaczeń ustnych oraz studia licencjackie z filologii włoskiej i studiów międzynarodowych na University of Warwick, dzięki czemu łączy wysokie kompetencje językowe z bogatym doświadczeniem międzynarodowym i rekrutacyjnym.",
+        "Tłumaczyła podczas konferencji i wydarzeń międzynarodowych organizowanych m.in. przez Organizację Narodów Zjednoczonych (ONZ) oraz Międzynarodową Organizację ds. Migracji (IOM). Ukończyła również szkolenie dla tłumaczy konferencyjnych w Komisji Europejskiej w Brukseli. Jej doświadczenie zawodowe obejmuje tłumaczenia realizowane dla Parlamentu Europejskiego w Luksemburgu oraz czołowych biur tłumaczeń w Wielkiej Brytanii i we Włoszech.",
+        "Obok pracy tłumaczki Natalia zajmuje się również rekrutacją jako specjalistka ds. pozyskiwania talentów, prowadząc procesy rekrutacyjne kandydatów z całego świata w językach angielskim i włoskim. Przez sześć lat mieszkała i pracowała w Wielkiej Brytanii, co pozwoliło jej zdobyć cenne doświadczenie międzynarodowe oraz rozwinąć kompetencje w zakresie komunikacji międzykulturowej.",
+      ]
+    },
     chris: {
       paragraphs: [
         "<b>Chris Berger</b>",

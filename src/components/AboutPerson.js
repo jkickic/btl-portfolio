@@ -3,7 +3,7 @@ import { Modal } from "@mui/material"
 import CloseIcon from "@mui/icons-material/Close"
 import { magic } from "./utils"
 
-const PdfModal = ({ resumeSrc, paragraphs, imgSrc }) => {
+const AboutPerson = ({ paragraphs, imgSrc }) => {
   const [open, setOpen] = React.useState(false)
   const handleOpen = () => {
     setOpen(true)
@@ -12,7 +12,7 @@ const PdfModal = ({ resumeSrc, paragraphs, imgSrc }) => {
     setOpen(false)
   }
   return (
-    <div className="pdf-modal-button-wrapper">
+    <div className="about-person-button-wrapper">
       <div className="open-modal-button">
         <img
           alt="open-resume"
@@ -27,18 +27,12 @@ const PdfModal = ({ resumeSrc, paragraphs, imgSrc }) => {
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
       >
-        <div className="embed-wrapper">
+        <div className="about-person-embed-wrapper">
           <CloseIcon className="escape-button" onClick={handleClose} />
-          <div className="resume-wrapper">
-            {!!resumeSrc ? (
-              <img className="resume-img" src={resumeSrc} />
-            ) : (
-              <>
-                {paragraphs.map((it, idx) => {
-                  return <p key={idx}>{magic(it)}</p>
-                })}
-              </>
-            )}
+          <div className="about-person-text-wrapper">
+              {paragraphs.map((it, idx) => {
+                return <p key={idx}>{magic(it)}</p>
+              })}
           </div>
         </div>
       </Modal>
@@ -46,6 +40,6 @@ const PdfModal = ({ resumeSrc, paragraphs, imgSrc }) => {
   )
 }
 
-PdfModal.propTypes = {}
+AboutPerson.propTypes = {}
 
-export default PdfModal
+export default AboutPerson
