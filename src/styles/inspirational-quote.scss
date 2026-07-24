@@ -21,18 +21,29 @@
   line-height: 1.5;
   color: #333;
   position: relative;
+  display: inline-block;
 }
 
-.inspirational-quote-wrapper blockquote::before {
-  content: "“";
+.inspirational-quote-wrapper blockquote::before,
+.inspirational-quote-wrapper blockquote::after {
   font-size: 4rem;
   @include media(">=phone", "<tablet") {
     font-size: 2.4rem;
   }
   color: #ccc;
   position: absolute;
+}
+
+.inspirational-quote-wrapper blockquote::before {
+  content: "“";
   left: -0.4em;
   top: -0.3em;
+}
+
+.inspirational-quote-wrapper blockquote::after {
+  content: "”";
+  right: -0.2em;
+  bottom: -0.5em;
 }
 
 .inspirational-quote-wrapper cite {
