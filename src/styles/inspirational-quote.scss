@@ -3,7 +3,10 @@
 
 .inspirational-quote-wrapper {
   max-width: 700px;
-  margin: 1rem auto;
+  margin-top: 1vh;
+  @include media(">=phone", "<tablet") {
+    margin-top: 5.5vh;
+  }
   text-align: center;
   padding: 2rem;
   font-size: 2rem;
