@@ -32,6 +32,7 @@ export default {
         "<b>Helena Zając</b>",
         "Helena jest lingwistką, tłumaczką symultaniczną oraz lektorką. Pracuje w językach angielskim, niemieckim i polskim. Ukończyła studia magisterskie z zakresu ekonomii oraz przekładoznawstwa i tłumaczeń ustnych, dzięki czemu łączy kompetencje językowe z solidnym przygotowaniem biznesowym.",
         "Tłumaczyła międzynarodowe wydarzenia organizowane m.in. przez Organizację Narodów Zjednoczonych (ONZ) oraz Międzynarodową Organizację ds. Migracji (IOM). W 2019 roku ukończyła szkolenie dla tłumaczy konferencyjnych w Komisji Europejskiej w Brukseli. Doświadczenie zdobywała także w sektorze korporacyjnym, pracując jako tłumaczka ustna i pisemna dla kadry zarządzającej jednej z czołowych austriackich firm budowlanych, gdzie wspierała negocjacje na najwyższym szczeblu oraz spotkania biznesowe.",
+        "Helena prowadziła zajęcia z języka angielskiego dla młodzieży z całego świata podczas sześciu kolejnych edycji międzynarodowej szkoły letniej w Chester (Anglia).",
         "Jako wykładowczyni akademicka prowadziła zajęcia z języka angielskiego dla studentów kierunków informatycznych i biznesowych. Specjalizuje się w zagadnieniach z zakresu finansów, prawa, IT oraz marketingu.",
       ],
     },
@@ -45,12 +46,13 @@ export default {
     },
     chris: {
       paragraphs: [
-        "<b>Chris Berger</b>",
-        "Chris jest rodzimym użytkownikiem języka niemieckiego, pochodzi z Austrii i ma ponad 15 lat doświadczenia w pracy z językiem niemieckim.",
+        "<b>Christopher Berger</b>",
+        "Christopher jest rodzimym użytkownikiem języka niemieckiego, pochodzi z Austrii i ma ponad 15 lat doświadczenia w pracy z językiem niemieckim.",
         "Jest absolwentem studiów magisterskich z zakresu ekonomii i zarządzania. Uczył języka niemieckiego specjalistów z czołowych międzynarodowych firm, takich jak Shell, IBM, Google, UBS, ABB i Capgemini.",
         "Równolegle z działalnością dydaktyczną współpracuje z niemieckojęzycznymi przedsiębiorstwami przy projektach językowych oraz procesach rekrutacyjnych. Prowadził również zajęcia na Uniwersytecie Jagiellońskim oraz Uniwersytecie Ekonomicznym w Krakowie.",
         "Od 2004 roku mieszka w Polsce. Biegle włada zarówno językiem niemieckim, jak i polskim, dzięki czemu skutecznie i profesjonalnie pomaga pokonywać bariery językowe oraz różnice kulturowe.",
         "Specjalizuje się w komunikacji biznesowej, języku technicznym oraz komunikacji międzykulturowej, co czyni go cennym członkiem naszego zespołu językowego.",
+        "<a href='https://www.e-korepetycje.net/cz4444/jezyk-niemiecki' target='_blank'>Umów zajęcia.</a>",
       ],
     },
   },

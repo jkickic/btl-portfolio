@@ -16,7 +16,7 @@ const About = ({ siteData }) => {
               <b>{siteData.about.heading}</b>
             </h1>
             <h2>{siteData.about.subheading}</h2>
-            <div className="pdfs-wrapper">
+            <div className="about-people-wrapper">
               <AboutPerson paragraphs={siteData.about.helena.paragraphs} imgSrc={helenaImg} />
               <AboutPerson paragraphs={siteData.about.natalia.paragraphs} imgSrc={nataliaImg} />
               <AboutPerson paragraphs={siteData.about.chris.paragraphs} imgSrc={chrisImg} />
