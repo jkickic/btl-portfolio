@@ -11,15 +11,30 @@ const About = ({ siteData }) => {
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
+          <div className="inspirational-quote-wrapper">
+            <blockquote>
+              To have another language is to possess a second soul.
+            </blockquote>
+            <cite>— Charlemagne</cite>
+          </div>
           <div className="hi-wrapper">
             <h1>
               <b>{siteData.about.heading}</b>
             </h1>
             <h2>{siteData.about.subheading}</h2>
             <div className="about-people-wrapper">
-              <AboutPerson paragraphs={siteData.about.helena.paragraphs} imgSrc={helenaImg} />
-              <AboutPerson paragraphs={siteData.about.natalia.paragraphs} imgSrc={nataliaImg} />
-              <AboutPerson paragraphs={siteData.about.chris.paragraphs} imgSrc={chrisImg} />
+              <AboutPerson
+                paragraphs={siteData.about.helena.paragraphs}
+                imgSrc={helenaImg}
+              />
+              <AboutPerson
+                paragraphs={siteData.about.natalia.paragraphs}
+                imgSrc={nataliaImg}
+              />
+              <AboutPerson
+                paragraphs={siteData.about.chris.paragraphs}
+                imgSrc={chrisImg}
+              />
             </div>
           </div>
 

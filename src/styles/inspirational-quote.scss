@@ -1,0 +1,42 @@
+@charset "utf-8";
+@use "./include-media.scss" as *;
+
+.inspirational-quote-wrapper {
+  max-width: 700px;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  @include media(">=phone", "<tablet") {
+    font-size: 1.2rem;
+  }
+}
+
+.inspirational-quote-wrapper blockquote {
+  margin: 0;
+  font-style: italic;
+  line-height: 1.5;
+  color: #333;
+  position: relative;
+}
+
+.inspirational-quote-wrapper blockquote::before {
+  content: "“";
+  font-size: 4rem;
+  @include media(">=phone", "<tablet") {
+    font-size: 2.4rem;
+  }
+  color: #ccc;
+  position: absolute;
+  left: -0.4em;
+  top: -0.3em;
+}
+
+.inspirational-quote-wrapper cite {
+  display: block;
+  margin-top: 1.25rem;
+  font-style: normal;
+  font-size: 1rem;
+  color: #777;
+  letter-spacing: 0.05em;
+}
